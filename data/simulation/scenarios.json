@@ -1,0 +1,81 @@
+[
+  {
+    "id": "topic-shift",
+    "studentId": "student-01",
+    "description": "Compare genetics interests with robotics interests; the ordering should change.",
+    "options": {
+      "topics": [
+        "robotics",
+        "engineering"
+      ]
+    },
+    "synthetic": true
+  },
+  {
+    "id": "no-resume-beginner",
+    "studentId": "student-02",
+    "description": "A first-year can discover beginner training without a resume.",
+    "options": {
+      "beginnerOnly": true
+    },
+    "synthetic": true
+  },
+  {
+    "id": "no-profile-cold-start",
+    "studentId": "student-08",
+    "description": "Exploratory suggestions carry no fabricated profile explanation.",
+    "options": {},
+    "synthetic": true
+  },
+  {
+    "id": "no-match",
+    "studentId": "student-07",
+    "description": "Paid-only and three-hour availability produce an honest no-opening state.",
+    "options": {},
+    "synthetic": true
+  },
+  {
+    "id": "schedule-conflict",
+    "studentId": "student-01",
+    "description": "Genomics opening-18 is excluded despite interest and skill overlap.",
+    "options": {},
+    "synthetic": true
+  },
+  {
+    "id": "expired-opening",
+    "studentId": "student-01",
+    "description": "Opening-15 cannot appear as actionable after its expiry.",
+    "options": {},
+    "synthetic": true
+  },
+  {
+    "id": "people-permission",
+    "studentId": "student-01",
+    "description": "Unauthorized, unclaimed, and unverified people never enter the feed.",
+    "options": {},
+    "synthetic": true
+  },
+  {
+    "id": "draft-skill",
+    "studentId": "student-02",
+    "description": "An unconfirmed extracted Python fact does not affect recommendation scoring.",
+    "options": {},
+    "synthetic": true
+  },
+  {
+    "id": "identity-invariance",
+    "studentId": "student-01",
+    "description": "Changing name, GPA, contact fields, or private messages leaves ranking unchanged.",
+    "options": {},
+    "synthetic": true
+  },
+  {
+    "id": "unknown-filter",
+    "studentId": "student-01",
+    "description": "Unknown compensation cannot pass paid-only filtering.",
+    "options": {
+      "paidOnly": true
+    },
+    "synthetic": true
+  }
+]

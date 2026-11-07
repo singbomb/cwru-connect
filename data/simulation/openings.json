@@ -1,0 +1,744 @@
+[
+  {
+    "id": "opening-01",
+    "labId": "lab-01",
+    "title": "Undergraduate research assistant — genetics",
+    "tasks": [
+      "Support a supervised genetics project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "data analysis",
+      "genomics"
+    ],
+    "preferredSkills": [
+      "Python",
+      "R"
+    ],
+    "learnableSkills": [
+      "data analysis",
+      "genomics"
+    ],
+    "requiredSkills": [
+      "Python"
+    ],
+    "allowedYears": [
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 3,
+    "beginnerFriendly": false,
+    "minWeeklyHours": 8,
+    "requiredBlocks": [
+      "mon_pm",
+      "wed_pm"
+    ],
+    "commitmentMonths": 6,
+    "compensation": "paid",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-02",
+    "labId": "lab-02",
+    "title": "Research trainee — neuroscience",
+    "tasks": [
+      "Support a supervised neuroscience project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "behavioral methods",
+      "data analysis"
+    ],
+    "preferredSkills": [
+      "statistics",
+      "Python"
+    ],
+    "learnableSkills": [
+      "behavioral methods",
+      "data analysis"
+    ],
+    "requiredSkills": [],
+    "allowedYears": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 0,
+    "beginnerFriendly": true,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [
+      "tue_am"
+    ],
+    "commitmentMonths": 6,
+    "compensation": "unpaid",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-03",
+    "labId": "lab-03",
+    "title": "Undergraduate research assistant — robotics",
+    "tasks": [
+      "Support a supervised robotics project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "prototyping",
+      "robotics"
+    ],
+    "preferredSkills": [
+      "CAD",
+      "Python"
+    ],
+    "learnableSkills": [
+      "prototyping",
+      "robotics"
+    ],
+    "requiredSkills": [
+      "CAD"
+    ],
+    "allowedYears": [
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 3,
+    "beginnerFriendly": false,
+    "minWeeklyHours": 10,
+    "requiredBlocks": [
+      "tue_pm",
+      "thu_pm"
+    ],
+    "commitmentMonths": 9,
+    "compensation": "unknown",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-04",
+    "labId": "lab-04",
+    "title": "Research trainee — public health",
+    "tasks": [
+      "Support a supervised public health project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "qualitative coding",
+      "community research"
+    ],
+    "preferredSkills": [
+      "interviewing",
+      "statistics"
+    ],
+    "learnableSkills": [
+      "qualitative coding",
+      "community research"
+    ],
+    "requiredSkills": [],
+    "allowedYears": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 0,
+    "beginnerFriendly": true,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [
+      "mon_am"
+    ],
+    "commitmentMonths": 6,
+    "compensation": "paid",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-05",
+    "labId": "lab-05",
+    "title": "Undergraduate research assistant — cancer biology",
+    "tasks": [
+      "Support a supervised cancer biology project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "cell culture",
+      "imaging"
+    ],
+    "preferredSkills": [
+      "pipetting",
+      "microscopy"
+    ],
+    "learnableSkills": [
+      "cell culture",
+      "imaging"
+    ],
+    "requiredSkills": [
+      "pipetting"
+    ],
+    "allowedYears": [
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 3,
+    "beginnerFriendly": false,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "unpaid",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-06",
+    "labId": "lab-06",
+    "title": "Research trainee — environment",
+    "tasks": [
+      "Support a supervised environment project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "field sampling",
+      "data analysis"
+    ],
+    "preferredSkills": [
+      "GIS",
+      "R"
+    ],
+    "learnableSkills": [
+      "field sampling",
+      "data analysis"
+    ],
+    "requiredSkills": [],
+    "allowedYears": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 0,
+    "beginnerFriendly": true,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "unknown",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-07",
+    "labId": "lab-07",
+    "title": "Undergraduate research assistant — medical devices",
+    "tasks": [
+      "Support a supervised medical devices project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "device testing",
+      "research design"
+    ],
+    "preferredSkills": [
+      "CAD",
+      "prototyping"
+    ],
+    "learnableSkills": [
+      "device testing",
+      "research design"
+    ],
+    "requiredSkills": [
+      "CAD"
+    ],
+    "allowedYears": [
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 3,
+    "beginnerFriendly": false,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "paid",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-08",
+    "labId": "lab-08",
+    "title": "Research trainee — history",
+    "tasks": [
+      "Support a supervised history project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "text analysis",
+      "archival research"
+    ],
+    "preferredSkills": [
+      "writing",
+      "archival research"
+    ],
+    "learnableSkills": [
+      "text analysis",
+      "archival research"
+    ],
+    "requiredSkills": [],
+    "allowedYears": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 0,
+    "beginnerFriendly": true,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "unpaid",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-09",
+    "labId": "lab-09",
+    "title": "Research trainee — organizations",
+    "tasks": [
+      "Support a supervised organizations project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "research design",
+      "data analysis"
+    ],
+    "preferredSkills": [
+      "statistics",
+      "survey design"
+    ],
+    "learnableSkills": [
+      "research design",
+      "data analysis"
+    ],
+    "requiredSkills": [],
+    "allowedYears": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 0,
+    "beginnerFriendly": true,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "unknown",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-10",
+    "labId": "lab-10",
+    "title": "Research trainee — social policy",
+    "tasks": [
+      "Support a supervised social policy project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "qualitative coding",
+      "community research"
+    ],
+    "preferredSkills": [
+      "interviewing",
+      "writing"
+    ],
+    "learnableSkills": [
+      "qualitative coding",
+      "community research"
+    ],
+    "requiredSkills": [],
+    "allowedYears": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 0,
+    "beginnerFriendly": true,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "paid",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-11",
+    "labId": "lab-11",
+    "title": "Undergraduate research assistant — computational biology",
+    "tasks": [
+      "Support a supervised computational biology project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "molecular modeling",
+      "data analysis"
+    ],
+    "preferredSkills": [
+      "Python",
+      "chemistry"
+    ],
+    "learnableSkills": [
+      "molecular modeling",
+      "data analysis"
+    ],
+    "requiredSkills": [
+      "Python"
+    ],
+    "allowedYears": [
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 3,
+    "beginnerFriendly": false,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "unpaid",
+    "status": "paused",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-12",
+    "labId": "lab-12",
+    "title": "Undergraduate research assistant — neuroscience",
+    "tasks": [
+      "Support a supervised neuroscience project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "imaging",
+      "data analysis"
+    ],
+    "preferredSkills": [
+      "Python",
+      "statistics"
+    ],
+    "learnableSkills": [
+      "imaging",
+      "data analysis"
+    ],
+    "requiredSkills": [
+      "Python"
+    ],
+    "allowedYears": [
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 3,
+    "beginnerFriendly": false,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "unknown",
+    "status": "closed",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-13",
+    "labId": "lab-13",
+    "title": "Research trainee — accessibility",
+    "tasks": [
+      "Support a supervised accessibility project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "usability testing",
+      "prototyping"
+    ],
+    "preferredSkills": [
+      "JavaScript",
+      "research design"
+    ],
+    "learnableSkills": [
+      "usability testing",
+      "prototyping"
+    ],
+    "requiredSkills": [],
+    "allowedYears": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 0,
+    "beginnerFriendly": true,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "paid",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-14",
+    "labId": "lab-14",
+    "title": "Research trainee — materials",
+    "tasks": [
+      "Support a supervised materials project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "polymer synthesis",
+      "device testing"
+    ],
+    "preferredSkills": [
+      "chemistry",
+      "pipetting"
+    ],
+    "learnableSkills": [
+      "polymer synthesis",
+      "device testing"
+    ],
+    "requiredSkills": [],
+    "allowedYears": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 0,
+    "beginnerFriendly": true,
+    "minWeeklyHours": 6,
+    "requiredBlocks": null,
+    "commitmentMonths": 6,
+    "compensation": "unpaid",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-15",
+    "labId": "lab-01",
+    "title": "Expired genomics opening",
+    "tasks": [
+      "Support a supervised genetics project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "data analysis",
+      "genomics"
+    ],
+    "preferredSkills": [
+      "Python",
+      "R"
+    ],
+    "learnableSkills": [
+      "data analysis",
+      "genomics"
+    ],
+    "requiredSkills": [
+      "Python"
+    ],
+    "allowedYears": [
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 3,
+    "beginnerFriendly": false,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "unknown",
+    "status": "published",
+    "confirmedAt": "2026-09-01",
+    "closesAt": "2026-10-10",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-16",
+    "labId": "lab-02",
+    "title": "Draft neuroscience opportunity",
+    "tasks": [
+      "Support a supervised neuroscience project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "behavioral methods",
+      "data analysis"
+    ],
+    "preferredSkills": [
+      "statistics",
+      "Python"
+    ],
+    "learnableSkills": [
+      "behavioral methods",
+      "data analysis"
+    ],
+    "requiredSkills": [
+      "statistics"
+    ],
+    "allowedYears": [
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 3,
+    "beginnerFriendly": false,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [],
+    "commitmentMonths": 6,
+    "compensation": "paid",
+    "status": "draft",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-17",
+    "labId": "lab-19",
+    "title": "Unconfirmed metabolic modeling opportunity",
+    "tasks": [
+      "Support a supervised computational biology project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "genomics",
+      "modeling"
+    ],
+    "preferredSkills": [
+      "Python",
+      "R"
+    ],
+    "learnableSkills": [
+      "genomics",
+      "modeling"
+    ],
+    "requiredSkills": null,
+    "allowedYears": [
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": null,
+    "beginnerFriendly": false,
+    "minWeeklyHours": null,
+    "requiredBlocks": null,
+    "commitmentMonths": null,
+    "compensation": "unpaid",
+    "status": "published",
+    "confirmedAt": null,
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  },
+  {
+    "id": "opening-18",
+    "labId": "lab-01",
+    "title": "Schedule-incompatible genomics role",
+    "tasks": [
+      "Support a supervised genetics project",
+      "Document methods and discuss findings with a mentor"
+    ],
+    "training": [
+      "data analysis",
+      "genomics"
+    ],
+    "preferredSkills": [
+      "Python",
+      "R"
+    ],
+    "learnableSkills": [
+      "data analysis",
+      "genomics"
+    ],
+    "requiredSkills": [
+      "Python"
+    ],
+    "allowedYears": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "requiredExperienceMonths": 0,
+    "beginnerFriendly": false,
+    "minWeeklyHours": 6,
+    "requiredBlocks": [
+      "tue_am",
+      "thu_am"
+    ],
+    "commitmentMonths": 6,
+    "compensation": "paid",
+    "status": "published",
+    "confirmedAt": "2026-10-20",
+    "closesAt": "2026-11-15",
+    "applicationRoute": "demo_portal",
+    "location": "Fictional CWRU campus location",
+    "synthetic": true
+  }
+]

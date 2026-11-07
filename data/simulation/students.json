@@ -1,0 +1,266 @@
+[
+  {
+    "id": "student-01",
+    "name": "Avery Chen",
+    "label": "Computational biology explorer",
+    "year": 2,
+    "interests": [
+      "genetics",
+      "computational biology"
+    ],
+    "skills": [
+      "Python",
+      "statistics"
+    ],
+    "learningGoals": [
+      "genomics",
+      "modeling"
+    ],
+    "maxWeeklyHours": 10,
+    "scheduleBlocks": [
+      "mon_pm",
+      "wed_pm",
+      "fri_pm"
+    ],
+    "commitmentMonths": 9,
+    "experienceMonths": 3,
+    "undergraduateVerified": true,
+    "resumeStatus": "manual_profile",
+    "resumeFacts": [],
+    "preferences": {
+      "paidOnly": false
+    },
+    "synthetic": true
+  },
+  {
+    "id": "student-02",
+    "name": "Morgan Ellis",
+    "label": "First-year exploring neuroscience",
+    "year": 1,
+    "interests": [
+      "neuroscience",
+      "psychology"
+    ],
+    "skills": [],
+    "learningGoals": [
+      "behavioral methods",
+      "data analysis"
+    ],
+    "maxWeeklyHours": 6,
+    "scheduleBlocks": [
+      "tue_am",
+      "thu_am"
+    ],
+    "commitmentMonths": 6,
+    "experienceMonths": 0,
+    "undergraduateVerified": true,
+    "resumeStatus": "not_uploaded",
+    "resumeFacts": [
+      {
+        "kind": "skill",
+        "value": "Python",
+        "confirmed": false,
+        "source": "fictional resume draft",
+        "synthetic": true
+      }
+    ],
+    "preferences": {
+      "paidOnly": false
+    },
+    "synthetic": true
+  },
+  {
+    "id": "student-03",
+    "name": "Devon Reed",
+    "label": "Engineering builder",
+    "year": 3,
+    "interests": [
+      "robotics",
+      "medical devices"
+    ],
+    "skills": [
+      "CAD",
+      "Python",
+      "prototyping"
+    ],
+    "learningGoals": [
+      "robotics",
+      "device testing"
+    ],
+    "maxWeeklyHours": 12,
+    "scheduleBlocks": [
+      "tue_pm",
+      "thu_pm",
+      "fri_pm"
+    ],
+    "commitmentMonths": 12,
+    "experienceMonths": 6,
+    "undergraduateVerified": true,
+    "resumeStatus": "manual_profile",
+    "resumeFacts": [],
+    "preferences": {
+      "paidOnly": false
+    },
+    "synthetic": true
+  },
+  {
+    "id": "student-04",
+    "name": "Jamie Brooks",
+    "label": "Community health beginner",
+    "year": 2,
+    "interests": [
+      "health equity",
+      "public health"
+    ],
+    "skills": [
+      "interviewing",
+      "writing"
+    ],
+    "learningGoals": [
+      "community research",
+      "qualitative coding"
+    ],
+    "maxWeeklyHours": 8,
+    "scheduleBlocks": [
+      "mon_am",
+      "wed_am",
+      "fri_am"
+    ],
+    "commitmentMonths": 6,
+    "experienceMonths": 0,
+    "undergraduateVerified": true,
+    "resumeStatus": "manual_profile",
+    "resumeFacts": [],
+    "preferences": {
+      "paidOnly": false
+    },
+    "synthetic": true
+  },
+  {
+    "id": "student-05",
+    "name": "Taylor Quinn",
+    "label": "Digital humanities researcher",
+    "year": 2,
+    "interests": [
+      "history",
+      "digital humanities",
+      "music"
+    ],
+    "skills": [
+      "writing",
+      "archival research"
+    ],
+    "learningGoals": [
+      "text analysis",
+      "archival research"
+    ],
+    "maxWeeklyHours": 8,
+    "scheduleBlocks": [
+      "mon_pm",
+      "wed_pm"
+    ],
+    "commitmentMonths": 6,
+    "experienceMonths": 0,
+    "undergraduateVerified": true,
+    "resumeStatus": "manual_profile",
+    "resumeFacts": [],
+    "preferences": {
+      "paidOnly": false
+    },
+    "synthetic": true
+  },
+  {
+    "id": "student-06",
+    "name": "Skyler Jordan",
+    "label": "Environmental data analyst",
+    "year": 3,
+    "interests": [
+      "environment",
+      "ecology"
+    ],
+    "skills": [
+      "R",
+      "GIS",
+      "statistics"
+    ],
+    "learningGoals": [
+      "field sampling",
+      "data analysis"
+    ],
+    "maxWeeklyHours": 10,
+    "scheduleBlocks": [
+      "tue_am",
+      "thu_am",
+      "fri_am"
+    ],
+    "commitmentMonths": 9,
+    "experienceMonths": 3,
+    "undergraduateVerified": true,
+    "resumeStatus": "manual_profile",
+    "resumeFacts": [],
+    "preferences": {
+      "paidOnly": false
+    },
+    "synthetic": true
+  },
+  {
+    "id": "student-07",
+    "name": "Reese Parker",
+    "label": "Paid research with limited time",
+    "year": 1,
+    "interests": [
+      "genetics",
+      "neuroscience"
+    ],
+    "skills": [
+      "Python"
+    ],
+    "learningGoals": [
+      "genomics"
+    ],
+    "maxWeeklyHours": 3,
+    "scheduleBlocks": [
+      "fri_pm"
+    ],
+    "commitmentMonths": 3,
+    "experienceMonths": 0,
+    "undergraduateVerified": true,
+    "resumeStatus": "manual_profile",
+    "resumeFacts": [],
+    "preferences": {
+      "paidOnly": true
+    },
+    "synthetic": true
+  },
+  {
+    "id": "student-08",
+    "name": "Robin Lee",
+    "label": "New student still choosing interests",
+    "year": 1,
+    "interests": [],
+    "skills": [],
+    "learningGoals": [],
+    "maxWeeklyHours": 8,
+    "scheduleBlocks": [
+      "mon_am",
+      "mon_pm",
+      "tue_am",
+      "tue_pm",
+      "wed_am",
+      "wed_pm",
+      "thu_am",
+      "thu_pm",
+      "fri_am",
+      "fri_pm"
+    ],
+    "commitmentMonths": 6,
+    "experienceMonths": 0,
+    "undergraduateVerified": true,
+    "resumeStatus": "not_uploaded",
+    "resumeFacts": [],
+    "preferences": {
+      "paidOnly": false
+    },
+    "synthetic": true
+  }
+]

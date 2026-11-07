@@ -1,0 +1,770 @@
+[
+  {
+    "id": "lab-01",
+    "name": "Genome Signals Lab",
+    "school": "School of Medicine",
+    "department": "Genetics and Genome Sciences",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "genetics",
+      "computational biology"
+    ],
+    "preferredSkills": [
+      "Python",
+      "R"
+    ],
+    "learnableSkills": [
+      "data analysis",
+      "genomics"
+    ],
+    "description": "A fictional research group exploring genetics and computational biology. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-1",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-02",
+    "name": "Neural Learning Lab",
+    "school": "College of Arts and Sciences",
+    "department": "Psychological Sciences",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "neuroscience",
+      "psychology"
+    ],
+    "preferredSkills": [
+      "statistics",
+      "Python"
+    ],
+    "learnableSkills": [
+      "behavioral methods",
+      "data analysis"
+    ],
+    "description": "A fictional research group exploring neuroscience and psychology. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-2",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-03",
+    "name": "Soft Systems Robotics Lab",
+    "school": "Case School of Engineering",
+    "department": "Mechanical and Aerospace Engineering",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "robotics",
+      "engineering"
+    ],
+    "preferredSkills": [
+      "CAD",
+      "Python"
+    ],
+    "learnableSkills": [
+      "prototyping",
+      "robotics"
+    ],
+    "description": "A fictional research group exploring robotics and engineering. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-3",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-04",
+    "name": "Community Care Lab",
+    "school": "Frances Payne Bolton School of Nursing",
+    "department": "Nursing",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "public health",
+      "health equity"
+    ],
+    "preferredSkills": [
+      "interviewing",
+      "statistics"
+    ],
+    "learnableSkills": [
+      "qualitative coding",
+      "community research"
+    ],
+    "description": "A fictional research group exploring public health and health equity. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-4",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-05",
+    "name": "Molecular Pathways Lab",
+    "school": "School of Medicine",
+    "department": "Biochemistry",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "cancer biology",
+      "cell biology"
+    ],
+    "preferredSkills": [
+      "pipetting",
+      "microscopy"
+    ],
+    "learnableSkills": [
+      "cell culture",
+      "imaging"
+    ],
+    "description": "A fictional research group exploring cancer biology and cell biology. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": false,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-5",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-06",
+    "name": "Climate and Watersheds Lab",
+    "school": "College of Arts and Sciences",
+    "department": "Earth, Environmental, and Planetary Sciences",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "environment",
+      "ecology"
+    ],
+    "preferredSkills": [
+      "GIS",
+      "R"
+    ],
+    "learnableSkills": [
+      "field sampling",
+      "data analysis"
+    ],
+    "description": "A fictional research group exploring environment and ecology. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-6",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-07",
+    "name": "Human Centered Devices Lab",
+    "school": "Case School of Engineering",
+    "department": "Biomedical Engineering",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "medical devices",
+      "engineering"
+    ],
+    "preferredSkills": [
+      "CAD",
+      "prototyping"
+    ],
+    "learnableSkills": [
+      "device testing",
+      "research design"
+    ],
+    "description": "A fictional research group exploring medical devices and engineering. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-7",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-08",
+    "name": "Language and Archives Lab",
+    "school": "College of Arts and Sciences",
+    "department": "History",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "history",
+      "digital humanities"
+    ],
+    "preferredSkills": [
+      "writing",
+      "archival research"
+    ],
+    "learnableSkills": [
+      "text analysis",
+      "archival research"
+    ],
+    "description": "A fictional research group exploring history and digital humanities. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-8",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-09",
+    "name": "Decision and Organizations Lab",
+    "school": "Weatherhead School of Management",
+    "department": "Organizational Behavior",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "organizations",
+      "psychology"
+    ],
+    "preferredSkills": [
+      "statistics",
+      "survey design"
+    ],
+    "learnableSkills": [
+      "research design",
+      "data analysis"
+    ],
+    "description": "A fictional research group exploring organizations and psychology. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-9",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-10",
+    "name": "Youth and Neighborhoods Lab",
+    "school": "Jack, Joseph and Morton Mandel School of Applied Social Sciences",
+    "department": "Social Work",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "social policy",
+      "health equity"
+    ],
+    "preferredSkills": [
+      "interviewing",
+      "writing"
+    ],
+    "learnableSkills": [
+      "qualitative coding",
+      "community research"
+    ],
+    "description": "A fictional research group exploring social policy and health equity. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-10",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-11",
+    "name": "Protein Design Lab",
+    "school": "School of Medicine",
+    "department": "Pharmacology",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "computational biology",
+      "drug discovery"
+    ],
+    "preferredSkills": [
+      "Python",
+      "chemistry"
+    ],
+    "learnableSkills": [
+      "molecular modeling",
+      "data analysis"
+    ],
+    "description": "A fictional research group exploring computational biology and drug discovery. Demonstration content only.",
+    "recruitingStatus": "accepting_inquiries",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-11",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-12",
+    "name": "Brain Imaging Methods Lab",
+    "school": "School of Medicine",
+    "department": "Neurosciences",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "neuroscience",
+      "medical imaging"
+    ],
+    "preferredSkills": [
+      "Python",
+      "statistics"
+    ],
+    "learnableSkills": [
+      "imaging",
+      "data analysis"
+    ],
+    "description": "A fictional research group exploring neuroscience and medical imaging. Demonstration content only.",
+    "recruitingStatus": "not_recruiting",
+    "acceptsInquiries": false,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-12",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-13",
+    "name": "Accessible Computing Lab",
+    "school": "Case School of Engineering",
+    "department": "Computer and Data Sciences",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "accessibility",
+      "human computer interaction"
+    ],
+    "preferredSkills": [
+      "JavaScript",
+      "research design"
+    ],
+    "learnableSkills": [
+      "usability testing",
+      "prototyping"
+    ],
+    "description": "A fictional research group exploring accessibility and human computer interaction. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-13",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-14",
+    "name": "Sustainable Polymers Lab",
+    "school": "Case School of Engineering",
+    "department": "Macromolecular Science and Engineering",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "materials",
+      "environment"
+    ],
+    "preferredSkills": [
+      "chemistry",
+      "pipetting"
+    ],
+    "learnableSkills": [
+      "polymer synthesis",
+      "device testing"
+    ],
+    "description": "A fictional research group exploring materials and environment. Demonstration content only.",
+    "recruitingStatus": "confirmed_opening",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-14",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-15",
+    "name": "Cellular Dynamics Lab",
+    "school": "School of Medicine",
+    "department": "Cell Biology",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "cell biology",
+      "genetics"
+    ],
+    "preferredSkills": [
+      "microscopy",
+      "pipetting"
+    ],
+    "learnableSkills": [
+      "imaging",
+      "cell culture"
+    ],
+    "description": "A fictional research group exploring cell biology and genetics. Demonstration content only.",
+    "recruitingStatus": "accepting_inquiries",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-15",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-16",
+    "name": "Numbers and Networks Lab",
+    "school": "College of Arts and Sciences",
+    "department": "Mathematics, Applied Mathematics, and Statistics",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "mathematics",
+      "networks"
+    ],
+    "preferredSkills": [
+      "Python",
+      "statistics"
+    ],
+    "learnableSkills": [
+      "graph analysis",
+      "modeling"
+    ],
+    "description": "A fictional research group exploring mathematics and networks. Demonstration content only.",
+    "recruitingStatus": "accepting_inquiries",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-16",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-17",
+    "name": "Sleep and Daily Life Lab",
+    "school": "Frances Payne Bolton School of Nursing",
+    "department": "Nursing",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "public health",
+      "neuroscience"
+    ],
+    "preferredSkills": [
+      "interviewing",
+      "statistics"
+    ],
+    "learnableSkills": [
+      "research design",
+      "data analysis"
+    ],
+    "description": "A fictional research group exploring public health and neuroscience. Demonstration content only.",
+    "recruitingStatus": "accepting_inquiries",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-17",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-18",
+    "name": "Music and Memory Lab",
+    "school": "College of Arts and Sciences",
+    "department": "Music",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "music",
+      "psychology"
+    ],
+    "preferredSkills": [
+      "writing",
+      "audio editing"
+    ],
+    "learnableSkills": [
+      "behavioral methods",
+      "text analysis"
+    ],
+    "description": "A fictional research group exploring music and psychology. Demonstration content only.",
+    "recruitingStatus": "accepting_inquiries",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-18",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-19",
+    "name": "Metabolic Networks Lab",
+    "school": "School of Medicine",
+    "department": "Systems Biology",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "computational biology",
+      "genetics"
+    ],
+    "preferredSkills": [
+      "Python",
+      "R"
+    ],
+    "learnableSkills": [
+      "genomics",
+      "modeling"
+    ],
+    "description": "A fictional research group exploring computational biology and genetics. Demonstration content only.",
+    "recruitingStatus": "accepting_inquiries",
+    "acceptsInquiries": true,
+    "claimed": true,
+    "scheduleKnown": false,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-19",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-20",
+    "name": "Urban Air and Health Lab",
+    "school": "Case School of Engineering",
+    "department": "Civil and Environmental Engineering",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "environment",
+      "public health"
+    ],
+    "preferredSkills": [
+      "GIS",
+      "Python"
+    ],
+    "learnableSkills": [
+      "field sampling",
+      "data analysis"
+    ],
+    "description": "A fictional research group exploring environment and public health. Demonstration content only.",
+    "recruitingStatus": "not_recruiting",
+    "acceptsInquiries": false,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-20",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-21",
+    "name": "Materials for Repair Lab",
+    "school": "Case School of Engineering",
+    "department": "Materials Science and Engineering",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "materials",
+      "medical devices"
+    ],
+    "preferredSkills": [
+      "CAD",
+      "chemistry"
+    ],
+    "learnableSkills": [
+      "device testing",
+      "prototyping"
+    ],
+    "description": "A fictional research group exploring materials and medical devices. Demonstration content only.",
+    "recruitingStatus": "not_recruiting",
+    "acceptsInquiries": false,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-21",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-22",
+    "name": "Migration Stories Lab",
+    "school": "College of Arts and Sciences",
+    "department": "Sociology",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "social policy",
+      "history"
+    ],
+    "preferredSkills": [
+      "interviewing",
+      "writing"
+    ],
+    "learnableSkills": [
+      "qualitative coding",
+      "archival research"
+    ],
+    "description": "A fictional research group exploring social policy and history. Demonstration content only.",
+    "recruitingStatus": "not_recruiting",
+    "acceptsInquiries": false,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-22",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-23",
+    "name": "Immune Systems Lab",
+    "school": "School of Medicine",
+    "department": "Pathology",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "immunology",
+      "cancer biology"
+    ],
+    "preferredSkills": [
+      "pipetting",
+      "statistics"
+    ],
+    "learnableSkills": [
+      "cell culture",
+      "imaging"
+    ],
+    "description": "A fictional research group exploring immunology and cancer biology. Demonstration content only.",
+    "recruitingStatus": "unknown",
+    "acceptsInquiries": false,
+    "claimed": true,
+    "scheduleKnown": true,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-23",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  },
+  {
+    "id": "lab-24",
+    "name": "Learning Technologies Lab",
+    "school": "College of Arts and Sciences",
+    "department": "Cognitive Science",
+    "institution": "CWRU (fictional demonstration record)",
+    "scopeVerified": true,
+    "topics": [
+      "education",
+      "human computer interaction"
+    ],
+    "preferredSkills": [
+      "JavaScript",
+      "writing"
+    ],
+    "learnableSkills": [
+      "usability testing",
+      "research design"
+    ],
+    "description": "A fictional research group exploring education and human computer interaction. Demonstration content only.",
+    "recruitingStatus": "unknown",
+    "acceptsInquiries": false,
+    "claimed": false,
+    "scheduleKnown": false,
+    "lastCheckedAt": "2026-10-20",
+    "provenance": {
+      "kind": "synthetic_fixture",
+      "source": "fixture:lab-24",
+      "checkedAt": "2026-10-20"
+    },
+    "synthetic": true
+  }
+]

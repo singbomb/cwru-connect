@@ -1,0 +1,5594 @@
+[
+  {
+    "studentId": "student-01",
+    "opportunities": [
+      {
+        "id": "opening-01",
+        "type": "opening",
+        "title": "Undergraduate research assistant — genetics",
+        "openingId": "opening-01",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 15,
+        "components": {
+          "topics": 2,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: genetics, computational biology",
+          "Confirmed transferable skills: Python",
+          "Training supports your goals: genomics"
+        ],
+        "evidence": [
+          "genetics",
+          "computational biology",
+          "Python",
+          "genomics"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 8,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-09",
+        "type": "opening",
+        "title": "Research trainee — organizations",
+        "openingId": "opening-09",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: statistics"
+        ],
+        "evidence": [
+          "statistics"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-06",
+        "type": "opening",
+        "title": "Research trainee — environment",
+        "openingId": "opening-06",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-08",
+        "type": "opening",
+        "title": "Research trainee — history",
+        "openingId": "opening-08",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unpaid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-10",
+        "type": "opening",
+        "title": "Research trainee — social policy",
+        "openingId": "opening-10",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-13",
+        "type": "opening",
+        "title": "Research trainee — accessibility",
+        "openingId": "opening-13",
+        "labId": "lab-13",
+        "labName": "Accessible Computing Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      }
+    ],
+    "labs": [
+      {
+        "id": "lab-19",
+        "type": "lab",
+        "title": "Metabolic Networks Lab",
+        "labId": "lab-19",
+        "labName": "Metabolic Networks Lab",
+        "status": "accepting_inquiries",
+        "score": 17,
+        "components": {
+          "topics": 2,
+          "skills": 1,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: genetics, computational biology",
+          "Confirmed transferable skills: Python",
+          "Training supports your goals: genomics, modeling"
+        ],
+        "evidence": [
+          "genetics",
+          "computational biology",
+          "Python",
+          "genomics",
+          "modeling"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Interest inquiries accepted; no confirmed opening",
+          "No current confirmed opening is available in this snapshot",
+          "Lab-wide schedule is unknown; verify before making a commitment"
+        ],
+        "department": "Systems Biology",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-01",
+        "type": "lab",
+        "title": "Genome Signals Lab",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "status": "confirmed_opening",
+        "score": 15,
+        "components": {
+          "topics": 2,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: genetics, computational biology",
+          "Confirmed transferable skills: Python",
+          "Training supports your goals: genomics"
+        ],
+        "evidence": [
+          "genetics",
+          "computational biology",
+          "Python",
+          "genomics"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Genetics and Genome Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-11",
+        "type": "lab",
+        "title": "Protein Design Lab",
+        "labId": "lab-11",
+        "labName": "Protein Design Lab",
+        "status": "accepting_inquiries",
+        "score": 8,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: computational biology",
+          "Confirmed transferable skills: Python"
+        ],
+        "evidence": [
+          "computational biology",
+          "Python"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Interest inquiries accepted; no confirmed opening",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Pharmacology",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-16",
+        "type": "lab",
+        "title": "Numbers and Networks Lab",
+        "labId": "lab-16",
+        "labName": "Numbers and Networks Lab",
+        "status": "accepting_inquiries",
+        "score": 8,
+        "components": {
+          "topics": 0,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: Python, statistics",
+          "Training supports your goals: modeling"
+        ],
+        "evidence": [
+          "Python",
+          "statistics",
+          "modeling"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Interest inquiries accepted; no confirmed opening",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Mathematics, Applied Mathematics, and Statistics",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-02",
+        "type": "lab",
+        "title": "Neural Learning Lab",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "status": "confirmed_opening",
+        "score": 6,
+        "components": {
+          "topics": 0,
+          "skills": 2,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: Python, statistics"
+        ],
+        "evidence": [
+          "Python",
+          "statistics"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Current openings do not meet your confirmed constraints"
+        ],
+        "department": "Psychological Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-12",
+        "type": "lab",
+        "title": "Brain Imaging Methods Lab",
+        "labId": "lab-12",
+        "labName": "Brain Imaging Methods Lab",
+        "status": "not_recruiting",
+        "score": 6,
+        "components": {
+          "topics": 0,
+          "skills": 2,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: Python, statistics"
+        ],
+        "evidence": [
+          "Python",
+          "statistics"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Not recruiting; research exploration only",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Neurosciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      }
+    ],
+    "people": [
+      {
+        "id": "person-19",
+        "type": "person",
+        "personId": "person-19",
+        "title": "Dr. Oakley Grant",
+        "labId": "lab-19",
+        "labName": "Metabolic Networks Lab",
+        "role": "PI",
+        "status": "accepting_inquiries",
+        "score": 17,
+        "components": {
+          "topics": 2,
+          "skills": 1,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: genetics, computational biology",
+          "Confirmed transferable skills: Python",
+          "Training supports your goals: genomics, modeling"
+        ],
+        "evidence": [
+          "genetics",
+          "computational biology",
+          "Python",
+          "genomics",
+          "modeling"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-01",
+        "type": "person",
+        "personId": "person-01",
+        "title": "Dr. Sage Whitman",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 15,
+        "components": {
+          "topics": 2,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: genetics, computational biology",
+          "Confirmed transferable skills: Python",
+          "Training supports your goals: genomics"
+        ],
+        "evidence": [
+          "genetics",
+          "computational biology",
+          "Python",
+          "genomics"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-25",
+        "type": "person",
+        "personId": "person-25",
+        "title": "River Bell",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "role": "Delegated recruiter",
+        "status": "confirmed_opening",
+        "score": 15,
+        "components": {
+          "topics": 2,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: genetics, computational biology",
+          "Confirmed transferable skills: Python",
+          "Training supports your goals: genomics"
+        ],
+        "evidence": [
+          "genetics",
+          "computational biology",
+          "Python",
+          "genomics"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-11",
+        "type": "person",
+        "personId": "person-11",
+        "title": "Dr. Finley Mercer",
+        "labId": "lab-11",
+        "labName": "Protein Design Lab",
+        "role": "PI",
+        "status": "accepting_inquiries",
+        "score": 8,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: computational biology",
+          "Confirmed transferable skills: Python"
+        ],
+        "evidence": [
+          "computational biology",
+          "Python"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-16",
+        "type": "person",
+        "personId": "person-16",
+        "title": "Dr. Lane Foster",
+        "labId": "lab-16",
+        "labName": "Numbers and Networks Lab",
+        "role": "PI",
+        "status": "accepting_inquiries",
+        "score": 8,
+        "components": {
+          "topics": 0,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: Python, statistics",
+          "Training supports your goals: modeling"
+        ],
+        "evidence": [
+          "Python",
+          "statistics",
+          "modeling"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-02",
+        "type": "person",
+        "personId": "person-02",
+        "title": "Dr. Rowan Hart",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 6,
+        "components": {
+          "topics": 0,
+          "skills": 2,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: Python, statistics"
+        ],
+        "evidence": [
+          "Python",
+          "statistics"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      }
+    ],
+    "excluded": [
+      {
+        "id": "opening-02",
+        "type": "opening",
+        "title": "Research trainee — neuroscience",
+        "labId": "lab-02",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-03",
+        "type": "opening",
+        "title": "Undergraduate research assistant — robotics",
+        "labId": "lab-03",
+        "reasons": [
+          "One or more required skills are not confirmed",
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-04",
+        "type": "opening",
+        "title": "Research trainee — public health",
+        "labId": "lab-04",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-05",
+        "type": "opening",
+        "title": "Undergraduate research assistant — cancer biology",
+        "labId": "lab-05",
+        "reasons": [
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-07",
+        "type": "opening",
+        "title": "Undergraduate research assistant — medical devices",
+        "labId": "lab-07",
+        "reasons": [
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-11",
+        "type": "opening",
+        "title": "Undergraduate research assistant — computational biology",
+        "labId": "lab-11",
+        "reasons": [
+          "Opening is paused"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-12",
+        "type": "opening",
+        "title": "Undergraduate research assistant — neuroscience",
+        "labId": "lab-12",
+        "reasons": [
+          "Opening is closed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-14",
+        "type": "opening",
+        "title": "Research trainee — materials",
+        "labId": "lab-14",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-15",
+        "type": "opening",
+        "title": "Expired genomics opening",
+        "labId": "lab-01",
+        "reasons": [
+          "Opening confirmation or deadline has expired"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-16",
+        "type": "opening",
+        "title": "Draft neuroscience opportunity",
+        "labId": "lab-02",
+        "reasons": [
+          "Opening is draft"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-17",
+        "type": "opening",
+        "title": "Unconfirmed metabolic modeling opportunity",
+        "labId": "lab-19",
+        "reasons": [
+          "Confirmation date unavailable or invalid",
+          "Minimum experience requirement is unknown or invalid",
+          "Required skills are unknown or invalid",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-18",
+        "type": "opening",
+        "title": "Schedule-incompatible genomics role",
+        "labId": "lab-01",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      }
+    ],
+    "rankingVersion": "rules-demo-v1",
+    "asOf": "2026-10-27",
+    "synthetic": true
+  },
+  {
+    "studentId": "student-02",
+    "opportunities": [
+      {
+        "id": "opening-02",
+        "type": "opening",
+        "title": "Research trainee — neuroscience",
+        "openingId": "opening-02",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 14,
+        "components": {
+          "topics": 2,
+          "skills": 0,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: neuroscience, psychology",
+          "Training supports your goals: behavioral methods, data analysis"
+        ],
+        "evidence": [
+          "neuroscience",
+          "psychology",
+          "behavioral methods",
+          "data analysis"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unpaid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-09",
+        "type": "opening",
+        "title": "Research trainee — organizations",
+        "openingId": "opening-09",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 7,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: psychology",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "psychology",
+          "data analysis"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-06",
+        "type": "opening",
+        "title": "Research trainee — environment",
+        "openingId": "opening-06",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 2,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "data analysis"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-08",
+        "type": "opening",
+        "title": "Research trainee — history",
+        "openingId": "opening-08",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unpaid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-10",
+        "type": "opening",
+        "title": "Research trainee — social policy",
+        "openingId": "opening-10",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-13",
+        "type": "opening",
+        "title": "Research trainee — accessibility",
+        "openingId": "opening-13",
+        "labId": "lab-13",
+        "labName": "Accessible Computing Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      }
+    ],
+    "labs": [
+      {
+        "id": "lab-02",
+        "type": "lab",
+        "title": "Neural Learning Lab",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "status": "confirmed_opening",
+        "score": 14,
+        "components": {
+          "topics": 2,
+          "skills": 0,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: neuroscience, psychology",
+          "Training supports your goals: behavioral methods, data analysis"
+        ],
+        "evidence": [
+          "neuroscience",
+          "psychology",
+          "behavioral methods",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Psychological Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-09",
+        "type": "lab",
+        "title": "Decision and Organizations Lab",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "status": "confirmed_opening",
+        "score": 7,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: psychology",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "psychology",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Organizational Behavior",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-12",
+        "type": "lab",
+        "title": "Brain Imaging Methods Lab",
+        "labId": "lab-12",
+        "labName": "Brain Imaging Methods Lab",
+        "status": "not_recruiting",
+        "score": 7,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: neuroscience",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "neuroscience",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Not recruiting; research exploration only",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Neurosciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-17",
+        "type": "lab",
+        "title": "Sleep and Daily Life Lab",
+        "labId": "lab-17",
+        "labName": "Sleep and Daily Life Lab",
+        "status": "accepting_inquiries",
+        "score": 7,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: neuroscience",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "neuroscience",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Interest inquiries accepted; no confirmed opening",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Nursing",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-18",
+        "type": "lab",
+        "title": "Music and Memory Lab",
+        "labId": "lab-18",
+        "labName": "Music and Memory Lab",
+        "status": "accepting_inquiries",
+        "score": 7,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: psychology",
+          "Training supports your goals: behavioral methods"
+        ],
+        "evidence": [
+          "psychology",
+          "behavioral methods"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Interest inquiries accepted; no confirmed opening",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Music",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-01",
+        "type": "lab",
+        "title": "Genome Signals Lab",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "status": "confirmed_opening",
+        "score": 2,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Current openings do not meet your confirmed constraints"
+        ],
+        "department": "Genetics and Genome Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      }
+    ],
+    "people": [
+      {
+        "id": "person-02",
+        "type": "person",
+        "personId": "person-02",
+        "title": "Dr. Rowan Hart",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 14,
+        "components": {
+          "topics": 2,
+          "skills": 0,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: neuroscience, psychology",
+          "Training supports your goals: behavioral methods, data analysis"
+        ],
+        "evidence": [
+          "neuroscience",
+          "psychology",
+          "behavioral methods",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-26",
+        "type": "person",
+        "personId": "person-26",
+        "title": "Cameron Fox",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "role": "Delegated recruiter",
+        "status": "confirmed_opening",
+        "score": 14,
+        "components": {
+          "topics": 2,
+          "skills": 0,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: neuroscience, psychology",
+          "Training supports your goals: behavioral methods, data analysis"
+        ],
+        "evidence": [
+          "neuroscience",
+          "psychology",
+          "behavioral methods",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-09",
+        "type": "person",
+        "personId": "person-09",
+        "title": "Dr. Ellis Winter",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 7,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: psychology",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "psychology",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-12",
+        "type": "person",
+        "personId": "person-12",
+        "title": "Dr. Harper Stone",
+        "labId": "lab-12",
+        "labName": "Brain Imaging Methods Lab",
+        "role": "PI",
+        "status": "not_recruiting",
+        "score": 7,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: neuroscience",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "neuroscience",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "General inquiries are unavailable; view research context only"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-17",
+        "type": "person",
+        "personId": "person-17",
+        "title": "Dr. Marin Wells",
+        "labId": "lab-17",
+        "labName": "Sleep and Daily Life Lab",
+        "role": "PI",
+        "status": "accepting_inquiries",
+        "score": 7,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: neuroscience",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "neuroscience",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-18",
+        "type": "person",
+        "personId": "person-18",
+        "title": "Dr. Noel Ashton",
+        "labId": "lab-18",
+        "labName": "Music and Memory Lab",
+        "role": "PI",
+        "status": "accepting_inquiries",
+        "score": 7,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: psychology",
+          "Training supports your goals: behavioral methods"
+        ],
+        "evidence": [
+          "psychology",
+          "behavioral methods"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      }
+    ],
+    "excluded": [
+      {
+        "id": "opening-01",
+        "type": "opening",
+        "title": "Undergraduate research assistant — genetics",
+        "labId": "lab-01",
+        "reasons": [
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-03",
+        "type": "opening",
+        "title": "Undergraduate research assistant — robotics",
+        "labId": "lab-03",
+        "reasons": [
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-04",
+        "type": "opening",
+        "title": "Research trainee — public health",
+        "labId": "lab-04",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-05",
+        "type": "opening",
+        "title": "Undergraduate research assistant — cancer biology",
+        "labId": "lab-05",
+        "reasons": [
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-07",
+        "type": "opening",
+        "title": "Undergraduate research assistant — medical devices",
+        "labId": "lab-07",
+        "reasons": [
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-11",
+        "type": "opening",
+        "title": "Undergraduate research assistant — computational biology",
+        "labId": "lab-11",
+        "reasons": [
+          "Opening is paused",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-12",
+        "type": "opening",
+        "title": "Undergraduate research assistant — neuroscience",
+        "labId": "lab-12",
+        "reasons": [
+          "Opening is closed",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-14",
+        "type": "opening",
+        "title": "Research trainee — materials",
+        "labId": "lab-14",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-15",
+        "type": "opening",
+        "title": "Expired genomics opening",
+        "labId": "lab-01",
+        "reasons": [
+          "Opening confirmation or deadline has expired",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-16",
+        "type": "opening",
+        "title": "Draft neuroscience opportunity",
+        "labId": "lab-02",
+        "reasons": [
+          "Opening is draft",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-17",
+        "type": "opening",
+        "title": "Unconfirmed metabolic modeling opportunity",
+        "labId": "lab-19",
+        "reasons": [
+          "Confirmation date unavailable or invalid",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum experience requirement is unknown or invalid",
+          "Required skills are unknown or invalid",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-18",
+        "type": "opening",
+        "title": "Schedule-incompatible genomics role",
+        "labId": "lab-01",
+        "reasons": [
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      }
+    ],
+    "rankingVersion": "rules-demo-v1",
+    "asOf": "2026-10-27",
+    "synthetic": true
+  },
+  {
+    "studentId": "student-03",
+    "opportunities": [
+      {
+        "id": "opening-03",
+        "type": "opening",
+        "title": "Undergraduate research assistant — robotics",
+        "openingId": "opening-03",
+        "labId": "lab-03",
+        "labName": "Soft Systems Robotics Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 13,
+        "components": {
+          "topics": 1,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: robotics",
+          "Confirmed transferable skills: CAD, Python",
+          "Training supports your goals: robotics"
+        ],
+        "evidence": [
+          "robotics",
+          "CAD",
+          "Python",
+          "robotics"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 10,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-07",
+        "type": "opening",
+        "title": "Undergraduate research assistant — medical devices",
+        "openingId": "opening-07",
+        "labId": "lab-07",
+        "labName": "Human Centered Devices Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 13,
+        "components": {
+          "topics": 1,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: medical devices",
+          "Confirmed transferable skills: CAD, prototyping",
+          "Training supports your goals: device testing"
+        ],
+        "evidence": [
+          "medical devices",
+          "CAD",
+          "prototyping",
+          "device testing"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-06",
+        "type": "opening",
+        "title": "Research trainee — environment",
+        "openingId": "opening-06",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-08",
+        "type": "opening",
+        "title": "Research trainee — history",
+        "openingId": "opening-08",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unpaid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-09",
+        "type": "opening",
+        "title": "Research trainee — organizations",
+        "openingId": "opening-09",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-10",
+        "type": "opening",
+        "title": "Research trainee — social policy",
+        "openingId": "opening-10",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      }
+    ],
+    "labs": [
+      {
+        "id": "lab-03",
+        "type": "lab",
+        "title": "Soft Systems Robotics Lab",
+        "labId": "lab-03",
+        "labName": "Soft Systems Robotics Lab",
+        "status": "confirmed_opening",
+        "score": 13,
+        "components": {
+          "topics": 1,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: robotics",
+          "Confirmed transferable skills: CAD, Python",
+          "Training supports your goals: robotics"
+        ],
+        "evidence": [
+          "robotics",
+          "CAD",
+          "Python",
+          "robotics"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Mechanical and Aerospace Engineering",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-07",
+        "type": "lab",
+        "title": "Human Centered Devices Lab",
+        "labId": "lab-07",
+        "labName": "Human Centered Devices Lab",
+        "status": "confirmed_opening",
+        "score": 13,
+        "components": {
+          "topics": 1,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: medical devices",
+          "Confirmed transferable skills: CAD, prototyping",
+          "Training supports your goals: device testing"
+        ],
+        "evidence": [
+          "medical devices",
+          "CAD",
+          "prototyping",
+          "device testing"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Biomedical Engineering",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-21",
+        "type": "lab",
+        "title": "Materials for Repair Lab",
+        "labId": "lab-21",
+        "labName": "Materials for Repair Lab",
+        "status": "not_recruiting",
+        "score": 10,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: medical devices",
+          "Confirmed transferable skills: CAD",
+          "Training supports your goals: device testing"
+        ],
+        "evidence": [
+          "medical devices",
+          "CAD",
+          "device testing"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Not recruiting; research exploration only",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Materials Science and Engineering",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-01",
+        "type": "lab",
+        "title": "Genome Signals Lab",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "status": "confirmed_opening",
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: Python"
+        ],
+        "evidence": [
+          "Python"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Current openings do not meet your confirmed constraints"
+        ],
+        "department": "Genetics and Genome Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-02",
+        "type": "lab",
+        "title": "Neural Learning Lab",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "status": "confirmed_opening",
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: Python"
+        ],
+        "evidence": [
+          "Python"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Current openings do not meet your confirmed constraints"
+        ],
+        "department": "Psychological Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-11",
+        "type": "lab",
+        "title": "Protein Design Lab",
+        "labId": "lab-11",
+        "labName": "Protein Design Lab",
+        "status": "accepting_inquiries",
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: Python"
+        ],
+        "evidence": [
+          "Python"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Interest inquiries accepted; no confirmed opening",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Pharmacology",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      }
+    ],
+    "people": [
+      {
+        "id": "person-03",
+        "type": "person",
+        "personId": "person-03",
+        "title": "Dr. Emery Vale",
+        "labId": "lab-03",
+        "labName": "Soft Systems Robotics Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 13,
+        "components": {
+          "topics": 1,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: robotics",
+          "Confirmed transferable skills: CAD, Python",
+          "Training supports your goals: robotics"
+        ],
+        "evidence": [
+          "robotics",
+          "CAD",
+          "Python",
+          "robotics"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-07",
+        "type": "person",
+        "personId": "person-07",
+        "title": "Dr. Casey Nolan",
+        "labId": "lab-07",
+        "labName": "Human Centered Devices Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 13,
+        "components": {
+          "topics": 1,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: medical devices",
+          "Confirmed transferable skills: CAD, prototyping",
+          "Training supports your goals: device testing"
+        ],
+        "evidence": [
+          "medical devices",
+          "CAD",
+          "prototyping",
+          "device testing"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-27",
+        "type": "person",
+        "personId": "person-27",
+        "title": "Jordan Avery",
+        "labId": "lab-03",
+        "labName": "Soft Systems Robotics Lab",
+        "role": "Delegated recruiter",
+        "status": "confirmed_opening",
+        "score": 13,
+        "components": {
+          "topics": 1,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: robotics",
+          "Confirmed transferable skills: CAD, Python",
+          "Training supports your goals: robotics"
+        ],
+        "evidence": [
+          "robotics",
+          "CAD",
+          "Python",
+          "robotics"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-21",
+        "type": "person",
+        "personId": "person-21",
+        "title": "Dr. Remy Linden",
+        "labId": "lab-21",
+        "labName": "Materials for Repair Lab",
+        "role": "PI",
+        "status": "not_recruiting",
+        "score": 10,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: medical devices",
+          "Confirmed transferable skills: CAD",
+          "Training supports your goals: device testing"
+        ],
+        "evidence": [
+          "medical devices",
+          "CAD",
+          "device testing"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "General inquiries are unavailable; view research context only"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-01",
+        "type": "person",
+        "personId": "person-01",
+        "title": "Dr. Sage Whitman",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: Python"
+        ],
+        "evidence": [
+          "Python"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-02",
+        "type": "person",
+        "personId": "person-02",
+        "title": "Dr. Rowan Hart",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: Python"
+        ],
+        "evidence": [
+          "Python"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      }
+    ],
+    "excluded": [
+      {
+        "id": "opening-01",
+        "type": "opening",
+        "title": "Undergraduate research assistant — genetics",
+        "labId": "lab-01",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-02",
+        "type": "opening",
+        "title": "Research trainee — neuroscience",
+        "labId": "lab-02",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-04",
+        "type": "opening",
+        "title": "Research trainee — public health",
+        "labId": "lab-04",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-05",
+        "type": "opening",
+        "title": "Undergraduate research assistant — cancer biology",
+        "labId": "lab-05",
+        "reasons": [
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-11",
+        "type": "opening",
+        "title": "Undergraduate research assistant — computational biology",
+        "labId": "lab-11",
+        "reasons": [
+          "Opening is paused"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-12",
+        "type": "opening",
+        "title": "Undergraduate research assistant — neuroscience",
+        "labId": "lab-12",
+        "reasons": [
+          "Opening is closed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-14",
+        "type": "opening",
+        "title": "Research trainee — materials",
+        "labId": "lab-14",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-15",
+        "type": "opening",
+        "title": "Expired genomics opening",
+        "labId": "lab-01",
+        "reasons": [
+          "Opening confirmation or deadline has expired"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-16",
+        "type": "opening",
+        "title": "Draft neuroscience opportunity",
+        "labId": "lab-02",
+        "reasons": [
+          "Opening is draft",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-17",
+        "type": "opening",
+        "title": "Unconfirmed metabolic modeling opportunity",
+        "labId": "lab-19",
+        "reasons": [
+          "Confirmation date unavailable or invalid",
+          "Minimum experience requirement is unknown or invalid",
+          "Required skills are unknown or invalid",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-18",
+        "type": "opening",
+        "title": "Schedule-incompatible genomics role",
+        "labId": "lab-01",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      }
+    ],
+    "rankingVersion": "rules-demo-v1",
+    "asOf": "2026-10-27",
+    "synthetic": true
+  },
+  {
+    "studentId": "student-04",
+    "opportunities": [
+      {
+        "id": "opening-04",
+        "type": "opening",
+        "title": "Research trainee — public health",
+        "openingId": "opening-04",
+        "labId": "lab-04",
+        "labName": "Community Care Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 17,
+        "components": {
+          "topics": 2,
+          "skills": 1,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: health equity, public health",
+          "Confirmed transferable skills: interviewing",
+          "Training supports your goals: community research, qualitative coding"
+        ],
+        "evidence": [
+          "health equity",
+          "public health",
+          "interviewing",
+          "community research",
+          "qualitative coding"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-10",
+        "type": "opening",
+        "title": "Research trainee — social policy",
+        "openingId": "opening-10",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 15,
+        "components": {
+          "topics": 1,
+          "skills": 2,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: health equity",
+          "Confirmed transferable skills: interviewing, writing",
+          "Training supports your goals: community research, qualitative coding"
+        ],
+        "evidence": [
+          "health equity",
+          "interviewing",
+          "writing",
+          "community research",
+          "qualitative coding"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-08",
+        "type": "opening",
+        "title": "Research trainee — history",
+        "openingId": "opening-08",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: writing"
+        ],
+        "evidence": [
+          "writing"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unpaid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-06",
+        "type": "opening",
+        "title": "Research trainee — environment",
+        "openingId": "opening-06",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-09",
+        "type": "opening",
+        "title": "Research trainee — organizations",
+        "openingId": "opening-09",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-13",
+        "type": "opening",
+        "title": "Research trainee — accessibility",
+        "openingId": "opening-13",
+        "labId": "lab-13",
+        "labName": "Accessible Computing Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      }
+    ],
+    "labs": [
+      {
+        "id": "lab-04",
+        "type": "lab",
+        "title": "Community Care Lab",
+        "labId": "lab-04",
+        "labName": "Community Care Lab",
+        "status": "confirmed_opening",
+        "score": 17,
+        "components": {
+          "topics": 2,
+          "skills": 1,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: health equity, public health",
+          "Confirmed transferable skills: interviewing",
+          "Training supports your goals: community research, qualitative coding"
+        ],
+        "evidence": [
+          "health equity",
+          "public health",
+          "interviewing",
+          "community research",
+          "qualitative coding"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Nursing",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-10",
+        "type": "lab",
+        "title": "Youth and Neighborhoods Lab",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "status": "confirmed_opening",
+        "score": 15,
+        "components": {
+          "topics": 1,
+          "skills": 2,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: health equity",
+          "Confirmed transferable skills: interviewing, writing",
+          "Training supports your goals: community research, qualitative coding"
+        ],
+        "evidence": [
+          "health equity",
+          "interviewing",
+          "writing",
+          "community research",
+          "qualitative coding"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Social Work",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-17",
+        "type": "lab",
+        "title": "Sleep and Daily Life Lab",
+        "labId": "lab-17",
+        "labName": "Sleep and Daily Life Lab",
+        "status": "accepting_inquiries",
+        "score": 8,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: public health",
+          "Confirmed transferable skills: interviewing"
+        ],
+        "evidence": [
+          "public health",
+          "interviewing"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Interest inquiries accepted; no confirmed opening",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Nursing",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-22",
+        "type": "lab",
+        "title": "Migration Stories Lab",
+        "labId": "lab-22",
+        "labName": "Migration Stories Lab",
+        "status": "not_recruiting",
+        "score": 8,
+        "components": {
+          "topics": 0,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: interviewing, writing",
+          "Training supports your goals: qualitative coding"
+        ],
+        "evidence": [
+          "interviewing",
+          "writing",
+          "qualitative coding"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Not recruiting; research exploration only",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Sociology",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-20",
+        "type": "lab",
+        "title": "Urban Air and Health Lab",
+        "labId": "lab-20",
+        "labName": "Urban Air and Health Lab",
+        "status": "not_recruiting",
+        "score": 5,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: public health"
+        ],
+        "evidence": [
+          "public health"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Not recruiting; research exploration only",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Civil and Environmental Engineering",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-08",
+        "type": "lab",
+        "title": "Language and Archives Lab",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "status": "confirmed_opening",
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: writing"
+        ],
+        "evidence": [
+          "writing"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "History",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      }
+    ],
+    "people": [
+      {
+        "id": "person-04",
+        "type": "person",
+        "personId": "person-04",
+        "title": "Dr. Drew Cameron",
+        "labId": "lab-04",
+        "labName": "Community Care Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 17,
+        "components": {
+          "topics": 2,
+          "skills": 1,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: health equity, public health",
+          "Confirmed transferable skills: interviewing",
+          "Training supports your goals: community research, qualitative coding"
+        ],
+        "evidence": [
+          "health equity",
+          "public health",
+          "interviewing",
+          "community research",
+          "qualitative coding"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-10",
+        "type": "person",
+        "personId": "person-10",
+        "title": "Dr. Dakota Hayes",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 15,
+        "components": {
+          "topics": 1,
+          "skills": 2,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: health equity",
+          "Confirmed transferable skills: interviewing, writing",
+          "Training supports your goals: community research, qualitative coding"
+        ],
+        "evidence": [
+          "health equity",
+          "interviewing",
+          "writing",
+          "community research",
+          "qualitative coding"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-17",
+        "type": "person",
+        "personId": "person-17",
+        "title": "Dr. Marin Wells",
+        "labId": "lab-17",
+        "labName": "Sleep and Daily Life Lab",
+        "role": "PI",
+        "status": "accepting_inquiries",
+        "score": 8,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: public health",
+          "Confirmed transferable skills: interviewing"
+        ],
+        "evidence": [
+          "public health",
+          "interviewing"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-22",
+        "type": "person",
+        "personId": "person-22",
+        "title": "Dr. Shiloh Dean",
+        "labId": "lab-22",
+        "labName": "Migration Stories Lab",
+        "role": "PI",
+        "status": "not_recruiting",
+        "score": 8,
+        "components": {
+          "topics": 0,
+          "skills": 2,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: interviewing, writing",
+          "Training supports your goals: qualitative coding"
+        ],
+        "evidence": [
+          "interviewing",
+          "writing",
+          "qualitative coding"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "General inquiries are unavailable; view research context only"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-20",
+        "type": "person",
+        "personId": "person-20",
+        "title": "Dr. Peyton Cole",
+        "labId": "lab-20",
+        "labName": "Urban Air and Health Lab",
+        "role": "PI",
+        "status": "not_recruiting",
+        "score": 5,
+        "components": {
+          "topics": 1,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: public health"
+        ],
+        "evidence": [
+          "public health"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "General inquiries are unavailable; view research context only"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-08",
+        "type": "person",
+        "personId": "person-08",
+        "title": "Dr. Quinn Marlow",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: writing"
+        ],
+        "evidence": [
+          "writing"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      }
+    ],
+    "excluded": [
+      {
+        "id": "opening-01",
+        "type": "opening",
+        "title": "Undergraduate research assistant — genetics",
+        "labId": "lab-01",
+        "reasons": [
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed",
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-02",
+        "type": "opening",
+        "title": "Research trainee — neuroscience",
+        "labId": "lab-02",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-03",
+        "type": "opening",
+        "title": "Undergraduate research assistant — robotics",
+        "labId": "lab-03",
+        "reasons": [
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-05",
+        "type": "opening",
+        "title": "Undergraduate research assistant — cancer biology",
+        "labId": "lab-05",
+        "reasons": [
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-07",
+        "type": "opening",
+        "title": "Undergraduate research assistant — medical devices",
+        "labId": "lab-07",
+        "reasons": [
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-11",
+        "type": "opening",
+        "title": "Undergraduate research assistant — computational biology",
+        "labId": "lab-11",
+        "reasons": [
+          "Opening is paused",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-12",
+        "type": "opening",
+        "title": "Undergraduate research assistant — neuroscience",
+        "labId": "lab-12",
+        "reasons": [
+          "Opening is closed",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-14",
+        "type": "opening",
+        "title": "Research trainee — materials",
+        "labId": "lab-14",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-15",
+        "type": "opening",
+        "title": "Expired genomics opening",
+        "labId": "lab-01",
+        "reasons": [
+          "Opening confirmation or deadline has expired",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-16",
+        "type": "opening",
+        "title": "Draft neuroscience opportunity",
+        "labId": "lab-02",
+        "reasons": [
+          "Opening is draft",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-17",
+        "type": "opening",
+        "title": "Unconfirmed metabolic modeling opportunity",
+        "labId": "lab-19",
+        "reasons": [
+          "Confirmation date unavailable or invalid",
+          "Minimum experience requirement is unknown or invalid",
+          "Required skills are unknown or invalid",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-18",
+        "type": "opening",
+        "title": "Schedule-incompatible genomics role",
+        "labId": "lab-01",
+        "reasons": [
+          "One or more required skills are not confirmed",
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      }
+    ],
+    "rankingVersion": "rules-demo-v1",
+    "asOf": "2026-10-27",
+    "synthetic": true
+  },
+  {
+    "studentId": "student-05",
+    "opportunities": [
+      {
+        "id": "opening-08",
+        "type": "opening",
+        "title": "Research trainee — history",
+        "openingId": "opening-08",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 20,
+        "components": {
+          "topics": 2,
+          "skills": 2,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: history, digital humanities",
+          "Confirmed transferable skills: writing, archival research",
+          "Training supports your goals: text analysis, archival research"
+        ],
+        "evidence": [
+          "history",
+          "digital humanities",
+          "writing",
+          "archival research",
+          "text analysis",
+          "archival research"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unpaid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-10",
+        "type": "opening",
+        "title": "Research trainee — social policy",
+        "openingId": "opening-10",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: writing"
+        ],
+        "evidence": [
+          "writing"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-06",
+        "type": "opening",
+        "title": "Research trainee — environment",
+        "openingId": "opening-06",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-09",
+        "type": "opening",
+        "title": "Research trainee — organizations",
+        "openingId": "opening-09",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-13",
+        "type": "opening",
+        "title": "Research trainee — accessibility",
+        "openingId": "opening-13",
+        "labId": "lab-13",
+        "labName": "Accessible Computing Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      }
+    ],
+    "labs": [
+      {
+        "id": "lab-08",
+        "type": "lab",
+        "title": "Language and Archives Lab",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "status": "confirmed_opening",
+        "score": 20,
+        "components": {
+          "topics": 2,
+          "skills": 2,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: history, digital humanities",
+          "Confirmed transferable skills: writing, archival research",
+          "Training supports your goals: text analysis, archival research"
+        ],
+        "evidence": [
+          "history",
+          "digital humanities",
+          "writing",
+          "archival research",
+          "text analysis",
+          "archival research"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "History",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-18",
+        "type": "lab",
+        "title": "Music and Memory Lab",
+        "labId": "lab-18",
+        "labName": "Music and Memory Lab",
+        "status": "accepting_inquiries",
+        "score": 10,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: music",
+          "Confirmed transferable skills: writing",
+          "Training supports your goals: text analysis"
+        ],
+        "evidence": [
+          "music",
+          "writing",
+          "text analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Interest inquiries accepted; no confirmed opening",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Music",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-22",
+        "type": "lab",
+        "title": "Migration Stories Lab",
+        "labId": "lab-22",
+        "labName": "Migration Stories Lab",
+        "status": "not_recruiting",
+        "score": 10,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: history",
+          "Confirmed transferable skills: writing",
+          "Training supports your goals: archival research"
+        ],
+        "evidence": [
+          "history",
+          "writing",
+          "archival research"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Not recruiting; research exploration only",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Sociology",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-10",
+        "type": "lab",
+        "title": "Youth and Neighborhoods Lab",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "status": "confirmed_opening",
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: writing"
+        ],
+        "evidence": [
+          "writing"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Social Work",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-24",
+        "type": "lab",
+        "title": "Learning Technologies Lab",
+        "labId": "lab-24",
+        "labName": "Learning Technologies Lab",
+        "status": "unknown",
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: writing"
+        ],
+        "evidence": [
+          "writing"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Unclaimed sourced profile; contact authority is unverified",
+          "Recruiting status is unknown",
+          "No current confirmed opening is available in this snapshot",
+          "Lab-wide schedule is unknown; verify before making a commitment"
+        ],
+        "department": "Cognitive Science",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-01",
+        "type": "lab",
+        "title": "Genome Signals Lab",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Current openings do not meet your confirmed constraints"
+        ],
+        "department": "Genetics and Genome Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      }
+    ],
+    "people": [
+      {
+        "id": "person-08",
+        "type": "person",
+        "personId": "person-08",
+        "title": "Dr. Quinn Marlow",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 20,
+        "components": {
+          "topics": 2,
+          "skills": 2,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: history, digital humanities",
+          "Confirmed transferable skills: writing, archival research",
+          "Training supports your goals: text analysis, archival research"
+        ],
+        "evidence": [
+          "history",
+          "digital humanities",
+          "writing",
+          "archival research",
+          "text analysis",
+          "archival research"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-18",
+        "type": "person",
+        "personId": "person-18",
+        "title": "Dr. Noel Ashton",
+        "labId": "lab-18",
+        "labName": "Music and Memory Lab",
+        "role": "PI",
+        "status": "accepting_inquiries",
+        "score": 10,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: music",
+          "Confirmed transferable skills: writing",
+          "Training supports your goals: text analysis"
+        ],
+        "evidence": [
+          "music",
+          "writing",
+          "text analysis"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-22",
+        "type": "person",
+        "personId": "person-22",
+        "title": "Dr. Shiloh Dean",
+        "labId": "lab-22",
+        "labName": "Migration Stories Lab",
+        "role": "PI",
+        "status": "not_recruiting",
+        "score": 10,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: history",
+          "Confirmed transferable skills: writing",
+          "Training supports your goals: archival research"
+        ],
+        "evidence": [
+          "history",
+          "writing",
+          "archival research"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "General inquiries are unavailable; view research context only"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-10",
+        "type": "person",
+        "personId": "person-10",
+        "title": "Dr. Dakota Hayes",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 3,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: writing"
+        ],
+        "evidence": [
+          "writing"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-01",
+        "type": "person",
+        "personId": "person-01",
+        "title": "Dr. Sage Whitman",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-02",
+        "type": "person",
+        "personId": "person-02",
+        "title": "Dr. Rowan Hart",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      }
+    ],
+    "excluded": [
+      {
+        "id": "opening-01",
+        "type": "opening",
+        "title": "Undergraduate research assistant — genetics",
+        "labId": "lab-01",
+        "reasons": [
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-02",
+        "type": "opening",
+        "title": "Research trainee — neuroscience",
+        "labId": "lab-02",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-03",
+        "type": "opening",
+        "title": "Undergraduate research assistant — robotics",
+        "labId": "lab-03",
+        "reasons": [
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-04",
+        "type": "opening",
+        "title": "Research trainee — public health",
+        "labId": "lab-04",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-05",
+        "type": "opening",
+        "title": "Undergraduate research assistant — cancer biology",
+        "labId": "lab-05",
+        "reasons": [
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-07",
+        "type": "opening",
+        "title": "Undergraduate research assistant — medical devices",
+        "labId": "lab-07",
+        "reasons": [
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-11",
+        "type": "opening",
+        "title": "Undergraduate research assistant — computational biology",
+        "labId": "lab-11",
+        "reasons": [
+          "Opening is paused",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-12",
+        "type": "opening",
+        "title": "Undergraduate research assistant — neuroscience",
+        "labId": "lab-12",
+        "reasons": [
+          "Opening is closed",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-14",
+        "type": "opening",
+        "title": "Research trainee — materials",
+        "labId": "lab-14",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-15",
+        "type": "opening",
+        "title": "Expired genomics opening",
+        "labId": "lab-01",
+        "reasons": [
+          "Opening confirmation or deadline has expired",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-16",
+        "type": "opening",
+        "title": "Draft neuroscience opportunity",
+        "labId": "lab-02",
+        "reasons": [
+          "Opening is draft",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-17",
+        "type": "opening",
+        "title": "Unconfirmed metabolic modeling opportunity",
+        "labId": "lab-19",
+        "reasons": [
+          "Confirmation date unavailable or invalid",
+          "Minimum experience requirement is unknown or invalid",
+          "Required skills are unknown or invalid",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-18",
+        "type": "opening",
+        "title": "Schedule-incompatible genomics role",
+        "labId": "lab-01",
+        "reasons": [
+          "One or more required skills are not confirmed",
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      }
+    ],
+    "rankingVersion": "rules-demo-v1",
+    "asOf": "2026-10-27",
+    "synthetic": true
+  },
+  {
+    "studentId": "student-06",
+    "opportunities": [
+      {
+        "id": "opening-06",
+        "type": "opening",
+        "title": "Research trainee — environment",
+        "openingId": "opening-06",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 20,
+        "components": {
+          "topics": 2,
+          "skills": 2,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: environment, ecology",
+          "Confirmed transferable skills: R, GIS",
+          "Training supports your goals: field sampling, data analysis"
+        ],
+        "evidence": [
+          "environment",
+          "ecology",
+          "R",
+          "GIS",
+          "field sampling",
+          "data analysis"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-02",
+        "type": "opening",
+        "title": "Research trainee — neuroscience",
+        "openingId": "opening-02",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 5,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: statistics",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "statistics",
+          "data analysis"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unpaid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-09",
+        "type": "opening",
+        "title": "Research trainee — organizations",
+        "openingId": "opening-09",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 5,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: statistics",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "statistics",
+          "data analysis"
+        ],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-08",
+        "type": "opening",
+        "title": "Research trainee — history",
+        "openingId": "opening-08",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unpaid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-10",
+        "type": "opening",
+        "title": "Research trainee — social policy",
+        "openingId": "opening-10",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-13",
+        "type": "opening",
+        "title": "Research trainee — accessibility",
+        "openingId": "opening-13",
+        "labId": "lab-13",
+        "labName": "Accessible Computing Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      }
+    ],
+    "labs": [
+      {
+        "id": "lab-06",
+        "type": "lab",
+        "title": "Climate and Watersheds Lab",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "status": "confirmed_opening",
+        "score": 20,
+        "components": {
+          "topics": 2,
+          "skills": 2,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: environment, ecology",
+          "Confirmed transferable skills: R, GIS",
+          "Training supports your goals: field sampling, data analysis"
+        ],
+        "evidence": [
+          "environment",
+          "ecology",
+          "R",
+          "GIS",
+          "field sampling",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Earth, Environmental, and Planetary Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-20",
+        "type": "lab",
+        "title": "Urban Air and Health Lab",
+        "labId": "lab-20",
+        "labName": "Urban Air and Health Lab",
+        "status": "not_recruiting",
+        "score": 12,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: environment",
+          "Confirmed transferable skills: GIS",
+          "Training supports your goals: field sampling, data analysis"
+        ],
+        "evidence": [
+          "environment",
+          "GIS",
+          "field sampling",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Not recruiting; research exploration only",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Civil and Environmental Engineering",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-01",
+        "type": "lab",
+        "title": "Genome Signals Lab",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "status": "confirmed_opening",
+        "score": 5,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: R",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "R",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Current openings do not meet your confirmed constraints"
+        ],
+        "department": "Genetics and Genome Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-02",
+        "type": "lab",
+        "title": "Neural Learning Lab",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "status": "confirmed_opening",
+        "score": 5,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: statistics",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "statistics",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Psychological Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-09",
+        "type": "lab",
+        "title": "Decision and Organizations Lab",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "status": "confirmed_opening",
+        "score": 5,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: statistics",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "statistics",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Organizational Behavior",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-12",
+        "type": "lab",
+        "title": "Brain Imaging Methods Lab",
+        "labId": "lab-12",
+        "labName": "Brain Imaging Methods Lab",
+        "status": "not_recruiting",
+        "score": 5,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: statistics",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "statistics",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Not recruiting; research exploration only",
+          "No current confirmed opening is available in this snapshot"
+        ],
+        "department": "Neurosciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      }
+    ],
+    "people": [
+      {
+        "id": "person-06",
+        "type": "person",
+        "personId": "person-06",
+        "title": "Dr. Blair Sutton",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 20,
+        "components": {
+          "topics": 2,
+          "skills": 2,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: environment, ecology",
+          "Confirmed transferable skills: R, GIS",
+          "Training supports your goals: field sampling, data analysis"
+        ],
+        "evidence": [
+          "environment",
+          "ecology",
+          "R",
+          "GIS",
+          "field sampling",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-20",
+        "type": "person",
+        "personId": "person-20",
+        "title": "Dr. Peyton Cole",
+        "labId": "lab-20",
+        "labName": "Urban Air and Health Lab",
+        "role": "PI",
+        "status": "not_recruiting",
+        "score": 12,
+        "components": {
+          "topics": 1,
+          "skills": 1,
+          "learning": 2,
+          "saved": 0
+        },
+        "reasons": [
+          "Shared interests: environment",
+          "Confirmed transferable skills: GIS",
+          "Training supports your goals: field sampling, data analysis"
+        ],
+        "evidence": [
+          "environment",
+          "GIS",
+          "field sampling",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "General inquiries are unavailable; view research context only"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-01",
+        "type": "person",
+        "personId": "person-01",
+        "title": "Dr. Sage Whitman",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 5,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: R",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "R",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-02",
+        "type": "person",
+        "personId": "person-02",
+        "title": "Dr. Rowan Hart",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 5,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: statistics",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "statistics",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-09",
+        "type": "person",
+        "personId": "person-09",
+        "title": "Dr. Ellis Winter",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 5,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: statistics",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "statistics",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-12",
+        "type": "person",
+        "personId": "person-12",
+        "title": "Dr. Harper Stone",
+        "labId": "lab-12",
+        "labName": "Brain Imaging Methods Lab",
+        "role": "PI",
+        "status": "not_recruiting",
+        "score": 5,
+        "components": {
+          "topics": 0,
+          "skills": 1,
+          "learning": 1,
+          "saved": 0
+        },
+        "reasons": [
+          "Confirmed transferable skills: statistics",
+          "Training supports your goals: data analysis"
+        ],
+        "evidence": [
+          "statistics",
+          "data analysis"
+        ],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "General inquiries are unavailable; view research context only"
+        ],
+        "synthetic": true
+      }
+    ],
+    "excluded": [
+      {
+        "id": "opening-01",
+        "type": "opening",
+        "title": "Undergraduate research assistant — genetics",
+        "labId": "lab-01",
+        "reasons": [
+          "One or more required skills are not confirmed",
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-03",
+        "type": "opening",
+        "title": "Undergraduate research assistant — robotics",
+        "labId": "lab-03",
+        "reasons": [
+          "One or more required skills are not confirmed",
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-04",
+        "type": "opening",
+        "title": "Research trainee — public health",
+        "labId": "lab-04",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-05",
+        "type": "opening",
+        "title": "Undergraduate research assistant — cancer biology",
+        "labId": "lab-05",
+        "reasons": [
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-07",
+        "type": "opening",
+        "title": "Undergraduate research assistant — medical devices",
+        "labId": "lab-07",
+        "reasons": [
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-11",
+        "type": "opening",
+        "title": "Undergraduate research assistant — computational biology",
+        "labId": "lab-11",
+        "reasons": [
+          "Opening is paused",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-12",
+        "type": "opening",
+        "title": "Undergraduate research assistant — neuroscience",
+        "labId": "lab-12",
+        "reasons": [
+          "Opening is closed",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-14",
+        "type": "opening",
+        "title": "Research trainee — materials",
+        "labId": "lab-14",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-15",
+        "type": "opening",
+        "title": "Expired genomics opening",
+        "labId": "lab-01",
+        "reasons": [
+          "Opening confirmation or deadline has expired",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-16",
+        "type": "opening",
+        "title": "Draft neuroscience opportunity",
+        "labId": "lab-02",
+        "reasons": [
+          "Opening is draft"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-17",
+        "type": "opening",
+        "title": "Unconfirmed metabolic modeling opportunity",
+        "labId": "lab-19",
+        "reasons": [
+          "Confirmation date unavailable or invalid",
+          "Minimum experience requirement is unknown or invalid",
+          "Required skills are unknown or invalid",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-18",
+        "type": "opening",
+        "title": "Schedule-incompatible genomics role",
+        "labId": "lab-01",
+        "reasons": [
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      }
+    ],
+    "rankingVersion": "rules-demo-v1",
+    "asOf": "2026-10-27",
+    "synthetic": true
+  },
+  {
+    "studentId": "student-07",
+    "opportunities": [],
+    "labs": [],
+    "people": [],
+    "excluded": [
+      {
+        "id": "opening-01",
+        "type": "opening",
+        "title": "Undergraduate research assistant — genetics",
+        "labId": "lab-01",
+        "reasons": [
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-02",
+        "type": "opening",
+        "title": "Research trainee — neuroscience",
+        "labId": "lab-02",
+        "reasons": [
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-03",
+        "type": "opening",
+        "title": "Undergraduate research assistant — robotics",
+        "labId": "lab-03",
+        "reasons": [
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-04",
+        "type": "opening",
+        "title": "Research trainee — public health",
+        "labId": "lab-04",
+        "reasons": [
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-05",
+        "type": "opening",
+        "title": "Undergraduate research assistant — cancer biology",
+        "labId": "lab-05",
+        "reasons": [
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed",
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-06",
+        "type": "opening",
+        "title": "Research trainee — environment",
+        "labId": "lab-06",
+        "reasons": [
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-07",
+        "type": "opening",
+        "title": "Undergraduate research assistant — medical devices",
+        "labId": "lab-07",
+        "reasons": [
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed",
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-08",
+        "type": "opening",
+        "title": "Research trainee — history",
+        "labId": "lab-08",
+        "reasons": [
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-09",
+        "type": "opening",
+        "title": "Research trainee — organizations",
+        "labId": "lab-09",
+        "reasons": [
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-10",
+        "type": "opening",
+        "title": "Research trainee — social policy",
+        "labId": "lab-10",
+        "reasons": [
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-11",
+        "type": "opening",
+        "title": "Undergraduate research assistant — computational biology",
+        "labId": "lab-11",
+        "reasons": [
+          "Opening is paused",
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-12",
+        "type": "opening",
+        "title": "Undergraduate research assistant — neuroscience",
+        "labId": "lab-12",
+        "reasons": [
+          "Opening is closed",
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-13",
+        "type": "opening",
+        "title": "Research trainee — accessibility",
+        "labId": "lab-13",
+        "reasons": [
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-14",
+        "type": "opening",
+        "title": "Research trainee — materials",
+        "labId": "lab-14",
+        "reasons": [
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-15",
+        "type": "opening",
+        "title": "Expired genomics opening",
+        "labId": "lab-01",
+        "reasons": [
+          "Opening confirmation or deadline has expired",
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-16",
+        "type": "opening",
+        "title": "Draft neuroscience opportunity",
+        "labId": "lab-02",
+        "reasons": [
+          "Opening is draft",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed",
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-17",
+        "type": "opening",
+        "title": "Unconfirmed metabolic modeling opportunity",
+        "labId": "lab-19",
+        "reasons": [
+          "Confirmation date unavailable or invalid",
+          "Paid-only filter: compensation is unpaid or unknown",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum experience requirement is unknown or invalid",
+          "Required skills are unknown or invalid",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-18",
+        "type": "opening",
+        "title": "Schedule-incompatible genomics role",
+        "labId": "lab-01",
+        "reasons": [
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      }
+    ],
+    "rankingVersion": "rules-demo-v1",
+    "asOf": "2026-10-27",
+    "synthetic": true
+  },
+  {
+    "studentId": "student-08",
+    "opportunities": [
+      {
+        "id": "opening-02",
+        "type": "opening",
+        "title": "Research trainee — neuroscience",
+        "openingId": "opening-02",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unpaid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-04",
+        "type": "opening",
+        "title": "Research trainee — public health",
+        "openingId": "opening-04",
+        "labId": "lab-04",
+        "labName": "Community Care Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-06",
+        "type": "opening",
+        "title": "Research trainee — environment",
+        "openingId": "opening-06",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-08",
+        "type": "opening",
+        "title": "Research trainee — history",
+        "openingId": "opening-08",
+        "labId": "lab-08",
+        "labName": "Language and Archives Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unpaid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-09",
+        "type": "opening",
+        "title": "Research trainee — organizations",
+        "openingId": "opening-09",
+        "labId": "lab-09",
+        "labName": "Decision and Organizations Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "unknown",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      },
+      {
+        "id": "opening-10",
+        "type": "opening",
+        "title": "Research trainee — social policy",
+        "openingId": "opening-10",
+        "labId": "lab-10",
+        "labName": "Youth and Neighborhoods Lab",
+        "status": "confirmed_opening",
+        "action": {
+          "kind": "preview_application",
+          "label": "Preview demo application",
+          "enabled": true
+        },
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "caveats": [
+          "Eligibility checked against synthetic fields; selection is never guaranteed"
+        ],
+        "minWeeklyHours": 6,
+        "compensation": "paid",
+        "confirmedAt": "2026-10-20",
+        "closesAt": "2026-11-15",
+        "synthetic": true
+      }
+    ],
+    "labs": [
+      {
+        "id": "lab-01",
+        "type": "lab",
+        "title": "Genome Signals Lab",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Current openings do not meet your confirmed constraints"
+        ],
+        "department": "Genetics and Genome Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-02",
+        "type": "lab",
+        "title": "Neural Learning Lab",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Psychological Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-03",
+        "type": "lab",
+        "title": "Soft Systems Robotics Lab",
+        "labId": "lab-03",
+        "labName": "Soft Systems Robotics Lab",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Current openings do not meet your confirmed constraints"
+        ],
+        "department": "Mechanical and Aerospace Engineering",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-04",
+        "type": "lab",
+        "title": "Community Care Lab",
+        "labId": "lab-04",
+        "labName": "Community Care Lab",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Nursing",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-05",
+        "type": "lab",
+        "title": "Molecular Pathways Lab",
+        "labId": "lab-05",
+        "labName": "Molecular Pathways Lab",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "Current openings do not meet your confirmed constraints"
+        ],
+        "department": "Biochemistry",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      },
+      {
+        "id": "lab-06",
+        "type": "lab",
+        "title": "Climate and Watersheds Lab",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [],
+        "department": "Earth, Environmental, and Planetary Sciences",
+        "confirmedAt": "2026-10-20",
+        "synthetic": true
+      }
+    ],
+    "people": [
+      {
+        "id": "person-01",
+        "type": "person",
+        "personId": "person-01",
+        "title": "Dr. Sage Whitman",
+        "labId": "lab-01",
+        "labName": "Genome Signals Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-02",
+        "type": "person",
+        "personId": "person-02",
+        "title": "Dr. Rowan Hart",
+        "labId": "lab-02",
+        "labName": "Neural Learning Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-03",
+        "type": "person",
+        "personId": "person-03",
+        "title": "Dr. Emery Vale",
+        "labId": "lab-03",
+        "labName": "Soft Systems Robotics Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-04",
+        "type": "person",
+        "personId": "person-04",
+        "title": "Dr. Drew Cameron",
+        "labId": "lab-04",
+        "labName": "Community Care Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-05",
+        "type": "person",
+        "personId": "person-05",
+        "title": "Dr. Alex Monroe",
+        "labId": "lab-05",
+        "labName": "Molecular Pathways Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "explore_lab",
+          "label": "Explore lab",
+          "enabled": true
+        },
+        "caveats": [
+          "General inquiries are unavailable; view research context only"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "person-06",
+        "type": "person",
+        "personId": "person-06",
+        "title": "Dr. Blair Sutton",
+        "labId": "lab-06",
+        "labName": "Climate and Watersheds Lab",
+        "role": "PI",
+        "status": "confirmed_opening",
+        "score": 0,
+        "components": {
+          "topics": 0,
+          "skills": 0,
+          "learning": 0,
+          "saved": 0
+        },
+        "reasons": [
+          "Exploratory suggestion: add interests or skills to personalize"
+        ],
+        "evidence": [],
+        "action": {
+          "kind": "preview_inquiry",
+          "label": "Preview demo inquiry",
+          "enabled": true
+        },
+        "caveats": [
+          "Contact permission is simulated; no message will be sent"
+        ],
+        "synthetic": true
+      }
+    ],
+    "excluded": [
+      {
+        "id": "opening-01",
+        "type": "opening",
+        "title": "Undergraduate research assistant — genetics",
+        "labId": "lab-01",
+        "reasons": [
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-03",
+        "type": "opening",
+        "title": "Undergraduate research assistant — robotics",
+        "labId": "lab-03",
+        "reasons": [
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed",
+          "Weekly hours exceed availability or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-05",
+        "type": "opening",
+        "title": "Undergraduate research assistant — cancer biology",
+        "labId": "lab-05",
+        "reasons": [
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-07",
+        "type": "opening",
+        "title": "Undergraduate research assistant — medical devices",
+        "labId": "lab-07",
+        "reasons": [
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-11",
+        "type": "opening",
+        "title": "Undergraduate research assistant — computational biology",
+        "labId": "lab-11",
+        "reasons": [
+          "Opening is paused",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-12",
+        "type": "opening",
+        "title": "Undergraduate research assistant — neuroscience",
+        "labId": "lab-12",
+        "reasons": [
+          "Opening is closed",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-14",
+        "type": "opening",
+        "title": "Research trainee — materials",
+        "labId": "lab-14",
+        "reasons": [
+          "Required schedule blocks conflict or are unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-15",
+        "type": "opening",
+        "title": "Expired genomics opening",
+        "labId": "lab-01",
+        "reasons": [
+          "Opening confirmation or deadline has expired",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-16",
+        "type": "opening",
+        "title": "Draft neuroscience opportunity",
+        "labId": "lab-02",
+        "reasons": [
+          "Opening is draft",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum research experience is not met",
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-17",
+        "type": "opening",
+        "title": "Unconfirmed metabolic modeling opportunity",
+        "labId": "lab-19",
+        "reasons": [
+          "Confirmation date unavailable or invalid",
+          "Academic year does not meet confirmed eligibility",
+          "Minimum experience requirement is unknown or invalid",
+          "Required skills are unknown or invalid",
+          "Weekly hours exceed availability or are unknown",
+          "Required schedule blocks conflict or are unknown",
+          "Required duration exceeds commitment or is unknown"
+        ],
+        "synthetic": true
+      },
+      {
+        "id": "opening-18",
+        "type": "opening",
+        "title": "Schedule-incompatible genomics role",
+        "labId": "lab-01",
+        "reasons": [
+          "One or more required skills are not confirmed"
+        ],
+        "synthetic": true
+      }
+    ],
+    "rankingVersion": "rules-demo-v1",
+    "asOf": "2026-10-27",
+    "synthetic": true
+  }
+]

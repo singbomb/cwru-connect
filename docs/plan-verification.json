@@ -1,0 +1,8 @@
+{
+  "checkedDate": "2026-10-27",
+  "requirementCount": 51,
+  "sourceHashMatches": true,
+  "missingRequirements": [],
+  "duplicatedRequirements": [],
+  "note": "Traceability and source-integrity verification; no product acceptance tests were executed."
+}

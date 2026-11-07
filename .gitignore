@@ -179,3 +179,15 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Research Connect: keep private input and local build artifacts out of Git.
+.env.*
+!.env.example
+data/raw/
+node_modules/
+.next/
+artifacts/tmp/
+.DS_Store
+
+# Local design-tool state.
+.impeccable/

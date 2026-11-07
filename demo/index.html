@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#003071">
+  <title>CWRU Connect | Your next connection</title>
+  <link rel="stylesheet" href="/demo/styles.css">
+  <link rel="stylesheet" href="/demo/shell.css">
+  <link rel="stylesheet" href="/demo/profile.css">
+  <script type="module" src="/demo/app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to main content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home"><img class="brand-logo" src="/demo/assets/cwru-spartan.svg" alt="CWRU Spartans" width="44" height="44"><span>CWRU Connect</span></a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a href="#home" data-route="home" aria-current="page">Home</a>
+        <a href="#jobs" data-route="jobs">Jobs</a>
+        <a href="#labs" data-route="labs">Find labs</a>
+        <a href="#network" data-route="network">Network</a>
+        <a href="#messages" data-route="messages">Messaging</a>
+      </nav>
+      <a class="profile-link" href="#profile" data-route="profile" aria-label="Your profile"><img src="/demo/assets/profile-avatar.jpg" alt="" width="40" height="40"></a>
+    </div>
+  </header>
+
+  <div class="load-container">
+    <p id="load-state" role="status">Loading research opportunities…</p>
+    <section id="load-error" class="error-state" role="alert" hidden>
+      <h1>Opportunities could not load</h1>
+      <p>Please refresh the page and try again.</p>
+      <button id="retry-load" class="button-primary" type="button">Try again</button>
+    </section>
+  </div>
+
+  <main id="app" class="app-shell" data-page="home" tabindex="-1" hidden>
+    <section id="home-landing" class="home-landing" aria-labelledby="home-title">
+      <div class="hero-copy">
+        <p class="hero-eyebrow">Your next chapter at Case</p>
+        <h1 id="home-title">Find your place in <span>CWRU research</span></h1>
+        <p class="hero-description">Find research that excites you. Meet the people behind it. Take your next step, right here at CWRU.</p>
+        <div class="hero-actions"><a class="button-primary" href="#jobs">Explore jobs <svg class="action-icon" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></a><a class="hero-secondary" href="#labs">Find a lab <svg class="action-icon" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></a></div>
+        <a class="scroll-link" href="#recommendations">Explore your recommendations <svg class="action-icon" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 4v12m-5-5 5 5 5-5"/></svg></a>
+      </div>
+      <div class="hero-board" aria-label="Your research starting point">
+        <div class="board-heading"><span>Your starting point</span></div>
+        <h2>Research matched to your interests</h2>
+        <div id="hero-interests" class="hero-interests"></div>
+        <a class="hero-match" href="#jobs"><span class="match-label">A role to explore</span><strong id="hero-role"></strong><span id="hero-lab"></span><span class="match-arrow"><svg class="action-icon" viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5"/></svg></span></a>
+        <div class="board-footer"><span>CWRU Connect</span><span>Labs and opportunities at Case</span></div>
+      </div>
+    </section>
+    <div id="recommendations" class="workspace">
+    <aside class="filters" aria-labelledby="profile-title">
+      <details id="profile-controls" open>
+        <summary class="mobile-filter-summary">Profile and filters</summary>
+      <section class="filter-section profile-section">
+        <h2 id="profile-title">Your profile</h2>
+        <label class="field-label" for="student">Profile</label>
+        <select id="student" name="student"></select>
+        <div id="profile-summary" class="profile-summary"></div>
+      </section>
+
+      <section class="filter-section" aria-labelledby="scenario-title" hidden>
+        <h2 id="scenario-title">Search preferences</h2>
+        <label class="field-label" for="scenario">Search preset</label>
+        <select id="scenario" name="scenario"></select>
+        <p id="scenario-note" class="subtle-note" hidden></p>
+      </section>
+
+      <details class="filter-section filter-disclosure">
+        <summary>Research interests</summary>
+        <fieldset id="topic-options" class="option-grid" aria-label="Research interests">
+          <legend class="visually-hidden">Research interests</legend>
+        </fieldset>
+      </details>
+
+      <details class="filter-section filter-disclosure availability-section" open>
+        <summary>Availability for openings</summary>
+        <label class="field-label" for="hours">Maximum hours per week</label>
+        <input id="hours" name="hours" type="number" min="0" max="40" step="1" inputmode="numeric" aria-describedby="hours-help filter-error">
+        <p id="hours-help" class="subtle-note">Use a whole number from 0 to 40.</p>
+        <p id="filter-error" class="field-error" role="alert" hidden></p>
+        <details class="schedule-disclosure">
+          <summary>Available time blocks</summary>
+          <fieldset id="schedule-options" class="option-grid" aria-label="Available time blocks for openings">
+            <legend class="visually-hidden">Available time blocks for openings</legend>
+          </fieldset>
+        </details>
+      </details>
+
+      <details class="filter-section filter-disclosure preferences-section" open>
+        <summary>Opportunity preferences</summary>
+        <label class="check-label" for="paid"><input id="paid" name="paid" type="checkbox"><span>Paid opportunities only</span></label>
+        <label class="check-label" for="beginner"><input id="beginner" name="beginner" type="checkbox"><span>Beginner-friendly only</span></label>
+      </details>
+
+      <div class="filter-section reset-section">
+        <button id="reset-profile" class="button-secondary" type="button">Reset profile preferences</button>
+        <button id="reset-feedback" class="button-quiet" type="button">Reset saved and hidden items</button>
+        <p id="feedback-note" class="subtle-note" role="status" hidden></p>
+      </div>
+      </details>
+    </aside>
+
+    <section class="discovery" aria-labelledby="discovery-title">
+      <div class="page-intro">
+        <h2 id="discovery-title" tabindex="-1">Recommended for you</h2>
+      </div>
+
+      <div class="feed-toolbar">
+        <label class="directory-search" for="directory-search"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="8" cy="8" r="5"/><path d="m12 12 5 5"/></svg><input id="directory-search" type="search" placeholder="Search opportunities" autocomplete="off"></label>
+        <label class="check-label saved-filter" for="saved-only"><input id="saved-only" name="saved-only" type="checkbox"><span>Saved only</span></label>
+      </div>
+      <p id="summary" class="results-summary" role="status" aria-live="polite" aria-atomic="true"></p>
+
+      <section id="preview" class="preview" aria-labelledby="preview-title" tabindex="-1" hidden>
+        <div class="preview-heading">
+          <h2 id="preview-title">Research details</h2>
+          <button id="close-preview" class="button-quiet" type="button">Close preview</button>
+        </div>
+        <div id="preview-content"></div>
+      </section>
+
+      <div id="results" class="results-sheet"></div>
+
+      <details id="excluded" class="support-disclosure">
+        <summary>Why some openings are hidden</summary>
+        <div id="exclusions"></div>
+      </details>
+
+      <details class="support-disclosure ranking-help">
+        <summary>How suggestions work</summary>
+        <p>Suggestions match your hard skills, interests, and availability. Save roles and labs to keep track of your search.</p>
+      </details>
+    </section>
+    </div>
+    <section id="messages-view" class="standalone-view" aria-labelledby="messages-title" hidden>
+      <div class="section-heading"><p class="section-eyebrow">Stay connected</p><h1 id="messages-title">Messaging</h1></div>
+      <div class="inbox-layout"><aside class="inbox-sidebar"><h2>Inbox</h2><p>No conversations yet</p></aside><div class="inbox-empty"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 10h32v23H22L12 41v-8H8Z"/><path d="M16 18h16M16 25h11"/></svg><h2>Your next conversation starts with a connection</h2><p>Find faculty and research contacts in your network.</p><a class="button-primary" href="#network">Explore your network</a></div></div>
+    </section>
+    <section id="profile-view" class="standalone-view" aria-labelledby="account-title" hidden>
+      <div class="section-heading"><h1 id="account-title">Your profile</h1></div>
+      <div class="profile-layout">
+        <div class="profile-main">
+          <section class="profile-card profile-intro" aria-labelledby="account-name">
+            <img class="profile-photo" src="/demo/assets/profile-avatar.jpg" alt="Profile photo" width="104" height="104">
+            <div><h2 id="account-name"></h2><p id="account-headline" class="account-headline"></p><p class="account-school">Case Western Reserve University</p><p class="account-location">Cleveland, Ohio</p></div>
+          </section>
+          <section class="profile-card" aria-labelledby="about-title">
+            <div class="profile-section-heading"><h2 id="about-title">About</h2><button id="edit-about" class="profile-edit" type="button" aria-label="Edit About">Edit</button></div>
+            <p id="account-about" class="about-copy"></p>
+            <form id="about-form" hidden><label class="field-label" for="about-input">About you</label><textarea id="about-input" rows="5" maxlength="2000" required></textarea><div class="profile-form-actions"><button class="button-primary" type="submit">Save changes</button><button id="cancel-about" class="button-quiet" type="button">Cancel</button></div></form>
+            <p id="about-status" class="profile-status" role="status" hidden></p>
+          </section>
+          <section class="profile-card" aria-labelledby="skills-title"><h2 id="skills-title">Hard skills</h2><ul id="account-skills" class="profile-tags"></ul></section>
+          <section class="profile-card" aria-labelledby="interests-title"><h2 id="interests-title">Interests</h2><ul id="account-interests" class="profile-tags profile-tags--interests"></ul></section>
+          <section class="profile-card" aria-labelledby="education-title"><h2 id="education-title">Education</h2><div class="education-entry"><img src="/demo/assets/cwru-spartan.svg" alt="" width="48" height="48"><div><h3>Case Western Reserve University</h3><p id="account-education"></p></div></div></section>
+        </div>
+        <aside class="profile-sidebar" aria-label="Profile documents and preferences">
+          <section class="profile-card" aria-labelledby="resume-title"><h2 id="resume-title">Resume</h2><p class="profile-help">Keep your experience and qualifications in one place.</p>
+            <div id="resume-empty" class="resume-empty"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M8 3h11l6 6v20H8Z"/><path d="M19 3v7h6M12 16h9M12 21h9"/></svg><p>Add your resume</p><span>PDF or DOCX · Up to 5 MB</span></div>
+            <div id="resume-attached" class="resume-attached" hidden><span class="resume-file-label">Resume</span><strong id="resume-filename"></strong><p id="resume-details"></p><div class="resume-file-actions"><a id="download-resume" download>Download</a><button id="remove-resume" type="button">Remove</button></div></div>
+            <label class="button-secondary resume-upload" for="resume-input"><span id="resume-upload-label">Add resume</span><input id="resume-input" type="file" accept=".pdf,.docx,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document"></label>
+            <p class="resume-storage-note">Saved on this device</p><p id="resume-status" class="profile-status" role="status" hidden></p>
+          </section>
+          <section class="profile-card" aria-labelledby="preferences-title"><h2 id="preferences-title">Research preferences</h2><dl class="profile-preferences"><div><dt>Availability</dt><dd id="account-hours"></dd></div><div><dt>Commitment</dt><dd id="account-commitment"></dd></div></dl><a href="#jobs" class="button-primary">Explore opportunities</a></section>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>CWRU Connect · Case Western Reserve University</p>
+  </footer>
+</body>
+</html>

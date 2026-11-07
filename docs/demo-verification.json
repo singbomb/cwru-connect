@@ -1,0 +1,44 @@
+{
+  "checkedDate": "2026-10-27",
+  "scope": "Local synthetic recommendation demonstration",
+  "browser": "Codex in-app browser",
+  "viewports": [
+    { "width": 1112, "height": 720, "horizontalOverflow": false },
+    { "width": 390, "height": 844, "horizontalOverflow": false }
+  ],
+  "browserChecksPassed": [
+    "Fixture load and computational-biology initial ranking",
+    "Engineering persona changes first opening to robotics",
+    "No-resume beginner discovers neuroscience training without confirmed skills",
+    "Cold-start suggestions are explicitly exploratory",
+    "No-match scenario returns zero result rows with recovery guidance",
+    "Save and saved-only view",
+    "Saved feedback persists after reload",
+    "Dismiss and feedback reset",
+    "Already-contacted feedback explicitly sends no message",
+    "Separate authorized-people feed",
+    "Inline preview explicitly submits and sends nothing",
+    "Closing preview restores focus to its trigger",
+    "Empty-state restore focuses a stable view control",
+    "Blank hours shows recoverable error and aria-invalid while retaining previous results",
+    "Profile and schedule fieldsets retain accessible labels",
+    "Mobile filters collapse and show active profile identity"
+  ],
+  "serverChecksPassed": [
+    "Root demo GET returns 200",
+    "POST returns 405",
+    "Direct access to source PRD returns 404",
+    "Encoded traversal from demo to source PRD returns 404"
+  ],
+  "captures": [
+    ".impeccable/review/desktop.png",
+    ".impeccable/review/mobile.png",
+    ".impeccable/review/mobile-people.png",
+    ".impeccable/review/mobile-no-match.png"
+  ],
+  "limits": [
+    "No production authorization, live recruiting, real resume extraction, or message/application delivery was implemented or tested",
+    "Manual screen-reader, complete keyboard journey, 200 percent zoom, and full WCAG conformance assessment remain future checks",
+    "Synthetic regression checks do not establish real recommendation relevance or placement impact"
+  ]
+}

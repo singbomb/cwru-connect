@@ -1,0 +1,537 @@
+{
+  "synthetic": true,
+  "asOf": "2026-10-27",
+  "rankingVersion": "rules-demo-v1",
+  "passed": 131,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "students: unique stable IDs",
+      "passed": true
+    },
+    {
+      "name": "students: every record marked synthetic",
+      "passed": true
+    },
+    {
+      "name": "students: CSV export exists",
+      "passed": true
+    },
+    {
+      "name": "labs: unique stable IDs",
+      "passed": true
+    },
+    {
+      "name": "labs: every record marked synthetic",
+      "passed": true
+    },
+    {
+      "name": "labs: CSV export exists",
+      "passed": true
+    },
+    {
+      "name": "openings: unique stable IDs",
+      "passed": true
+    },
+    {
+      "name": "openings: every record marked synthetic",
+      "passed": true
+    },
+    {
+      "name": "openings: CSV export exists",
+      "passed": true
+    },
+    {
+      "name": "people: unique stable IDs",
+      "passed": true
+    },
+    {
+      "name": "people: every record marked synthetic",
+      "passed": true
+    },
+    {
+      "name": "people: CSV export exists",
+      "passed": true
+    },
+    {
+      "name": "scenarios: unique stable IDs",
+      "passed": true
+    },
+    {
+      "name": "scenarios: every record marked synthetic",
+      "passed": true
+    },
+    {
+      "name": "scenarios: CSV export exists",
+      "passed": true
+    },
+    {
+      "name": "Dataset sizes match demo design",
+      "passed": true
+    },
+    {
+      "name": "Foreign keys resolve",
+      "passed": true
+    },
+    {
+      "name": "Contacts use reserved invalid domain",
+      "passed": true
+    },
+    {
+      "name": "Snapshot date and ranking version are frozen",
+      "passed": true
+    },
+    {
+      "name": "Computational persona leads with genomics opening",
+      "passed": true
+    },
+    {
+      "name": "Robotics persona leads with robotics opening",
+      "passed": true
+    },
+    {
+      "name": "Interests change research exploration order",
+      "passed": true
+    },
+    {
+      "name": "No-resume beginner receives relevant training",
+      "passed": true
+    },
+    {
+      "name": "Beginner-only results have explicit beginner eligibility",
+      "passed": true
+    },
+    {
+      "name": "No-profile suggestions disclose exploration",
+      "passed": true
+    },
+    {
+      "name": "Tight paid schedule produces honest no-opening state",
+      "passed": true
+    },
+    {
+      "name": "Relevant closed lab remains exploration only",
+      "passed": true
+    },
+    {
+      "name": "Every suggestion has reasons, caveats, and safe action",
+      "passed": true
+    },
+    {
+      "name": "Schedule conflict wins over topical relevance",
+      "passed": true
+    },
+    {
+      "name": "Expired, paused, closed, and draft openings never actionable",
+      "passed": true
+    },
+    {
+      "name": "Required skills cannot be inferred from interests",
+      "passed": true
+    },
+    {
+      "name": "Insufficient academic year and experience excluded",
+      "passed": true
+    },
+    {
+      "name": "Unknown required facts excluded",
+      "passed": true
+    },
+    {
+      "name": "Paid-only excludes unpaid and unknown compensation",
+      "passed": true
+    },
+    {
+      "name": "Paid-only exploration supported by eligible paid opening",
+      "passed": true
+    },
+    {
+      "name": "Unknown schedule fails availability constraint",
+      "passed": true
+    },
+    {
+      "name": "An expired deadline is rejected at exact boundary",
+      "passed": true
+    },
+    {
+      "name": "Thirty-day confirmation expires at exact boundary",
+      "passed": true
+    },
+    {
+      "name": "Identity, GPA, private messages, and sensitive traits do not affect order",
+      "passed": true
+    },
+    {
+      "name": "Identity fields do not affect score or explanations",
+      "passed": true
+    },
+    {
+      "name": "Unconfirmed extracted skill cannot influence result",
+      "passed": true
+    },
+    {
+      "name": "Confirmed extracted skill can support explanation",
+      "passed": true
+    },
+    {
+      "name": "Every suggested person has verified authority and claimed account",
+      "passed": true
+    },
+    {
+      "name": "Unverified and unauthorized people omitted",
+      "passed": true
+    },
+    {
+      "name": "Inquiry previews require lab and person consent",
+      "passed": true
+    },
+    {
+      "name": "opportunities: dismiss hides item",
+      "passed": true
+    },
+    {
+      "name": "opportunities: already contacted hides item",
+      "passed": true
+    },
+    {
+      "name": "opportunities: reset restores original results",
+      "passed": true
+    },
+    {
+      "name": "labs: dismiss hides item",
+      "passed": true
+    },
+    {
+      "name": "labs: already contacted hides item",
+      "passed": true
+    },
+    {
+      "name": "labs: reset restores original results",
+      "passed": true
+    },
+    {
+      "name": "people: dismiss hides item",
+      "passed": true
+    },
+    {
+      "name": "people: already contacted hides item",
+      "passed": true
+    },
+    {
+      "name": "people: reset restores original results",
+      "passed": true
+    },
+    {
+      "name": "Saved item is an explicit bounded ranking input",
+      "passed": true
+    },
+    {
+      "name": "Saved item cannot bypass required opening constraints",
+      "passed": true
+    },
+    {
+      "name": "Recompute after closure prevents stale opening recommendation",
+      "passed": true
+    },
+    {
+      "name": "Expired lab claim cannot remain a confirmed vacancy",
+      "passed": true
+    },
+    {
+      "name": "Active constraint mismatch differs from inventory expiry",
+      "passed": true
+    },
+    {
+      "name": "Fixed inputs give deterministic outputs",
+      "passed": true
+    },
+    {
+      "name": "Invalid calendar date rejected: invalid",
+      "passed": true
+    },
+    {
+      "name": "Invalid calendar date rejected: ",
+      "passed": true
+    },
+    {
+      "name": "Invalid calendar date rejected: 2026-02-30",
+      "passed": true
+    },
+    {
+      "name": "Invalid calendar date rejected: 2026-13-01",
+      "passed": true
+    },
+    {
+      "name": "Invalid calendar date rejected: 2026-1-01",
+      "passed": true
+    },
+    {
+      "name": "Invalid calendar date rejected: null",
+      "passed": true
+    },
+    {
+      "name": "Invalid calendar date rejected: 123",
+      "passed": true
+    },
+    {
+      "name": "Invalid maxWeeklyHours rejected: NaN",
+      "passed": true
+    },
+    {
+      "name": "Invalid maxWeeklyHours rejected: Infinity",
+      "passed": true
+    },
+    {
+      "name": "Invalid maxWeeklyHours rejected: -1",
+      "passed": true
+    },
+    {
+      "name": "Invalid maxWeeklyHours rejected: 169",
+      "passed": true
+    },
+    {
+      "name": "Invalid maxWeeklyHours rejected: 10",
+      "passed": true
+    },
+    {
+      "name": "Invalid maxWeeklyHours rejected: null",
+      "passed": true
+    },
+    {
+      "name": "Invalid minimumCommitmentMonths rejected: NaN",
+      "passed": true
+    },
+    {
+      "name": "Invalid minimumCommitmentMonths rejected: Infinity",
+      "passed": true
+    },
+    {
+      "name": "Invalid minimumCommitmentMonths rejected: -1",
+      "passed": true
+    },
+    {
+      "name": "Invalid minimumCommitmentMonths rejected: 121",
+      "passed": true
+    },
+    {
+      "name": "Invalid minimumCommitmentMonths rejected: 6",
+      "passed": true
+    },
+    {
+      "name": "Invalid minimumCommitmentMonths rejected: null",
+      "passed": true
+    },
+    {
+      "name": "Invalid limit rejected: NaN",
+      "passed": true
+    },
+    {
+      "name": "Invalid limit rejected: Infinity",
+      "passed": true
+    },
+    {
+      "name": "Invalid limit rejected: -1",
+      "passed": true
+    },
+    {
+      "name": "Invalid limit rejected: 0",
+      "passed": true
+    },
+    {
+      "name": "Invalid limit rejected: 1.5",
+      "passed": true
+    },
+    {
+      "name": "Invalid limit rejected: 1001",
+      "passed": true
+    },
+    {
+      "name": "Invalid limit rejected: 6",
+      "passed": true
+    },
+    {
+      "name": "Invalid limit rejected: null",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"topics\":\"genetics\"}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"topics\":[3]}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"topics\":null}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"scheduleBlocks\":[\"invalid\"]}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"scheduleBlocks\":null}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"feedback\":[]}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"feedback\":null}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"weights\":null}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"feedback\":{\"dismissed\":[null]}}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"feedback\":{\"dismissed\":null}}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"saved\":\"lab:lab-01\"}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"paidOnly\":\"false\"}",
+      "passed": true
+    },
+    {
+      "name": "Malformed option rejected: {\"beginnerOnly\":null}",
+      "passed": true
+    },
+    {
+      "name": "Invalid weight rejected: topics",
+      "passed": true
+    },
+    {
+      "name": "Invalid weight rejected: skills",
+      "passed": true
+    },
+    {
+      "name": "Invalid weight rejected: learning",
+      "passed": true
+    },
+    {
+      "name": "Invalid weight rejected: saved",
+      "passed": true
+    },
+    {
+      "name": "Invalid weight rejected: unknown",
+      "passed": true
+    },
+    {
+      "name": "Valid leap-day date remains usable",
+      "passed": true
+    },
+    {
+      "name": "Duplicate topic values cannot inflate relevance",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening deadline fails closed",
+      "passed": true
+    },
+    {
+      "name": "Opening dismissal does not hide related lab or people under strict filters",
+      "passed": true
+    },
+    {
+      "name": "Lab dismissal does not hide related people or openings",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening minWeeklyHours fails closed: NaN",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening minWeeklyHours fails closed: Infinity",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening minWeeklyHours fails closed: -1",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening minWeeklyHours fails closed: 169",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening minWeeklyHours fails closed: eight",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening commitmentMonths fails closed: NaN",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening commitmentMonths fails closed: Infinity",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening commitmentMonths fails closed: -1",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening commitmentMonths fails closed: 121",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening commitmentMonths fails closed: six",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening requiredExperienceMonths fails closed: NaN",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening requiredExperienceMonths fails closed: Infinity",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening requiredExperienceMonths fails closed: -1",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening requiredExperienceMonths fails closed: 1201",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening requiredExperienceMonths fails closed: three",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening allowedYears fails closed: 2",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening allowedYears fails closed: 2,3",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening requiredSkills fails closed: Python",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening requiredSkills fails closed: 3",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening requiredBlocks fails closed: mon_pm",
+      "passed": true
+    },
+    {
+      "name": "Malformed opening requiredBlocks fails closed: 3",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Synthetic invariants only; no real recommendation quality, adoption, fairness, security, or placement outcome has been established.",
+    "This validator does not test browser rendering or production authentication."
+  ]
+}

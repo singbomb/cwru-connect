@@ -1,0 +1,52 @@
+requirement_id,release,phase,implementation,verification
+AUTH-1,R1,P1,Separate CWRU affiliation and undergraduate verification; enforce protected access server-side,Reject unrelated domains and unverified or disputed undergraduate roles
+AUTH-2,R1,P1,Verify PI ownership and explicit per-lab recruiter delegation,Verified email cannot claim unrelated lab or read its applicants
+AUTH-3,R1,P3,Optional enrichment with interests and availability; allow immediate browsing,First-year skips resume and experience entry and reaches search
+AUTH-4,R1,P1+P7,Sign-out and recovery plus accountable export/deletion request path,Revoked session fails; requests expose only own account and reach operator
+PROF-1,R1,P3,Private editable interests coursework skills projects experience graduation availability and preferences,Student edits manual fields independently of any resume
+PROF-2,R1,P3,Private PDF/DOCX intake with size/type/safety checks and consent before third-party parsing,Unsupported unsafe unreadable or oversized input fails recoverably; manual entry remains
+PROF-3,R1,P3,Source-referenced extraction draft with explicit confirmation before use,Wrong facts can be edited; unconfirmed extracted qualification never reaches matching or sharing
+PROF-4,R1,P3,Processing states plus replace/delete propagation and authorized file-download revocation,Failed parse preserves search; old application download fails after resume deletion
+PROF-5,R1,P4,Explicit scoring allowlist excludes identity contact photos sensitive inference and GPA,Identity/contact/GPA-only mutation leaves recommendation order unchanged
+LAB-1,R1,P2,CWRU-wide canonical catalog with provenance last-checked date and unclaimed state,Labs without openings remain discoverable; listing never implies recruiting or complete coverage
+LAB-2,R1,P2,Authorized lab correction workflow with supervision tasks training provenance and audit,Unrelated lab member cannot edit; correction preserves source and change history
+LAB-3,R1,P2,Sourced publication identifiers with author attribution state dates venues and preprint labels,Ambiguous attribution stays unconfirmed and excluded from attributed counts
+LAB-4,R1,P2,Research output context separate from mentorship; counts state period and coverage,No prestige ranking or publication guarantee; missing data remains unavailable rather than zero
+LAB-5,R1,P2,Evidence and permission fields for undergraduate posters papers and projects,PI publication alone never becomes confirmed undergraduate participation
+OPEN-1,R1,P2,Structured listing editor with required/preferred skills tasks training practical fit compensation eligibility contact and route,Incomplete required fields block publication; unknown compensation/training is not invented
+OPEN-2,R1,P2,Explicit lab and opening status with confirmation date and status-derived action,Inquiry-only lab exposes inquiry rather than Apply; active opening shown separately
+OPEN-3,R1,P2+P5,Earlier freshness/deadline expiry enforced on read and transactional submit plus scheduler,Application started before expiry but submitted after it fails; scheduler failure cannot permit stale submit
+OPEN-4,R1,P2,Draft publish pause close reuse and reconfirm lifecycle preserving submissions,Closing removes application action without erasing applicant history
+OPEN-5,R1,P2+P5,Portal default with explicit external destination and handoff event,External click never creates a verified portal submission or employer decision
+SEARCH-1,R1,P4,Dependable text search over lab PI department topics methods openings and sourced publication descriptions,Exact name works without AI; genetics using Python query returns supporting evidence
+SEARCH-2,R1,P4,Explicit strict discovery filters constrain both feeds; profile availability defaults to opening actionability,Known mismatches and unknown strict fields excluded; exploratory practical-fit unknowns never labeled compatible
+SEARCH-3,R1,P4,Typed lab/opening results with evidence provenance status and relevance ordering,Unknown lab cannot appear as actionable vacancy; no popularity ordering
+SEARCH-4,R1,P4,Loading incomplete-data no-match and service-failure states with intentional broadening and text fallback,Weak match never labeled strong; recommendation/semantic failure leaves keyword search usable
+SEARCH-5,R1,P4,Student-private saves plus side-by-side practical comparison and stacked mobile view,Closed saved item remains visibly closed; another student cannot read saves
+REC-1,R1,P4,Separate lab/opening and verified PI/recruiter suggestion feeds,Both feeds present including honest insufficient-data state; student peers absent in R1
+REC-2,R1,P3+P4,Confirmed-fact and explicit-interest rules with private saved topics and feedback signals,No-resume student receives supported interest or clearly labeled exploratory suggestions
+REC-3,R1,P4,Hard constraints before ranking; profile hours/schedule gate opening actions while selected strict discovery filters gate both feeds,Relevant closed lab remains exploration only; unknown fails explicit strict filter and never implies practical compatibility
+REC-4,R1,P4,Evidence-grounded reasons missing facts outstanding requirements and beginner pathways,Project evidence supports only confirmed skill; no unsupported prerequisites selection or match-percentage claim
+REC-5,R1,P4,Save dismiss already-contacted preference edits reset and status/profile recomputation,Dismissal persists until reset or disclosed material change; closed status invalidates cached application action
+REC-6,R1,P4,People show relevant lab verified role evidence and permitted contact action,Unclaimed contact not messaging-enabled; private membership and student documents never exposed
+REC-7,R1,P4,Versioned allowed-input traces with no message review-author sensitive paid or popularity features,Inspect scoring trace and analytics for excluded inputs and raw resume text
+APP-1,R1,P5,Explicit preview of receiving lab selected resume confirmed profile and short specific response,Submission requires deliberate student action and exact sharing preview
+APP-2,R1,P5,Immutable submitted facts and revocable file reference with event history,Later profile edit affects future submission only; deleted resume cannot be downloaded from old snapshot
+APP-3,R1,P5,Actor-scoped transitions and separate start confirmation; waiting/follow-up/closed follow-up states do not invent decisions,Only allowed actors transition; receipts/reminders are not substantive responses; acceptance is not start
+APP-4,R1,P5,Assigned-lab queues shortlisting private notes and delegation without automated rejection,Cross-lab applicant/note reads fail; no model-triggered rejection or admission
+APP-5,R1,P5,Transactional idempotent submission uniqueness receipt withdrawal and event log,Retry/double-click creates one application; submit-time closed listing fails recoverably
+APP-6,R1,P5,Separate external tracking provenance; accountable delegate/operator and proposed bounded follow-up due-time policy,External click cannot advance outcomes; due time is not reply guarantee; reminder opt-out and closure preserve application truth
+MSG-1,R1,P6,Private lab/application conversations with authorized participants and inquiry opt-in,Unclaimed unverified or inquiry-closed contact exposes accurate alternative action
+MSG-2,R1,P6,Membership checks text messages restricted reports blocking and server initiation limits,Guessed conversation ID denied; repeated unsolicited initiation rate-limited
+MSG-3,R1,P6,Idempotent outbox retry minimal email preferences and bounded follow-up reminders/escalation,Failure preserves in-app event; no sensitive email text; repeated jobs respect reminder limits opt-out and closure
+MSG-4,R1,P6,Visible responding authorized member and separate recruiter-note storage,Student distinguishes human response from automated acknowledgment; notes absent from student message response
+SUP-1,R1,P7,Official research funding and credit guidance links with separate compensation/credit labels,No credit approval or simultaneous pay/credit eligibility claim
+MOD-1,R1,P7,Report controls and restricted target-specific queue with acknowledgment,Reporter receives receipt without queue content or other reporter identities
+MOD-2,R1,P7,Conduct correction appeal and audited moderation workflows,Unauthorized recruiting restricted while unrelated applications retained; appeal path functions
+MOD-3,R1,P1+P7,Named sensitive-support scopes purpose requirement and privileged audit,Routine moderator cannot browse resumes/messages; support access reason and action logged
+REV-1,R2A,R2A,Structured supervisory experience feedback separated from research output,No undifferentiated PI score or journal-to-mentorship scoring
+REV-2,R2A,R2A,Independent lab-experience verification with identity/evidence isolated from publication,Academic email alone insufficient; PI cannot veto reviewer eligibility
+REV-3,R2A,R2A,Undergraduate-only reading with no reviewer identity and limited disclosure precision,Faculty/recruiter credentials denied; student-only access never described as guaranteed anonymity
+REV-4,R2A,R2A,Independent contributor floor plus re-identification assessment moderation and suppression,Sparse unsafe or identifying data withheld even if proposed contributor count met; no fake ratings
+PEER-1,R2B,R2B,Default-off minimal researcher profiles eligibility consent withdrawal requests and controls,Non-opted-in students absent; withdrawing consent removes discoverability
+PEER-2,R2B,R2B,Peer channel isolated from applications recruiting and review identity,Peer profile and recommendations cannot reveal private application or review authorship

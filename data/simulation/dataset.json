@@ -1,0 +1,2292 @@
+{
+  "metadata": {
+    "title": "CWRU Research Connect fictional simulation",
+    "asOf": "2026-10-27",
+    "seed": 20261027,
+    "rankingVersion": "rules-demo-v1",
+    "weights": {
+      "topics": 5,
+      "skills": 3,
+      "learning": 2,
+      "saved": 1
+    },
+    "synthetic": true,
+    "warning": "Fictional demonstration only. No real people, labs, openings, recruiting authority, or placement outcomes.",
+    "topics": [
+      "accessibility",
+      "cancer biology",
+      "cell biology",
+      "computational biology",
+      "digital humanities",
+      "drug discovery",
+      "ecology",
+      "education",
+      "engineering",
+      "environment",
+      "genetics",
+      "health equity",
+      "history",
+      "human computer interaction",
+      "immunology",
+      "materials",
+      "mathematics",
+      "medical devices",
+      "medical imaging",
+      "music",
+      "networks",
+      "neuroscience",
+      "organizations",
+      "psychology",
+      "public health",
+      "robotics",
+      "social policy"
+    ],
+    "scheduleBlocks": [
+      "mon_am",
+      "mon_pm",
+      "tue_am",
+      "tue_pm",
+      "wed_am",
+      "wed_pm",
+      "thu_am",
+      "thu_pm",
+      "fri_am",
+      "fri_pm"
+    ],
+    "scheduleLabels": {
+      "mon_am": "Monday morning",
+      "mon_pm": "Monday afternoon",
+      "tue_am": "Tuesday morning",
+      "tue_pm": "Tuesday afternoon",
+      "wed_am": "Wednesday morning",
+      "wed_pm": "Wednesday afternoon",
+      "thu_am": "Thursday morning",
+      "thu_pm": "Thursday afternoon",
+      "fri_am": "Friday morning",
+      "fri_pm": "Friday afternoon"
+    }
+  },
+  "students": [
+    {
+      "id": "student-01",
+      "name": "Avery Chen",
+      "label": "Computational biology explorer",
+      "year": 2,
+      "interests": [
+        "genetics",
+        "computational biology"
+      ],
+      "skills": [
+        "Python",
+        "statistics"
+      ],
+      "learningGoals": [
+        "genomics",
+        "modeling"
+      ],
+      "maxWeeklyHours": 10,
+      "scheduleBlocks": [
+        "mon_pm",
+        "wed_pm",
+        "fri_pm"
+      ],
+      "commitmentMonths": 9,
+      "experienceMonths": 3,
+      "undergraduateVerified": true,
+      "resumeStatus": "manual_profile",
+      "resumeFacts": [],
+      "preferences": {
+        "paidOnly": false
+      },
+      "synthetic": true
+    },
+    {
+      "id": "student-02",
+      "name": "Morgan Ellis",
+      "label": "First-year exploring neuroscience",
+      "year": 1,
+      "interests": [
+        "neuroscience",
+        "psychology"
+      ],
+      "skills": [],
+      "learningGoals": [
+        "behavioral methods",
+        "data analysis"
+      ],
+      "maxWeeklyHours": 6,
+      "scheduleBlocks": [
+        "tue_am",
+        "thu_am"
+      ],
+      "commitmentMonths": 6,
+      "experienceMonths": 0,
+      "undergraduateVerified": true,
+      "resumeStatus": "not_uploaded",
+      "resumeFacts": [
+        {
+          "kind": "skill",
+          "value": "Python",
+          "confirmed": false,
+          "source": "fictional resume draft",
+          "synthetic": true
+        }
+      ],
+      "preferences": {
+        "paidOnly": false
+      },
+      "synthetic": true
+    },
+    {
+      "id": "student-03",
+      "name": "Devon Reed",
+      "label": "Engineering builder",
+      "year": 3,
+      "interests": [
+        "robotics",
+        "medical devices"
+      ],
+      "skills": [
+        "CAD",
+        "Python",
+        "prototyping"
+      ],
+      "learningGoals": [
+        "robotics",
+        "device testing"
+      ],
+      "maxWeeklyHours": 12,
+      "scheduleBlocks": [
+        "tue_pm",
+        "thu_pm",
+        "fri_pm"
+      ],
+      "commitmentMonths": 12,
+      "experienceMonths": 6,
+      "undergraduateVerified": true,
+      "resumeStatus": "manual_profile",
+      "resumeFacts": [],
+      "preferences": {
+        "paidOnly": false
+      },
+      "synthetic": true
+    },
+    {
+      "id": "student-04",
+      "name": "Jamie Brooks",
+      "label": "Community health beginner",
+      "year": 2,
+      "interests": [
+        "health equity",
+        "public health"
+      ],
+      "skills": [
+        "interviewing",
+        "writing"
+      ],
+      "learningGoals": [
+        "community research",
+        "qualitative coding"
+      ],
+      "maxWeeklyHours": 8,
+      "scheduleBlocks": [
+        "mon_am",
+        "wed_am",
+        "fri_am"
+      ],
+      "commitmentMonths": 6,
+      "experienceMonths": 0,
+      "undergraduateVerified": true,
+      "resumeStatus": "manual_profile",
+      "resumeFacts": [],
+      "preferences": {
+        "paidOnly": false
+      },
+      "synthetic": true
+    },
+    {
+      "id": "student-05",
+      "name": "Taylor Quinn",
+      "label": "Digital humanities researcher",
+      "year": 2,
+      "interests": [
+        "history",
+        "digital humanities",
+        "music"
+      ],
+      "skills": [
+        "writing",
+        "archival research"
+      ],
+      "learningGoals": [
+        "text analysis",
+        "archival research"
+      ],
+      "maxWeeklyHours": 8,
+      "scheduleBlocks": [
+        "mon_pm",
+        "wed_pm"
+      ],
+      "commitmentMonths": 6,
+      "experienceMonths": 0,
+      "undergraduateVerified": true,
+      "resumeStatus": "manual_profile",
+      "resumeFacts": [],
+      "preferences": {
+        "paidOnly": false
+      },
+      "synthetic": true
+    },
+    {
+      "id": "student-06",
+      "name": "Skyler Jordan",
+      "label": "Environmental data analyst",
+      "year": 3,
+      "interests": [
+        "environment",
+        "ecology"
+      ],
+      "skills": [
+        "R",
+        "GIS",
+        "statistics"
+      ],
+      "learningGoals": [
+        "field sampling",
+        "data analysis"
+      ],
+      "maxWeeklyHours": 10,
+      "scheduleBlocks": [
+        "tue_am",
+        "thu_am",
+        "fri_am"
+      ],
+      "commitmentMonths": 9,
+      "experienceMonths": 3,
+      "undergraduateVerified": true,
+      "resumeStatus": "manual_profile",
+      "resumeFacts": [],
+      "preferences": {
+        "paidOnly": false
+      },
+      "synthetic": true
+    },
+    {
+      "id": "student-07",
+      "name": "Reese Parker",
+      "label": "Paid research with limited time",
+      "year": 1,
+      "interests": [
+        "genetics",
+        "neuroscience"
+      ],
+      "skills": [
+        "Python"
+      ],
+      "learningGoals": [
+        "genomics"
+      ],
+      "maxWeeklyHours": 3,
+      "scheduleBlocks": [
+        "fri_pm"
+      ],
+      "commitmentMonths": 3,
+      "experienceMonths": 0,
+      "undergraduateVerified": true,
+      "resumeStatus": "manual_profile",
+      "resumeFacts": [],
+      "preferences": {
+        "paidOnly": true
+      },
+      "synthetic": true
+    },
+    {
+      "id": "student-08",
+      "name": "Robin Lee",
+      "label": "New student still choosing interests",
+      "year": 1,
+      "interests": [],
+      "skills": [],
+      "learningGoals": [],
+      "maxWeeklyHours": 8,
+      "scheduleBlocks": [
+        "mon_am",
+        "mon_pm",
+        "tue_am",
+        "tue_pm",
+        "wed_am",
+        "wed_pm",
+        "thu_am",
+        "thu_pm",
+        "fri_am",
+        "fri_pm"
+      ],
+      "commitmentMonths": 6,
+      "experienceMonths": 0,
+      "undergraduateVerified": true,
+      "resumeStatus": "not_uploaded",
+      "resumeFacts": [],
+      "preferences": {
+        "paidOnly": false
+      },
+      "synthetic": true
+    }
+  ],
+  "labs": [
+    {
+      "id": "lab-01",
+      "name": "Genome Signals Lab",
+      "school": "School of Medicine",
+      "department": "Genetics and Genome Sciences",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "genetics",
+        "computational biology"
+      ],
+      "preferredSkills": [
+        "Python",
+        "R"
+      ],
+      "learnableSkills": [
+        "data analysis",
+        "genomics"
+      ],
+      "description": "A fictional research group exploring genetics and computational biology. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-1",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-02",
+      "name": "Neural Learning Lab",
+      "school": "College of Arts and Sciences",
+      "department": "Psychological Sciences",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "neuroscience",
+        "psychology"
+      ],
+      "preferredSkills": [
+        "statistics",
+        "Python"
+      ],
+      "learnableSkills": [
+        "behavioral methods",
+        "data analysis"
+      ],
+      "description": "A fictional research group exploring neuroscience and psychology. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-2",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-03",
+      "name": "Soft Systems Robotics Lab",
+      "school": "Case School of Engineering",
+      "department": "Mechanical and Aerospace Engineering",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "robotics",
+        "engineering"
+      ],
+      "preferredSkills": [
+        "CAD",
+        "Python"
+      ],
+      "learnableSkills": [
+        "prototyping",
+        "robotics"
+      ],
+      "description": "A fictional research group exploring robotics and engineering. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-3",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-04",
+      "name": "Community Care Lab",
+      "school": "Frances Payne Bolton School of Nursing",
+      "department": "Nursing",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "public health",
+        "health equity"
+      ],
+      "preferredSkills": [
+        "interviewing",
+        "statistics"
+      ],
+      "learnableSkills": [
+        "qualitative coding",
+        "community research"
+      ],
+      "description": "A fictional research group exploring public health and health equity. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-4",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-05",
+      "name": "Molecular Pathways Lab",
+      "school": "School of Medicine",
+      "department": "Biochemistry",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "cancer biology",
+        "cell biology"
+      ],
+      "preferredSkills": [
+        "pipetting",
+        "microscopy"
+      ],
+      "learnableSkills": [
+        "cell culture",
+        "imaging"
+      ],
+      "description": "A fictional research group exploring cancer biology and cell biology. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": false,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-5",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-06",
+      "name": "Climate and Watersheds Lab",
+      "school": "College of Arts and Sciences",
+      "department": "Earth, Environmental, and Planetary Sciences",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "environment",
+        "ecology"
+      ],
+      "preferredSkills": [
+        "GIS",
+        "R"
+      ],
+      "learnableSkills": [
+        "field sampling",
+        "data analysis"
+      ],
+      "description": "A fictional research group exploring environment and ecology. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-6",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-07",
+      "name": "Human Centered Devices Lab",
+      "school": "Case School of Engineering",
+      "department": "Biomedical Engineering",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "medical devices",
+        "engineering"
+      ],
+      "preferredSkills": [
+        "CAD",
+        "prototyping"
+      ],
+      "learnableSkills": [
+        "device testing",
+        "research design"
+      ],
+      "description": "A fictional research group exploring medical devices and engineering. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-7",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-08",
+      "name": "Language and Archives Lab",
+      "school": "College of Arts and Sciences",
+      "department": "History",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "history",
+        "digital humanities"
+      ],
+      "preferredSkills": [
+        "writing",
+        "archival research"
+      ],
+      "learnableSkills": [
+        "text analysis",
+        "archival research"
+      ],
+      "description": "A fictional research group exploring history and digital humanities. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-8",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-09",
+      "name": "Decision and Organizations Lab",
+      "school": "Weatherhead School of Management",
+      "department": "Organizational Behavior",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "organizations",
+        "psychology"
+      ],
+      "preferredSkills": [
+        "statistics",
+        "survey design"
+      ],
+      "learnableSkills": [
+        "research design",
+        "data analysis"
+      ],
+      "description": "A fictional research group exploring organizations and psychology. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-9",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-10",
+      "name": "Youth and Neighborhoods Lab",
+      "school": "Jack, Joseph and Morton Mandel School of Applied Social Sciences",
+      "department": "Social Work",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "social policy",
+        "health equity"
+      ],
+      "preferredSkills": [
+        "interviewing",
+        "writing"
+      ],
+      "learnableSkills": [
+        "qualitative coding",
+        "community research"
+      ],
+      "description": "A fictional research group exploring social policy and health equity. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-10",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-11",
+      "name": "Protein Design Lab",
+      "school": "School of Medicine",
+      "department": "Pharmacology",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "computational biology",
+        "drug discovery"
+      ],
+      "preferredSkills": [
+        "Python",
+        "chemistry"
+      ],
+      "learnableSkills": [
+        "molecular modeling",
+        "data analysis"
+      ],
+      "description": "A fictional research group exploring computational biology and drug discovery. Demonstration content only.",
+      "recruitingStatus": "accepting_inquiries",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-11",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-12",
+      "name": "Brain Imaging Methods Lab",
+      "school": "School of Medicine",
+      "department": "Neurosciences",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "neuroscience",
+        "medical imaging"
+      ],
+      "preferredSkills": [
+        "Python",
+        "statistics"
+      ],
+      "learnableSkills": [
+        "imaging",
+        "data analysis"
+      ],
+      "description": "A fictional research group exploring neuroscience and medical imaging. Demonstration content only.",
+      "recruitingStatus": "not_recruiting",
+      "acceptsInquiries": false,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-12",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-13",
+      "name": "Accessible Computing Lab",
+      "school": "Case School of Engineering",
+      "department": "Computer and Data Sciences",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "accessibility",
+        "human computer interaction"
+      ],
+      "preferredSkills": [
+        "JavaScript",
+        "research design"
+      ],
+      "learnableSkills": [
+        "usability testing",
+        "prototyping"
+      ],
+      "description": "A fictional research group exploring accessibility and human computer interaction. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-13",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-14",
+      "name": "Sustainable Polymers Lab",
+      "school": "Case School of Engineering",
+      "department": "Macromolecular Science and Engineering",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "materials",
+        "environment"
+      ],
+      "preferredSkills": [
+        "chemistry",
+        "pipetting"
+      ],
+      "learnableSkills": [
+        "polymer synthesis",
+        "device testing"
+      ],
+      "description": "A fictional research group exploring materials and environment. Demonstration content only.",
+      "recruitingStatus": "confirmed_opening",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-14",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-15",
+      "name": "Cellular Dynamics Lab",
+      "school": "School of Medicine",
+      "department": "Cell Biology",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "cell biology",
+        "genetics"
+      ],
+      "preferredSkills": [
+        "microscopy",
+        "pipetting"
+      ],
+      "learnableSkills": [
+        "imaging",
+        "cell culture"
+      ],
+      "description": "A fictional research group exploring cell biology and genetics. Demonstration content only.",
+      "recruitingStatus": "accepting_inquiries",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-15",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-16",
+      "name": "Numbers and Networks Lab",
+      "school": "College of Arts and Sciences",
+      "department": "Mathematics, Applied Mathematics, and Statistics",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "mathematics",
+        "networks"
+      ],
+      "preferredSkills": [
+        "Python",
+        "statistics"
+      ],
+      "learnableSkills": [
+        "graph analysis",
+        "modeling"
+      ],
+      "description": "A fictional research group exploring mathematics and networks. Demonstration content only.",
+      "recruitingStatus": "accepting_inquiries",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-16",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-17",
+      "name": "Sleep and Daily Life Lab",
+      "school": "Frances Payne Bolton School of Nursing",
+      "department": "Nursing",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "public health",
+        "neuroscience"
+      ],
+      "preferredSkills": [
+        "interviewing",
+        "statistics"
+      ],
+      "learnableSkills": [
+        "research design",
+        "data analysis"
+      ],
+      "description": "A fictional research group exploring public health and neuroscience. Demonstration content only.",
+      "recruitingStatus": "accepting_inquiries",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-17",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-18",
+      "name": "Music and Memory Lab",
+      "school": "College of Arts and Sciences",
+      "department": "Music",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "music",
+        "psychology"
+      ],
+      "preferredSkills": [
+        "writing",
+        "audio editing"
+      ],
+      "learnableSkills": [
+        "behavioral methods",
+        "text analysis"
+      ],
+      "description": "A fictional research group exploring music and psychology. Demonstration content only.",
+      "recruitingStatus": "accepting_inquiries",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-18",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-19",
+      "name": "Metabolic Networks Lab",
+      "school": "School of Medicine",
+      "department": "Systems Biology",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "computational biology",
+        "genetics"
+      ],
+      "preferredSkills": [
+        "Python",
+        "R"
+      ],
+      "learnableSkills": [
+        "genomics",
+        "modeling"
+      ],
+      "description": "A fictional research group exploring computational biology and genetics. Demonstration content only.",
+      "recruitingStatus": "accepting_inquiries",
+      "acceptsInquiries": true,
+      "claimed": true,
+      "scheduleKnown": false,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-19",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-20",
+      "name": "Urban Air and Health Lab",
+      "school": "Case School of Engineering",
+      "department": "Civil and Environmental Engineering",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "environment",
+        "public health"
+      ],
+      "preferredSkills": [
+        "GIS",
+        "Python"
+      ],
+      "learnableSkills": [
+        "field sampling",
+        "data analysis"
+      ],
+      "description": "A fictional research group exploring environment and public health. Demonstration content only.",
+      "recruitingStatus": "not_recruiting",
+      "acceptsInquiries": false,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-20",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-21",
+      "name": "Materials for Repair Lab",
+      "school": "Case School of Engineering",
+      "department": "Materials Science and Engineering",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "materials",
+        "medical devices"
+      ],
+      "preferredSkills": [
+        "CAD",
+        "chemistry"
+      ],
+      "learnableSkills": [
+        "device testing",
+        "prototyping"
+      ],
+      "description": "A fictional research group exploring materials and medical devices. Demonstration content only.",
+      "recruitingStatus": "not_recruiting",
+      "acceptsInquiries": false,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-21",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-22",
+      "name": "Migration Stories Lab",
+      "school": "College of Arts and Sciences",
+      "department": "Sociology",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "social policy",
+        "history"
+      ],
+      "preferredSkills": [
+        "interviewing",
+        "writing"
+      ],
+      "learnableSkills": [
+        "qualitative coding",
+        "archival research"
+      ],
+      "description": "A fictional research group exploring social policy and history. Demonstration content only.",
+      "recruitingStatus": "not_recruiting",
+      "acceptsInquiries": false,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-22",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-23",
+      "name": "Immune Systems Lab",
+      "school": "School of Medicine",
+      "department": "Pathology",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "immunology",
+        "cancer biology"
+      ],
+      "preferredSkills": [
+        "pipetting",
+        "statistics"
+      ],
+      "learnableSkills": [
+        "cell culture",
+        "imaging"
+      ],
+      "description": "A fictional research group exploring immunology and cancer biology. Demonstration content only.",
+      "recruitingStatus": "unknown",
+      "acceptsInquiries": false,
+      "claimed": true,
+      "scheduleKnown": true,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-23",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    },
+    {
+      "id": "lab-24",
+      "name": "Learning Technologies Lab",
+      "school": "College of Arts and Sciences",
+      "department": "Cognitive Science",
+      "institution": "CWRU (fictional demonstration record)",
+      "scopeVerified": true,
+      "topics": [
+        "education",
+        "human computer interaction"
+      ],
+      "preferredSkills": [
+        "JavaScript",
+        "writing"
+      ],
+      "learnableSkills": [
+        "usability testing",
+        "research design"
+      ],
+      "description": "A fictional research group exploring education and human computer interaction. Demonstration content only.",
+      "recruitingStatus": "unknown",
+      "acceptsInquiries": false,
+      "claimed": false,
+      "scheduleKnown": false,
+      "lastCheckedAt": "2026-10-20",
+      "provenance": {
+        "kind": "synthetic_fixture",
+        "source": "fixture:lab-24",
+        "checkedAt": "2026-10-20"
+      },
+      "synthetic": true
+    }
+  ],
+  "openings": [
+    {
+      "id": "opening-01",
+      "labId": "lab-01",
+      "title": "Undergraduate research assistant — genetics",
+      "tasks": [
+        "Support a supervised genetics project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "data analysis",
+        "genomics"
+      ],
+      "preferredSkills": [
+        "Python",
+        "R"
+      ],
+      "learnableSkills": [
+        "data analysis",
+        "genomics"
+      ],
+      "requiredSkills": [
+        "Python"
+      ],
+      "allowedYears": [
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 3,
+      "beginnerFriendly": false,
+      "minWeeklyHours": 8,
+      "requiredBlocks": [
+        "mon_pm",
+        "wed_pm"
+      ],
+      "commitmentMonths": 6,
+      "compensation": "paid",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-02",
+      "labId": "lab-02",
+      "title": "Research trainee — neuroscience",
+      "tasks": [
+        "Support a supervised neuroscience project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "behavioral methods",
+        "data analysis"
+      ],
+      "preferredSkills": [
+        "statistics",
+        "Python"
+      ],
+      "learnableSkills": [
+        "behavioral methods",
+        "data analysis"
+      ],
+      "requiredSkills": [],
+      "allowedYears": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 0,
+      "beginnerFriendly": true,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [
+        "tue_am"
+      ],
+      "commitmentMonths": 6,
+      "compensation": "unpaid",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-03",
+      "labId": "lab-03",
+      "title": "Undergraduate research assistant — robotics",
+      "tasks": [
+        "Support a supervised robotics project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "prototyping",
+        "robotics"
+      ],
+      "preferredSkills": [
+        "CAD",
+        "Python"
+      ],
+      "learnableSkills": [
+        "prototyping",
+        "robotics"
+      ],
+      "requiredSkills": [
+        "CAD"
+      ],
+      "allowedYears": [
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 3,
+      "beginnerFriendly": false,
+      "minWeeklyHours": 10,
+      "requiredBlocks": [
+        "tue_pm",
+        "thu_pm"
+      ],
+      "commitmentMonths": 9,
+      "compensation": "unknown",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-04",
+      "labId": "lab-04",
+      "title": "Research trainee — public health",
+      "tasks": [
+        "Support a supervised public health project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "qualitative coding",
+        "community research"
+      ],
+      "preferredSkills": [
+        "interviewing",
+        "statistics"
+      ],
+      "learnableSkills": [
+        "qualitative coding",
+        "community research"
+      ],
+      "requiredSkills": [],
+      "allowedYears": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 0,
+      "beginnerFriendly": true,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [
+        "mon_am"
+      ],
+      "commitmentMonths": 6,
+      "compensation": "paid",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-05",
+      "labId": "lab-05",
+      "title": "Undergraduate research assistant — cancer biology",
+      "tasks": [
+        "Support a supervised cancer biology project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "cell culture",
+        "imaging"
+      ],
+      "preferredSkills": [
+        "pipetting",
+        "microscopy"
+      ],
+      "learnableSkills": [
+        "cell culture",
+        "imaging"
+      ],
+      "requiredSkills": [
+        "pipetting"
+      ],
+      "allowedYears": [
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 3,
+      "beginnerFriendly": false,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "unpaid",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-06",
+      "labId": "lab-06",
+      "title": "Research trainee — environment",
+      "tasks": [
+        "Support a supervised environment project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "field sampling",
+        "data analysis"
+      ],
+      "preferredSkills": [
+        "GIS",
+        "R"
+      ],
+      "learnableSkills": [
+        "field sampling",
+        "data analysis"
+      ],
+      "requiredSkills": [],
+      "allowedYears": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 0,
+      "beginnerFriendly": true,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "unknown",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-07",
+      "labId": "lab-07",
+      "title": "Undergraduate research assistant — medical devices",
+      "tasks": [
+        "Support a supervised medical devices project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "device testing",
+        "research design"
+      ],
+      "preferredSkills": [
+        "CAD",
+        "prototyping"
+      ],
+      "learnableSkills": [
+        "device testing",
+        "research design"
+      ],
+      "requiredSkills": [
+        "CAD"
+      ],
+      "allowedYears": [
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 3,
+      "beginnerFriendly": false,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "paid",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-08",
+      "labId": "lab-08",
+      "title": "Research trainee — history",
+      "tasks": [
+        "Support a supervised history project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "text analysis",
+        "archival research"
+      ],
+      "preferredSkills": [
+        "writing",
+        "archival research"
+      ],
+      "learnableSkills": [
+        "text analysis",
+        "archival research"
+      ],
+      "requiredSkills": [],
+      "allowedYears": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 0,
+      "beginnerFriendly": true,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "unpaid",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-09",
+      "labId": "lab-09",
+      "title": "Research trainee — organizations",
+      "tasks": [
+        "Support a supervised organizations project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "research design",
+        "data analysis"
+      ],
+      "preferredSkills": [
+        "statistics",
+        "survey design"
+      ],
+      "learnableSkills": [
+        "research design",
+        "data analysis"
+      ],
+      "requiredSkills": [],
+      "allowedYears": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 0,
+      "beginnerFriendly": true,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "unknown",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-10",
+      "labId": "lab-10",
+      "title": "Research trainee — social policy",
+      "tasks": [
+        "Support a supervised social policy project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "qualitative coding",
+        "community research"
+      ],
+      "preferredSkills": [
+        "interviewing",
+        "writing"
+      ],
+      "learnableSkills": [
+        "qualitative coding",
+        "community research"
+      ],
+      "requiredSkills": [],
+      "allowedYears": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 0,
+      "beginnerFriendly": true,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "paid",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-11",
+      "labId": "lab-11",
+      "title": "Undergraduate research assistant — computational biology",
+      "tasks": [
+        "Support a supervised computational biology project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "molecular modeling",
+        "data analysis"
+      ],
+      "preferredSkills": [
+        "Python",
+        "chemistry"
+      ],
+      "learnableSkills": [
+        "molecular modeling",
+        "data analysis"
+      ],
+      "requiredSkills": [
+        "Python"
+      ],
+      "allowedYears": [
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 3,
+      "beginnerFriendly": false,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "unpaid",
+      "status": "paused",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-12",
+      "labId": "lab-12",
+      "title": "Undergraduate research assistant — neuroscience",
+      "tasks": [
+        "Support a supervised neuroscience project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "imaging",
+        "data analysis"
+      ],
+      "preferredSkills": [
+        "Python",
+        "statistics"
+      ],
+      "learnableSkills": [
+        "imaging",
+        "data analysis"
+      ],
+      "requiredSkills": [
+        "Python"
+      ],
+      "allowedYears": [
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 3,
+      "beginnerFriendly": false,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "unknown",
+      "status": "closed",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-13",
+      "labId": "lab-13",
+      "title": "Research trainee — accessibility",
+      "tasks": [
+        "Support a supervised accessibility project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "usability testing",
+        "prototyping"
+      ],
+      "preferredSkills": [
+        "JavaScript",
+        "research design"
+      ],
+      "learnableSkills": [
+        "usability testing",
+        "prototyping"
+      ],
+      "requiredSkills": [],
+      "allowedYears": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 0,
+      "beginnerFriendly": true,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "paid",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-14",
+      "labId": "lab-14",
+      "title": "Research trainee — materials",
+      "tasks": [
+        "Support a supervised materials project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "polymer synthesis",
+        "device testing"
+      ],
+      "preferredSkills": [
+        "chemistry",
+        "pipetting"
+      ],
+      "learnableSkills": [
+        "polymer synthesis",
+        "device testing"
+      ],
+      "requiredSkills": [],
+      "allowedYears": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 0,
+      "beginnerFriendly": true,
+      "minWeeklyHours": 6,
+      "requiredBlocks": null,
+      "commitmentMonths": 6,
+      "compensation": "unpaid",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-15",
+      "labId": "lab-01",
+      "title": "Expired genomics opening",
+      "tasks": [
+        "Support a supervised genetics project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "data analysis",
+        "genomics"
+      ],
+      "preferredSkills": [
+        "Python",
+        "R"
+      ],
+      "learnableSkills": [
+        "data analysis",
+        "genomics"
+      ],
+      "requiredSkills": [
+        "Python"
+      ],
+      "allowedYears": [
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 3,
+      "beginnerFriendly": false,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "unknown",
+      "status": "published",
+      "confirmedAt": "2026-09-01",
+      "closesAt": "2026-10-10",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-16",
+      "labId": "lab-02",
+      "title": "Draft neuroscience opportunity",
+      "tasks": [
+        "Support a supervised neuroscience project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "behavioral methods",
+        "data analysis"
+      ],
+      "preferredSkills": [
+        "statistics",
+        "Python"
+      ],
+      "learnableSkills": [
+        "behavioral methods",
+        "data analysis"
+      ],
+      "requiredSkills": [
+        "statistics"
+      ],
+      "allowedYears": [
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 3,
+      "beginnerFriendly": false,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [],
+      "commitmentMonths": 6,
+      "compensation": "paid",
+      "status": "draft",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-17",
+      "labId": "lab-19",
+      "title": "Unconfirmed metabolic modeling opportunity",
+      "tasks": [
+        "Support a supervised computational biology project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "genomics",
+        "modeling"
+      ],
+      "preferredSkills": [
+        "Python",
+        "R"
+      ],
+      "learnableSkills": [
+        "genomics",
+        "modeling"
+      ],
+      "requiredSkills": null,
+      "allowedYears": [
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": null,
+      "beginnerFriendly": false,
+      "minWeeklyHours": null,
+      "requiredBlocks": null,
+      "commitmentMonths": null,
+      "compensation": "unpaid",
+      "status": "published",
+      "confirmedAt": null,
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    },
+    {
+      "id": "opening-18",
+      "labId": "lab-01",
+      "title": "Schedule-incompatible genomics role",
+      "tasks": [
+        "Support a supervised genetics project",
+        "Document methods and discuss findings with a mentor"
+      ],
+      "training": [
+        "data analysis",
+        "genomics"
+      ],
+      "preferredSkills": [
+        "Python",
+        "R"
+      ],
+      "learnableSkills": [
+        "data analysis",
+        "genomics"
+      ],
+      "requiredSkills": [
+        "Python"
+      ],
+      "allowedYears": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "requiredExperienceMonths": 0,
+      "beginnerFriendly": false,
+      "minWeeklyHours": 6,
+      "requiredBlocks": [
+        "tue_am",
+        "thu_am"
+      ],
+      "commitmentMonths": 6,
+      "compensation": "paid",
+      "status": "published",
+      "confirmedAt": "2026-10-20",
+      "closesAt": "2026-11-15",
+      "applicationRoute": "demo_portal",
+      "location": "Fictional CWRU campus location",
+      "synthetic": true
+    }
+  ],
+  "people": [
+    {
+      "id": "person-01",
+      "labId": "lab-01",
+      "name": "Dr. Sage Whitman",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-1@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-02",
+      "labId": "lab-02",
+      "name": "Dr. Rowan Hart",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-2@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-03",
+      "labId": "lab-03",
+      "name": "Dr. Emery Vale",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-3@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-04",
+      "labId": "lab-04",
+      "name": "Dr. Drew Cameron",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-4@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-05",
+      "labId": "lab-05",
+      "name": "Dr. Alex Monroe",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": false,
+      "email": "person-5@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-06",
+      "labId": "lab-06",
+      "name": "Dr. Blair Sutton",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-6@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-07",
+      "labId": "lab-07",
+      "name": "Dr. Casey Nolan",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-7@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-08",
+      "labId": "lab-08",
+      "name": "Dr. Quinn Marlow",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-8@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-09",
+      "labId": "lab-09",
+      "name": "Dr. Ellis Winter",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-9@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-10",
+      "labId": "lab-10",
+      "name": "Dr. Dakota Hayes",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-10@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-11",
+      "labId": "lab-11",
+      "name": "Dr. Finley Mercer",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-11@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-12",
+      "labId": "lab-12",
+      "name": "Dr. Harper Stone",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": false,
+      "email": "person-12@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-13",
+      "labId": "lab-13",
+      "name": "Dr. Indigo Blake",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-13@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-14",
+      "labId": "lab-14",
+      "name": "Dr. Jules Arden",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-14@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-15",
+      "labId": "lab-15",
+      "name": "Dr. Kendall Rivers",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-15@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-16",
+      "labId": "lab-16",
+      "name": "Dr. Lane Foster",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-16@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-17",
+      "labId": "lab-17",
+      "name": "Dr. Marin Wells",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-17@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-18",
+      "labId": "lab-18",
+      "name": "Dr. Noel Ashton",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-18@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-19",
+      "labId": "lab-19",
+      "name": "Dr. Oakley Grant",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "person-19@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-20",
+      "labId": "lab-20",
+      "name": "Dr. Peyton Cole",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": false,
+      "email": "person-20@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-21",
+      "labId": "lab-21",
+      "name": "Dr. Remy Linden",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": false,
+      "email": "person-21@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-22",
+      "labId": "lab-22",
+      "name": "Dr. Shiloh Dean",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": false,
+      "email": "person-22@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-23",
+      "labId": "lab-23",
+      "name": "Dr. Tatum Wren",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": false,
+      "accountClaimed": true,
+      "acceptsInquiries": false,
+      "email": "person-23@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-24",
+      "labId": "lab-24",
+      "name": "Dr. Wren Hollis",
+      "role": "PI",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": false,
+      "acceptsInquiries": false,
+      "email": "person-24@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-25",
+      "labId": "lab-01",
+      "name": "River Bell",
+      "role": "Delegated recruiter",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "recruiter-1@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-26",
+      "labId": "lab-02",
+      "name": "Cameron Fox",
+      "role": "Delegated recruiter",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "recruiter-2@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-27",
+      "labId": "lab-03",
+      "name": "Jordan Avery",
+      "role": "Delegated recruiter",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "recruiter-3@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-28",
+      "labId": "lab-04",
+      "name": "Ashley Lane",
+      "role": "Delegated recruiter",
+      "affiliationVerified": true,
+      "authorized": true,
+      "accountClaimed": false,
+      "acceptsInquiries": true,
+      "email": "recruiter-4@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-29",
+      "labId": "lab-05",
+      "name": "Charlie Grey",
+      "role": "Delegated recruiter",
+      "affiliationVerified": true,
+      "authorized": false,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "recruiter-5@example.invalid",
+      "synthetic": true
+    },
+    {
+      "id": "person-30",
+      "labId": "lab-06",
+      "name": "Sam Dale",
+      "role": "Delegated recruiter",
+      "affiliationVerified": false,
+      "authorized": true,
+      "accountClaimed": true,
+      "acceptsInquiries": true,
+      "email": "recruiter-6@example.invalid",
+      "synthetic": true
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "topic-shift",
+      "studentId": "student-01",
+      "description": "Compare genetics interests with robotics interests; the ordering should change.",
+      "options": {
+        "topics": [
+          "robotics",
+          "engineering"
+        ]
+      },
+      "synthetic": true
+    },
+    {
+      "id": "no-resume-beginner",
+      "studentId": "student-02",
+      "description": "A first-year can discover beginner training without a resume.",
+      "options": {
+        "beginnerOnly": true
+      },
+      "synthetic": true
+    },
+    {
+      "id": "no-profile-cold-start",
+      "studentId": "student-08",
+      "description": "Exploratory suggestions carry no fabricated profile explanation.",
+      "options": {},
+      "synthetic": true
+    },
+    {
+      "id": "no-match",
+      "studentId": "student-07",
+      "description": "Paid-only and three-hour availability produce an honest no-opening state.",
+      "options": {},
+      "synthetic": true
+    },
+    {
+      "id": "schedule-conflict",
+      "studentId": "student-01",
+      "description": "Genomics opening-18 is excluded despite interest and skill overlap.",
+      "options": {},
+      "synthetic": true
+    },
+    {
+      "id": "expired-opening",
+      "studentId": "student-01",
+      "description": "Opening-15 cannot appear as actionable after its expiry.",
+      "options": {},
+      "synthetic": true
+    },
+    {
+      "id": "people-permission",
+      "studentId": "student-01",
+      "description": "Unauthorized, unclaimed, and unverified people never enter the feed.",
+      "options": {},
+      "synthetic": true
+    },
+    {
+      "id": "draft-skill",
+      "studentId": "student-02",
+      "description": "An unconfirmed extracted Python fact does not affect recommendation scoring.",
+      "options": {},
+      "synthetic": true
+    },
+    {
+      "id": "identity-invariance",
+      "studentId": "student-01",
+      "description": "Changing name, GPA, contact fields, or private messages leaves ranking unchanged.",
+      "options": {},
+      "synthetic": true
+    },
+    {
+      "id": "unknown-filter",
+      "studentId": "student-01",
+      "description": "Unknown compensation cannot pass paid-only filtering.",
+      "options": {
+        "paidOnly": true
+      },
+      "synthetic": true
+    }
+  ]
+}

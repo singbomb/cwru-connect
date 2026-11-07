@@ -1,0 +1,14 @@
+{
+  "name": "research-connect-planning-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "PRD implementation plan and local synthetic recommendation demonstration",
+  "scripts": {
+    "demo": "node scripts/serve-demo.mjs",
+    "data:generate": "node scripts/generate-simulation.mjs",
+    "validate": "node scripts/validate-simulation.mjs",
+    "verify:docs": "node scripts/verify-docs.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

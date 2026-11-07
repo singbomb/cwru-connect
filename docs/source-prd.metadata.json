@@ -1,0 +1,10 @@
+{
+  "title": "CWRU Research Connect — Product Requirements Document v0.1",
+  "sourceUrl": "https://docs.google.com/document/d/1xFRbfjwTESThu7X-YE-R0yywrKZzx-UnhN8gT94wRq0/edit",
+  "retrievedDate": "2026-10-27",
+  "sourceModifiedTime": "2026-10-21T16:07:29.735Z",
+  "snapshot": "docs/source-prd.txt",
+  "snapshotSha256": "cc11c9cf97e009bccea67c2939f59b29056e9f33791b2d8d67610812c9f2d45f",
+  "requirementCount": 51,
+  "notes": "Readable native Google Doc text, including three end annotations. File uses LF line endings. Annotations inform the plan but do not silently override staged-release decisions."
+}

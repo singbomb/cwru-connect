@@ -1,0 +1,609 @@
+CWRU Research Connect
+Product Requirements Document · v0.1 · Draft for review
+Date: October 19, 2026
+Owner: Founding team; individual product and operations owners to be assigned before pilot
+Scope: CWRU undergraduates and CWRU labs, including the School of Medicine · Responsive web app
+Decision status: Product scope confirmed in discussion. Technical architecture, operating thresholds, and pilot targets below are proposed defaults, not a locked schema or evidence of validation.
+Adaptation note: This PRD follows the supplied Spotly v0.3 template’s structure: problem, rationale, numbered requirements, acceptance criteria, metrics, milestones, and technical detail. It replaces the template’s product-specific decisions with the research platform decisions agreed in this discussion. No credentials, submission deadlines, inherited migration claims, or claims of institutional sponsorship are carried forward.
+1. Summary
+CWRU Research Connect helps Case Western Reserve University undergraduates find research labs, understand the work and commitment, apply to confirmed openings, and communicate with authorized recruiting contacts. Students can search across the CWRU lab catalog or receive explainable suggestions based on a profile they confirm, optionally assisted by their resume.
+The intended advantage is continuity across the student’s journey: discover a lab, investigate its current work, establish practical fit, submit a clear application, and know what happens next. Existing recruiting products already cover parts of this workflow. Combining reliable local recruiting information with undergraduate-specific context is a product hypothesis to validate, not a claim of category novelty.
+1.1 Student journey
+1. Verify access as a CWRU undergraduate, choose interests and availability, and optionally upload a resume. Browsing does not require prior research experience or a contribution.
+2. Review and correct extracted profile information. Search for topics or skills, browse labs, or open personalized suggestions.
+3. Inspect the lab’s research, sourced papers and journal history, student tasks, training, recruiting status, and last-confirmed date.
+4. Apply to a confirmed opening using a reusable profile and a short opportunity-specific response, or send an interest inquiry where the lab explicitly permits it.
+5. Track the application and communicate with the recruiting contact. Confirm an actual start separately from receiving or accepting an offer.
+1.2 Recruiter journey
+1. Verify CWRU affiliation and authority to represent a lab; claim or correct its sourced profile.
+2. Publish a structured opening or indicate willingness to receive interest inquiries. Identify the person who will supervise and review applicants.
+3. Review submitted application snapshots, shortlist students, request interviews, and communicate decisions.
+4. Close or reconfirm openings, record outcomes, and return to recruit in a later cycle.
+1.3 Release promise
+The initial release includes two distinct suggestion surfaces: labs/openings and relevant PIs/authorized recruiting contacts. Student-only mentorship ratings and opt-in connections with current or former undergraduate researchers are staged additions with explicit readiness gates. [a]Publication output informs research exploration; it does not imply mentorship quality or a promise of student authorship.
+2. Problem
+Finding research requires students to assemble information scattered across faculty pages, department sites, opportunity lists, and personal contacts. A publication profile can describe expertise without revealing whether a lab accepts undergraduates, what those students do, or whether the schedule is feasible. After outreach, students may have little visibility into whether anyone reviewed their inquiry.[b]
+2.1 Evidence and limits
+CWRU’s Undergraduate Research Office invites faculty to submit a short recruiting description by email and distributes opportunities through CampusGroups and advising.[c] Its student guidance describes interdisciplinary research and department-specific routes for credit. These sources establish existing support and multiple handoffs; they do not quantify unmet demand or demonstrate that another portal will improve outcomes. [S1, S2]
+ColLab advertises openings, application review, and student progress tracking; Emory documents using ForagerOne to discover and apply for opportunities and contact faculty. These are direct alternatives. The pilot must show useful local inventory and sustained lab participation rather than relying on additional features alone. [S3, S4]
+2.2 Problems to solve
+* Discovery: Students cannot easily identify labs relevant to their interests or transferable skills.
+* Currency: A lab’s existence and publication activity do not establish current recruiting capacity.
+* Practical fit: Availability, minimum commitment, training needs, compensation, and eligibility are often missing.
+* Follow-through: Students and labs lack a shared view of application progress and next steps.
+* Information access: Students without established research connections may struggle to evaluate opportunities or find an appropriate contact.
+Working hypothesis: A verified CWRU community with structured listings, current recruiting status, reusable applications, and explainable discovery can reduce search and coordination effort. Funding, training capacity, and supervision remain external constraints.
+3. Goals and non-goals
+3.1 Goals
+* Help a student identify at least one plausible lab or opportunity during an initial session, including students without a resume or previous research.
+* Make confirmed openings distinguishable from exploratory lab discovery at every entry point.
+* Reduce repeated application work while preserving a short explanation of interest in each opportunity.
+* Give recruiters enough relevant information to make a review decision without creating an additional daily administrative burden.
+* Measure responses, interviews, actual starts, and repeat recruiting with explicit denominators.
+* Protect private student information and make recommendation reasons understandable and correctable.
+3.2 Non-goals for the initial release
+* Other universities, a citywide marketplace, and standalone hospital listings. CWRU lab eligibility is verified by CWRU appointment and organizational ownership, not proximity.
+* Native iOS/Android clients, automated admission or hiring decisions, payroll, background checks, or institutional onboarding replacement.
+* A general social network, public student directory, follower counts, or engagement-optimized news feed.
+* Guaranteed placements, guaranteed replies, publication guarantees, or ranking labs by journal prestige.
+* Student mentorship reviews, peer discovery, and peer messaging before their staged-release gates pass.
+* Automatic research-credit approval or an assertion of CWRU endorsement, SSO integration, or institutional partnership.
+4. Users and permissions
+
+
+Role
+	Access and responsibility
+	Boundary
+	Student
+	Search labs; manage own profile/resume; receive suggestions; apply; message authorized contacts; view own progress.
+	Cannot access another student’s private profile, resume, application, or messages.
+	PI / lab owner
+	Approve the lab profile, recruiting status, openings, and delegated membership; review applications to their lab.
+	CWRU email alone does not establish lab ownership.
+	Delegated recruiter
+	Manage recruiting and review applications for explicitly assigned labs.
+	Cannot grant themselves ownership or access unrelated labs.
+	Moderator
+	Review content reports and enforce published conduct rules.
+	Routine moderation does not grant unrestricted resume or application access.
+	Administrator
+	Verify roles, curate catalog sources, resolve duplicate records, and maintain audit logs.
+	Sensitive access requires an authorized support reason and is logged.
+	
+
+Accounts may hold multiple roles. Private views use the active role and authorized scope; a faculty account never obtains student-only review access simply by switching the interface. Claims of undergraduate status or prior lab participation require their own checks. Detailed identity rules are proposed defaults to validate with an institutional partner.
+For this pilot, a lab qualifies when it is part of a CWRU school or department with a verifiable CWRU faculty lead. A hospital address or faculty cross-appointment alone is insufficient. Ambiguous affiliations go to manual review; standalone hospital programs remain excluded.
+5. Design principles and platform
+* Make uncertainty visible. Unknown recruiting status, unverified publication attribution, pending parsing, and incomplete profile information have explicit states.
+* Separate requirements from preferences. User-selected hard filters constrain results; soft interests improve ordering without becoming undisclosed eligibility rules.
+* Explain every suggestion. Show the profile facts and lab evidence behind a match, plus requirements still to verify.
+* Respect beginner pathways. Coursework, class projects, and willingness to learn can support discovery; missing experience is not a universal disqualifier.
+* Use one responsive product. Students can browse and message on a phone; recruiters can compare applications on a laptop.
+* Keep private data private by default. Sharing must be purposeful and visible; student content does not become a searchable public profile.
+* Minimize repetitive work. Reuse profiles and approved listings; support delegated recruiting and timely email notifications.
+5.1 Platform and build assumptions
+Confirmed target: a responsive web application. Proposed architecture: a web client, authenticated server/API layer, relational data store, private file storage, background processing for resume extraction and search indexing, and email delivery. Provider and framework choices remain implementation decisions requiring separate approval; no existing backend, schema, or migration compatibility is assumed.
+Design for keyboard and touch operation, labeled form controls, readable focus states, and accessible validation. The initial accessibility target is WCAG 2.2 AA, to be checked during implementation against the applicable standard. Core text search and application handling must remain usable when recommendation processing is unavailable.
+6. Functional requirements
+Release labels: R1 = initial recruiting pilot; R2 = staged mentorship reviews and student networking. All requirements below are R1 unless marked R2. IDs identify product behaviors, not a frozen API or database schema. Each subsection’s acceptance checks form the implementation verification baseline.
+6.1 Identity, role verification, and onboarding
+
+
+ID
+	Requirement
+	Acceptance check
+	AUTH-1
+	Restrict student access to verified CWRU undergraduates. Proposed login: email magic link using an approved CWRU-domain allowlist; verify student role separately.
+	Reject unrelated domains; an unverified or disputed student role cannot access protected student surfaces.
+	AUTH-2
+	Verify PI ownership and delegated recruiting authority per lab. Keep authorization server-side.
+	A verified email holder cannot claim an unrelated lab or review its applicants.
+	AUTH-3
+	Collect interests, availability, and research goals with resume upload optional. Allow skipping profile enrichment and browsing immediately.
+	A first-year without a resume reaches search without posting a review or supplying experience.
+	AUTH-4
+	Provide sign-out, account recovery, and a request path for data export/deletion.
+	Revoked sessions lose access; requests reach an accountable operator without exposing another account.
+	
+
+Rationale: Affiliation, role, and authority are different facts. Onboarding should establish enough context to help the student without manufacturing credentials or excluding beginners. University SSO is a future integration requiring an actual agreement.
+6.2 Student profile and resume assistance
+
+
+ID
+	Requirement
+	Acceptance check
+	PROF-1
+	Maintain private interests, coursework, skills, projects, experience, expected graduation, availability, and commitment preferences.
+	Students can add or correct fields independently of a resume.
+	PROF-2
+	Accept PDF and DOCX resumes. Proposed limits: 10 MB per file; reject unsupported or unsafe files. Request consent before third-party parsing.
+	Unsupported, unreadable, or rejected files show a recoverable error and leave manual entry available.
+	PROF-3
+	Extract candidate facts into a draft profile with source references; require student confirmation before matching or sharing extracted facts.
+	Incorrect extraction can be edited; inference cannot create an unconfirmed skill or qualification.
+	PROF-4
+	Show processing states and let students replace/delete their resume. Remove it from future matching and revoke file access when deleted.
+	A failed parse does not block search; a deleted file is not downloadable through an old application link.
+	PROF-5
+	Exclude names, photos, contact details, and inferred sensitive characteristics from recommendation scoring. GPA is excluded from scoring by default.
+	Changing identity/contact fields alone does not change recommendation order.
+	
+
+Rationale: A resume accelerates profile creation; it is not the complete definition of a student. Explicit interests and learning goals let students explore beyond prior opportunities. Resume data must never silently create a discoverable student profile.
+6.3 Lab catalog and publications
+
+
+ID
+	Requirement
+	Acceptance check
+	LAB-1
+	Catalog CWRU labs across schools, including labs without openings. Show department, PI, topics, methods, location, sources, and last-checked date.
+	Unclaimed sourced profiles are labeled; catalog presence never implies recruiting or complete campus coverage.
+	LAB-2
+	Let verified owners correct lab details, identify day-to-day supervision, and describe student tasks and training.
+	Only authorized members edit their lab; corrections preserve provenance and audit history.
+	LAB-3
+	Show recent publications with title, authors, date, venue, and source link. Use verified identifiers and distinguish preprints from published work.
+	Ambiguous author matches remain unconfirmed and are excluded from attributed output summaries.
+	LAB-4
+	Show publication venue as context; keep research output separate from mentorship quality. Any counts state the period and coverage.
+	No journal prestige score, publication guarantee, or unsupported claim of comprehensive output appears.
+	LAB-5
+	Show undergraduate posters, papers, or projects only with verified evidence and permission where identifiable students are featured.
+	A PI’s paper is not automatically labeled as undergraduate participation.
+	
+
+Acceptance scenario: A student can compare an unclaimed lab profile with a lab-confirmed profile and understand which facts are sourced, confirmed, or unknown. Empty publication data says unavailable rather than implying zero output.
+6.4 Openings and recruiting status
+
+
+ID
+	Requirement
+	Acceptance check
+	OPEN-1
+	Each opening states project, tasks, required versus preferred skills, training, experience level, hours/time blocks, duration, location, compensation, eligibility, contact, and application route.
+	Publication is blocked until required fields are complete; unknown compensation or training claims are not invented.
+	OPEN-2
+	Use lab statuses: confirmed opening, accepting interest inquiries, not recruiting, and unknown. Show confirmation date and opening-specific status.
+	A lab with an active confirmed opening displays it; inquiry-only labs have an inquiry action instead of Apply.
+	OPEN-3
+	Require reconfirmation. Proposed freshness: 30 days or the closing deadline, whichever comes first; expired openings stop accepting applications until reconfirmed.
+	The scheduled expiry and a fresh page request both prevent submission after expiry or closure.
+	OPEN-4
+	Support drafting, publishing, pausing, closing, and reusing a listing. Preserve submitted applications when a position closes.
+	Closure removes Apply without erasing an applicant’s history.
+	OPEN-5
+	Use portal applications by default; clearly label institution-required external routes.
+	External handoffs show their destination and never claim a verified portal submission or employer decision.
+	
+
+Rationale: An accurate negative or unknown status is more useful than a confident stale listing. The freshness window is a proposed operating default; pilot measurements may justify adjustment through the decision register.
+6.5 Search and comparison
+
+
+ID
+	Requirement
+	Acceptance check
+	SEARCH-1
+	Search lab names, PIs, departments, research topics, methods, openings, and sourced publication descriptions. Support ordinary-language queries.
+	Name lookup works without AI; a query such as genetics research using Python can return relevant evidence.
+	SEARCH-2
+	Offer hard filters for recruiting status, beginner eligibility, compensation, availability, commitment, location, and field.
+	Known mismatches are excluded; missing information does not silently pass a strict filter.
+	SEARCH-3
+	Return separate lab and opening result types with explanations, provenance, and recruiting status. Default to relevance rather than popularity.
+	An unknown-status lab cannot be mistaken for a current vacancy.
+	SEARCH-4
+	Provide explicit no-match, incomplete-data, loading, and service-failure states. Offer an intentional action to broaden filters.
+	A weak semantic match is not labeled a strong match; keyword search remains available on semantic failure.
+	SEARCH-5
+	Let students save labs/openings and compare practical fields side by side, with a readable stacked layout on phones.
+	Saved items are private; a closed saved opening remains visibly closed.
+	
+
+Rationale: Search answers an expressed question, while recommendations support discovery without a query. Both must preserve eligibility filters and show the difference between relevance and actual recruiting availability.
+6.6 Personalized suggestions
+
+
+ID
+	Requirement
+	Acceptance check
+	REC-1
+	Provide separate feeds for labs/openings and people. R1 people are verified PIs or authorized recruiting contacts; opt-in student researchers are R2.
+	Both feeds appear at launch, even if one has an honest insufficient-data state.
+	REC-2
+	Use confirmed profile facts, declared interests, availability, saved items, followed topics, and explicit feedback. Provide a manual-profile path.
+	No-resume students receive interest-based or clearly labeled exploratory suggestions.
+	REC-3
+	Apply explicit hard constraints first, then rank research relevance, transferable skills, and learnable opportunities. Preserve separate explore-lab and apply-to-opening actions.
+	A highly relevant but closed lab may appear for exploration, never as an actionable opening.
+	REC-4
+	Explain each suggestion with supported matches, missing information, and requirements to check. Include beginner and skill-development pathways.
+	A resume project can support a skill explanation; it cannot prove unavailable prerequisites or guarantee selection.
+	REC-5
+	Support save, dismiss, already contacted, preference editing, and reset. Recompute when profile or recruiting status changes.
+	Dismissed items stay hidden until reset or an explicitly disclosed material update.
+	REC-6
+	People suggestions show the relevant lab, role, reason, and permitted contact action. Do not expose private lab membership or student documents.
+	An unclaimed PI record is not presented as a messaging-enabled account.
+	REC-7
+	Exclude private messages, review-author identity, and sensitive traits from ranking. Use no paid boosts or popularity score in R1.
+	Recommendation traces explain eligible inputs without storing raw resume text in analytics.
+	
+
+Example, illustrative rather than a real listing: A computational biology lab is suggested because the student confirmed Python coursework and an interest in genetics. The card shows that its semester schedule is still unknown and that the lab is accepting inquiries. It does not report a match percentage or imply that an opening exists.
+Recommendation weights and semantic thresholds must be calibrated against labeled CWRU examples. They are not locked in this PRD. R1 favors transparent content matching and explicit feedback; behavioral or collaborative models require sufficient data and a separate evaluation.
+6.7 Applications and recruiter workflow
+
+
+ID
+	Requirement
+	Acceptance check
+	APP-1
+	Let a student preview and submit a reusable profile, selected resume, and short opportunity-specific response. No automatic applications.
+	The final preview identifies the receiving lab and exactly what information will be shared.
+	APP-2
+	Create an immutable submitted snapshot; later profile edits affect future applications. A withdrawn/deleted resume revokes file access while preserving an event record.
+	Recruiters see the submitted facts, not an unexplained mixture of old and new fields.
+	APP-3
+	Track submitted, under review, interview requested, offer made, accepted, declined, not selected, and withdrawn. Record actual start separately.
+	Only authorized actors change each state; automatic receipts do not count as review or response.
+	APP-4
+	Provide scoped applicant queues, shortlisting, private recruiter notes, and delegation. Never make automated rejection or admission decisions.
+	A recruiter cannot read applications or notes from a different lab.
+	APP-5
+	Allow withdrawal, show a submission receipt, prevent accidental duplicate submissions, and keep an event history.
+	A retried submission creates one application; server-side closure checks prevent stale-form submission.
+	APP-6
+	Label external application tracking as student-reported unless confirmed by the destination. Recruiter response expectations are visible.
+	Clicking an external link alone cannot advance status to submitted, interviewed, or placed.
+	
+
+Acceptance scenario: A student applies on a phone, receives a durable receipt, edits their general profile, and later sees an interview request for the original application. The lab sees the submitted snapshot, and another lab cannot retrieve it.
+6.8 Messaging and notifications
+
+
+ID
+	Requirement
+	Acceptance check
+	MSG-1
+	Provide private student-to-authorized-recruiter conversations tied to a lab, inquiry, or application. A lab must opt into general inquiries.
+	Unclaimed, unverified, or inquiry-closed contacts show an accurate alternative action.
+	MSG-2
+	Support text messages, read-access checks, reporting, blocking new nonessential outreach, and proposed per-account initiation limits.
+	A guessed conversation ID never grants access; repeated unsolicited outreach is rate-limited.
+	MSG-3
+	Send email notifications for submissions, messages, interview requests, decisions, and recruiting reconfirmation; provide preference controls.
+	Emails omit resumes and sensitive application text; failed delivery does not erase in-app state.
+	MSG-4
+	Identify the responding lab member. Keep internal recruiter notes separate from student-visible messages.
+	A student can distinguish an official decision from an automated acknowledgment.
+	
+
+Rationale: Messaging must reach the person actually recruiting, who may be a lab manager or postdoc. R1 uses message text and existing application documents; additional messaging attachments and calendar integrations are deferred.
+6.9 Resource guidance and moderation
+
+
+ID
+	Requirement
+	Acceptance check
+	SUP-1
+	Link to official CWRU research, funding, and departmental credit guidance. Label compensation and any credit path separately.
+	The platform does not approve credit or imply simultaneous pay/credit eligibility. Official guidance remains authoritative. [S1, S2]
+	MOD-1
+	Provide report controls for lab information, openings, messages, and later reviews. Route reports to a restricted queue.
+	Reporters receive an acknowledgment without access to reporter identities or queue contents.
+	MOD-2
+	Provide written conduct rules, correction and appeal paths, moderation actions, and an audit trail.
+	Unauthorized recruiting, impersonation, or harmful content can be restricted without deleting unrelated applications.
+	MOD-3
+	Restrict sensitive support access to named roles with a documented purpose; log administrative access and actions.
+	Routine content moderation cannot browse all resumes or conversations.
+	
+
+6.10 Staged mentorship reviews and student connections (R2)
+
+
+ID
+	Requirement
+	Acceptance check
+	REV-1
+	Collect structured feedback on training, feedback, expectations, respect, supervision, and meaningful contribution. Distinguish undergraduate experience and the actual supervisory role.
+	A single undifferentiated PI score cannot replace context; journal output does not enter mentorship scoring.
+	REV-2
+	Verify actual lab experience independently of the PI’s approval. Separate verification evidence and identity from displayed reviews.
+	Academic email alone is insufficient; PI participation cannot veto a reviewer’s eligibility.
+	REV-3
+	Restrict reading to verified undergraduate users; display no reviewer identity. Use counts, limited time precision, and disclosure review.
+	Student-only access is never described as an anonymity guarantee; faculty and recruiter credentials fail access tests.
+	REV-4
+	Proposed publication floor: five independent verified contributors per lab, plus a re-identification assessment. Suppress unsafe or sparse results; moderate free text before publication.
+	Meeting the count alone cannot override a small-lab privacy concern. Do not seed fabricated ratings.
+	PEER-1
+	Allow verified current/former student researchers to opt into a minimal discovery profile and conversation requests, with control over visibility and incoming contact.
+	Default-off students do not appear; withdrawing consent removes future discoverability.
+	PEER-2
+	Keep peer connections separate from recruiting decisions, private applications, and review authorship.
+	A peer profile never reveals whether that student reviewed a lab.
+	
+
+R2 release requires operational verification and moderation, functioning appeals and privacy controls, enough genuine participation for safe display, and a separate authorization review. Current/former undergraduate eligibility must be defined before launch; email alumni access is not implicitly authorized. Reviews and peer networking may release independently when their respective gates pass.
+7. Conceptual data model
+This is a relationship and permission outline. It is not SQL, a migration, or a locked schema. Stable identifiers, timestamps, provenance, scoped ownership, and audit events are required across entities.
+
+
+Entity
+	Core information / relationships
+	Access boundary
+	Account and verification
+	Login identity; verified affiliation; role claims; lab-specific authorization; verification decisions.
+	Private identity; privileged role assignment.
+	Student profile and resume
+	Confirmed profile facts; preferences; source spans; consent; private file; parsing status.
+	Student-owned; share selected snapshot on application.
+	Lab and membership
+	CWRU ownership; PI; authorized contacts; topics; source provenance; last checked.
+	Catalog fields visible to verified community; internal claims restricted.
+	Opening
+	Lab; requirements; compensation; schedule; application route; status; confirmation/expiry.
+	Community reads; authorized lab manages.
+	Publication / student output
+	Stable identifier; authors; venue; dates; source; attribution status; consent if needed.
+	Sourced catalog facts; no inference of undergraduate authorship.
+	Application and events
+	Student; opening; submitted snapshot; file-access state; lifecycle; recruiter notes; confirmed start.
+	Applicant and authorized receiving lab; private notes stay with lab.
+	Conversation and message
+	Participants; lab/application context; messages; delivery state; reports.
+	Participants and specifically authorized support only.
+	Saved item / suggestion feedback
+	Student; lab/opening/person; save/dismiss/contact state; explanation and ranking version.
+	Student-private; operational aggregates minimize identification.
+	Review / experience verification (R2)
+	Lab; structured feedback; moderation state; separate proof of participation; release eligibility.
+	Student-only publication; identity/proof isolated from delivery.
+	Peer profile / connection (R2)
+	Consent; selected public-to-community fields; eligibility; request/block state.
+	Discoverable only when opted in; no resume or review linkage.
+	Report / audit event
+	Target; restricted reporter identity; reason; action; actor; timestamp.
+	Moderation and authorized operations roles.
+	
+
+Key invariants: one canonical lab per verified organizational entity; distinct openings may belong to the same lab; one submitted application per student/opening unless an explicit resubmission is permitted; messages have explicit participants; review identity is never returned in the student-facing review response. No sensitive entity becomes public merely because it has a catalog relationship.
+8. Success metrics
+Instrument defined events before pilot launch. Report counts and denominators, cohort dates, missing data, and whether an outcome is system-recorded, student-reported, or confirmed by both student and lab. Targets below are proposed pilot gates, not measured performance.
+
+
+Metric
+	Definition
+	Purpose
+	Activated students
+	Verified students who save a relevant item, send a permitted inquiry, or submit an application in their first seven days / verified signups.
+	Check whether onboarding produces useful action.
+	Discovery usefulness
+	Search/suggestion sessions with an explicit useful mark, save, inquiry, or application / discovery sessions; show each action separately.
+	Avoid equating a click with a successful match.
+	Current opening coverage
+	Visible active openings with unexpired lab confirmation / visible active openings.
+	Freshness invariant; expiry should keep this at 100%.
+	Substantive response rate
+	Portal applications receiving a human review response, decision, or interview request within 14 days / applications old enough for that window.
+	Exclude automatic acknowledgments; report inquiry responses separately.
+	Interview and offer conversion
+	Applications receiving interview requests or offers / submitted portal applications in a specified cohort.
+	Show stages separately and disclose observation lag.
+	Actual starts
+	Distinct students who begin a role, confirmed by student and lab; one-party reports shown separately.
+	Primary outcome; offer acceptance is not a start.
+	Repeat recruiting
+	Labs that reconfirm or open another recruiting cycle / labs completing a prior cycle with enough follow-up.
+	Assess durable lab-side value.
+	Recommendation usefulness
+	Useful/save/inquiry/application outcomes per suggestion exposure; dismissals and ineligible-result reports separately.
+	Compare against a simple topic-based baseline.
+	Permission / quality incidents
+	Verified unauthorized-access incidents, resume-processing failures, stale-status reports, and attribution corrections.
+	Monitor reliability and trust.
+	
+
+Proposed six-week pilot: 10 participating labs, at least five distinct confirmed openings with capacity for several students, and approximately 50 relevant students. Continuation hypotheses: at least 70% of applications receive a substantive response within 14 days, at least five students actually start by an explicitly recorded follow-up date, and at least half of participating labs express intent to recruit again. These targets require sufficient inventory and follow-up; insufficient sample size is inconclusive, not success.
+Before enrollment, freeze the cohort, eligibility definitions, observation windows, and outcome confirmation rules. Report all submissions and flag known eligibility problems rather than retroactively dropping unsuccessful applicants. Compare with interviews about recent searches or a feasible concurrent baseline, disclosing differences in selection. Confirm retention later; do not substitute retention intent for observed continuation.
+9. Release phases and gates
+
+
+Phase
+	Capability
+	Release gate
+	Preparation
+	Canonical CWRU lab catalog, verified lab owners, privacy/content policies, labeled search examples, and real opening commitments.
+	Named operators; credible inventory; authority and data-source checks complete.
+	R1: recruiting pilot
+	Search, profiles, publications, openings, resume assistance, applications, recruiter messaging, private saves/comparison, and both suggestion feeds.
+	Authorization tests, lifecycle checks, consent controls, accessible core journeys, and human recruiting coverage pass.
+	R2A: mentorship reviews
+	Verified-experience structured feedback, student-only reading, moderation, correction, and appeals.
+	REV-1–4 pass; five-contributor floor is only a proposed minimum; small-lab disclosure assessment may still prohibit display.
+	R2B: student connections
+	Opt-in researcher profiles, people suggestions, conversation requests, and blocking.
+	Eligibility/consent policy approved; no review-identity leakage; moderation and request controls operational.
+	Later candidates
+	Opening alerts/interest lists, lab introduction sessions, first-month previews, shared expectations checklists, calendar integrations.
+	Prioritize after pilot evidence; none is required to call R1 complete.
+	
+
+Explicitly deferred: native clients, citywide expansion, standalone hospital recruiting, paid boosts, automated candidate ranking for PIs, bulk outreach, and automatic application submission. Scope expansion is a separate product decision. A staged feature stays visibly unavailable until its own release gate passes.
+10. Decision register
+
+
+Decision
+	State
+	Resolution / next evidence
+	CWRU students and CWRU labs only
+	Confirmed
+	Include CWRU schools and School of Medicine; manually review ambiguous ownership.
+	Responsive web first
+	Confirmed
+	Student phone and recruiter desktop journeys share one product.
+	Catalog beyond current vacancies
+	Confirmed
+	Allow exploratory discovery with explicit recruiting labels.
+	Both suggestion feeds in R1
+	Confirmed
+	Labs/openings plus verified PIs/recruiting contacts; student peers enter in R2.
+	Core release followed by staged additions
+	Confirmed
+	Reviews and student networking have independent readiness gates.
+	Detailed PRD with technical outline
+	Confirmed
+	No production SQL, frozen wire contracts, or locked schema.
+	Working name / ownership
+	Proposed default
+	CWRU Research Connect; assign named product, recruiting, moderation, and privacy operators before pilot.
+	Login / verification
+	Proposed default
+	CWRU-domain magic link plus independent role/authority checks; SSO requires a partner.
+	Operational constants
+	Proposed default
+	30-day opening reconfirmation, 10 MB resume limit, and five-contributor review floor; review after pilot/privacy assessment.
+	Architecture / ranking
+	Open implementation decision
+	Choose framework/providers, retention schedule, search calibration, and ranking weights in a separate technical design.
+	Demand and adoption
+	Open validation question
+	Do labs submit real openings, respond to applications, and return to recruit?
+	Peer and review safety
+	Open release question
+	Can experience verification, sufficient participation, and student-only access support useful publication safely?
+	
+
+Authority rule: Confirmed scope governs this PRD. Proposed defaults are starting recommendations, not reported facts or approved institutional policy. Open implementation decisions must be resolved in a technical design before deployment; unresolved R2 safety questions block R2, not the independently verified R1 pilot.
+11. Risks and dependencies
+
+
+Risk / dependency
+	Mitigation and owner responsibility
+	Thin or unresponsive supply
+	Recruit lab operators before broad student enrollment; obtain real capacity and response commitments. Recruiting owner tracks fulfillment.
+	Stale status or misleading catalog coverage
+	Expiry on server and scheduler, visible timestamps, provenance, and unknown states. Catalog operator reviews corrections.
+	Wrong publication attribution
+	Prefer stable identifiers and corroborated ownership; keep ambiguous records unconfirmed. Catalog operator resolves disputes.
+	Resume extraction errors and unequal exposure
+	Student confirmation, manual profiles, beginner pathways, transparent explanations, and evaluation across experience levels. Product owner reviews quality.
+	Unauthorized access or oversharing
+	Scoped permissions, private storage, application preview, access revocation, support audit logs, and deletion tests. Engineering/privacy owners approve controls.
+	Review sparsity and possible identification
+	Staged launch, independent participation verification, aggregation/disclosure review, moderation, and honest limits on anonymity. Safety owner can withhold display.
+	Institutional confusion / onboarding limits
+	State independent status; link official resources; do not promise credit, hiring approval, or institutional integrations. Partnerships owner confirms permitted routes.
+	Operational sustainability
+	Name recruiting and moderation coverage, escalation contacts, response windows, and backup ownership before pilot enrollment.
+	
+
+The platform depends on real lab participation and maintainable source information. Public availability of a page is not permission to republish student work or collect unrestricted personal data. Use minimally necessary catalog facts, provenance links, and authorized contributions; review source permissions before ingestion. No third-party private data or patient/research-subject records belong in the product.
+12. Milestones
+
+
+Milestone
+	Deliverable
+	Exit evidence
+	M0: validate and assign
+	Interview students and recruiting contacts; name operators; confirm CWRU-only boundary and policies.
+	Recorded research findings and actual lab commitments; no assumed partnership.
+	M1: prepare supply
+	Canonical catalog, sourced publications, verified lab memberships, real openings, and labeled discovery examples.
+	Sample records checked by the team and participating labs; unknowns remain visible.
+	M2: prove core permissions
+	Authentication, verification, private storage, application snapshots, messaging authorization, and audit events.
+	Negative access tests and account/file deletion checks pass before real resumes are collected.
+	M3: deliver R1 journeys
+	Responsive discovery, applications, recruiter inbox, notifications, resume assistance, and both suggestion feeds.
+	Student and recruiter end-to-end acceptance scenarios pass with pilot data.
+	M4: freeze and pilot
+	Stop feature additions; fix errors; train operators; enroll the predefined cohort.
+	Release checklist passed, meaningful baseline recorded, and support coverage active.
+	M5: evaluate
+	Report response funnel, actual starts, repeat recruiting intent, failures, and missing follow-up.
+	Written continue/revise/stop decision using predefined evidence, not signup counts alone.
+	M6: consider R2
+	Pilot reviews and peer discovery only with verified participants and safety operations.
+	Independent review and connection gates pass before each feature becomes visible.
+	
+
+No calendar delivery date is asserted without team capacity and institutional dependencies. If implementation time is constrained, defer comparison polish, additional publication aggregation, and optional resume automation before reducing the privacy, freshness, application receipt, or permission guarantees. Manual profile matching and sourced lab links can preserve the core discovery experience.
+13. Technical outline
+This section identifies responsibilities and minimum interfaces needed to implement the product requirements. It deliberately stops short of production schema, provider contracts, model selection, or numerical ranking weights. Those choices require a technical design, reviewed access rules, and labeled pilot data.
+13.1 System responsibilities
+* Responsive client: student discovery/profile/application views; recruiter lab/inbox views; clearly separated administration tools.
+* Authenticated API: session checks, lab-scoped authorization, application transactions, private-file access, conversation membership, and report intake.
+* Data and storage: relational source of truth for recruiting state; private resume objects; isolated verification evidence; audit history.
+* Background workers: safe file extraction, publication ingestion, search indexing, expiry/reconfirmation, notifications, and reconciliation after failed jobs.
+* Operations: restricted verification and moderation queue, source correction controls, delivery/error dashboard, and backup/restore procedures.
+13.2 Minimum interface capabilities
+
+
+Capability
+	Minimum behavior / contract
+	Catalog and search
+	Return typed lab/opening results, source dates, recruiting status, relevant evidence, and missing fields. Filters are explicit inputs; access and freshness checks run server-side.
+	Profile and resume processing
+	Upload privately; record consent; return processing status and draft extracted fields; confirm edits; replace/delete the file and derived facts.
+	Suggestions and feedback
+	Return separate opportunity/lab and person collections with reasons, outstanding requirements, and ranking version. Accept saves, dismissals, contacted state, preference edits, and reset.
+	Recruiting management
+	Create/edit/reconfirm/pause/close an opening; verify lab membership; return only authorized applicant queues.
+	Applications and conversations
+	Preview and submit an idempotent application snapshot; expose permitted lifecycle events; send messages only within authorized participant scope.
+	Moderation and privacy
+	Submit restricted reports; record moderation actions and appeals; service data export/deletion; log privileged access.
+	
+
+13.3 Data flows
+Catalog: An operator imports minimally necessary sourced CWRU lab facts, resolves canonical identity, and records provenance. Authorized lab owners confirm recruiting details. Publication attribution is reconciled separately, so an ingestion refresh cannot manufacture a vacancy or overwrite a lab-confirmed recruiting decision.
+Resume: The student uploads to private storage and consents to processing. A worker validates the file, extracts proposed fields, and records source evidence. The student confirms or edits those fields before they inform recommendations or applications. Extraction failure leaves manual entry intact. File deletion also invalidates derived search/matching artifacts and applicable signed access links.
+Discovery: Keyword lookup provides a dependable baseline. Semantic retrieval may broaden topic/method matches, followed by explicit hard-filter checks and explainable reranking. Recommendation candidates use the same verified catalog and opening state. Cache invalidation and expiry checks prevent a cached recommendation from offering an application to a closed role.
+Application: A server transaction verifies the opening is accepting submissions, checks idempotency, records the approved sharing snapshot, and creates a receipt/event. Notification delivery follows asynchronously and can retry without duplicating the application. External handoffs remain separately labeled.
+13.4 Ranking and evaluation
+Recommended R1 approach: transparent content relevance using declared interests and confirmed skills, with practical compatibility applied before soft ranking. Maintain distinct established-skill and learning-opportunity pathways. Calibrate any semantic cutoff using representative lab names, ambiguous topics, beginner queries, and known no-match examples; do not copy the supplied template’s numerical similarity threshold.
+Compare recommendation quality against a simple topic-only baseline before introducing behavioral complexity. Measure relevance, eligibility errors, coverage across departments and experience levels, stale results, and explanation faithfulness. No launch claim of improved placement follows from offline matching tests alone.
+13.5 Permissions, retention, and failure handling
+* Enforce ownership and participant checks in APIs and data access, including file downloads and exports. Hiding a control is not authorization.
+* Separate catalog data from private resumes, applications, recruiter notes, messages, verification evidence, and review identities. Use least-privilege staff roles.
+* Keep server credentials out of clients, source documents, logs, and analytics. Treat resume text, imported pages, and publication text as untrusted data rather than model instructions.
+* Collect consent before third-party resume processing and document provider retention/use terms. Final retention periods, deletion propagation time, and backup purge behavior require an approved policy before collecting real resumes.
+* Return explicit unavailable, processing, expired, permission-denied, and no-match states. Retry background jobs safely; preserve authoritative application events if notifications fail.
+* Set outreach and processing limits server-side; instrument abuse and failures without storing resume bodies, message bodies, or sensitive query content in general analytics.
+13.6 Screens and navigation
+* Student: sign-in/verification; optional onboarding; search/discovery; lab detail/publications; opening detail; suggested labs/openings; suggested people; saved/comparison; private profile/resume; application preview/tracker; messages; settings/help/reporting.
+* Recruiter: claim/verification; lab management; opening editor/status; applicant queue/detail; conversations; recruiting outcome/reconfirmation.
+* Operations: scoped verification queue, catalog corrections, content reports/appeals, audit records, and operational health. R2 adds student-only reviews and opt-in peer profiles/requests without exposing review identity.
+13.7 Acceptance scenarios and release verification
+* Beginner discovery: A verified CWRU first-year skips resume upload, enters interests, and finds relevant labs without being assigned fabricated skills.
+* Recruiting honesty: An unknown-status or not-recruiting lab stays discoverable, while only a confirmed unexpired opening exposes Apply.
+* Freshness race: A student opens a form before expiry and submits after closure; the server refuses submission with a recoverable explanation.
+* Resume controls: Corrupt/unsupported files fail safely; extracted facts require confirmation; deletion revokes prior file access and removes future matching use.
+* Both suggestion feeds: Opportunity/lab and PI/recruiter feeds are distinct, explain their evidence, respect filters/dismissals, and expose no private student data.
+* Application integrity: Repeated submission yields one receipt; profile edits do not silently rewrite the submitted snapshot; external clicks do not count as submissions.
+* Authorization: Student A cannot retrieve Student B’s files/messages/applications; Lab A cannot access Lab B’s applicants; an unverified delegate cannot manage either.
+* Messaging and operations: Unclaimed contacts cannot receive in-app messages; reports are restricted; failed email delivery preserves the in-app event.
+* Publication accuracy: An ambiguous name match is not attributed as confirmed output; missing data is not represented as zero; no undergraduate authorship is inferred.
+* Responsive and accessible journeys: Complete search, application, and recruiter review using phone layouts, keyboard navigation, and assistive-technology checks against the chosen accessibility target. [S5]
+* R2 isolation: Faculty/recruiter sessions cannot read student-only reviews; a peer profile never reveals authorship; insufficient or identifying review data remains unpublished.
+* Outcome measurement: Automatic receipts, substantive responses, offers, accepted offers, and confirmed starts produce distinct events and reports.
+Before R1 launch, record test results, inventory checks, operational owners, and unresolved issues. Monitor expired-opening attempts, authorization failures, parse failures, message delivery, and report backlog. An incident that exposes private student data requires restricting the affected capability while preserving unaffected discovery and recruiting records; recovery must be verified before reopening it.
+13.8 Sources and adaptation record
+Primary references below support the description of existing workflows, competitors, and the proposed accessibility target. They do not validate this product’s market demand or imply partnerships. Accessed October 19, 2026.
+[S1] CWRU Undergraduate Research Office — FAQ
+[S2] CWRU Undergraduate Research Office — For Faculty
+[S3] ColLab — product features
+[S4] Emory University — ForagerOne
+[S5] W3C — Web Content Accessibility Guidelines 2.2
+Structural source: User-supplied Spotly v0.3 PRD. Adapted for organization and requirement style only. The original attachment is not reproduced or uploaded with this document.
+Discussion-derived decisions: CWRU-only labs; responsive web first; all-lab discovery; resume-assisted recommendations; both lab/opportunity and people suggestions; core launch with staged reviews/student networking; detailed PRD with technical outline. This document introduces proposed defaults only where needed to make the intended behavior reviewable.
+
+
+[a]Might be worthwhile to include some way in which undergrads can communicated amongst each other. For example, say a senior is graduating and their position in a lab is now open, having a way to communicate that would be ideal
+[b]The main problem with the current system is that undergrads are often 'ghosted' by the PIs the reach out to, we need to somehow ensure this no longer happens
+[c]The more we ask faculty/PIs to do, the less willing they will be to incorporate the site. Would be worth while trying to contact the person that handles this CampusGroups page and, with the permission from included PIs, add that data to the site
