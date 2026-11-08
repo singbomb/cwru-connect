@@ -13,9 +13,11 @@ function route() {
   return { page: Object.hasOwn(renderers, requested) ? requested : 'overview', selected };
 }
 function render() {
+  const focusedId = main.contains(document.activeElement) ? document.activeElement.id : '';
   const { page, selected } = route();
   const html = page === 'postings' ? postings(state, postFilter) : page === 'applicants' ? applicantWorkspace(state, filters, selected) : page === 'messages' ? messages(state, selected) : renderers[page](state);
   main.innerHTML = html;
+  if (focusedId) document.getElementById(focusedId)?.focus();
   document.title = `CWRU Connect Recruiting | ${page.charAt(0).toUpperCase() + page.slice(1)}`;
   document.querySelectorAll('nav a').forEach(link => {
     if (link.hash === `#${page}`) link.setAttribute('aria-current', 'page');
