@@ -149,12 +149,12 @@ input[type="checkbox"] { flex: 0 0 auto; width: 16px; height: 16px; margin: 0; a
 .home-landing::after { content: ""; position: absolute; inset: 0; z-index: -1; background:
   linear-gradient(90deg, rgb(5 19 47 / 0.93) 0%, rgb(5 22 56 / 0.85) 40%, rgb(5 26 64 / 0.55) 70%, rgb(5 26 64 / 0.38) 100%),
   linear-gradient(0deg, rgb(5 19 47 / 0.5) 0%, transparent 45%); }
-.hero-inner { display: flex; align-items: flex-end; justify-content: space-between; gap: 48px; max-width: var(--page); min-height: min(620px, 76vh); margin: auto; padding: 112px var(--gutter) 72px; }
+.hero-inner { display: flex; align-items: center; justify-content: space-between; gap: 48px; max-width: var(--page); min-height: 480px; margin: auto; padding: 72px var(--gutter); }
 .hero-copy { max-width: 800px; }
 .hero-copy h1 { color: white; font-family: var(--heading); font-size: clamp(2.5rem, 4.4vw, 3.625rem); font-weight: 600; line-height: 1.12; letter-spacing: -0.025em; }
 
 .hero-description { max-width: 48ch; margin-top: 20px; color: #d6e1f0; font-size: 1.0625rem; line-height: 1.65; }
-.hero-search { display: flex; align-items: center; gap: 12px; max-width: 580px; margin-top: 36px; padding: 6px 6px 6px 18px; border-radius: var(--r-md); background: var(--surface); box-shadow: 0 12px 32px rgb(0 0 0 / 0.22); }
+.hero-search { display: flex; align-items: center; gap: 12px; max-width: 580px; margin-top: 28px; padding: 6px 6px 6px 18px; border-radius: var(--r-md); background: var(--surface); box-shadow: 0 12px 32px rgb(0 0 0 / 0.22); }
 .hero-search > svg { flex: 0 0 18px; width: 18px; height: 18px; color: var(--text-3); }
 .hero-search input { flex: 1; min-width: 0; min-height: 46px; border: 0; background: transparent; color: var(--text); font-size: 1rem; }
 .hero-search input::placeholder { color: var(--text-3); }
@@ -391,7 +391,7 @@ input[type="checkbox"] { flex: 0 0 auto; width: 16px; height: 16px; margin: 0; a
   .header-inner { gap: 24px; }
   .primary-nav { gap: 20px; }
   .workspace { gap: 28px; }
-  .hero-inner { padding-top: 96px; padding-bottom: 56px; }
+  .hero-inner { padding-top: 64px; padding-bottom: 64px; }
   .profile-layout { grid-template-columns: minmax(0, 1fr) 280px; }
 }
 
