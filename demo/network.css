@@ -1,0 +1,74 @@
+.network-sidebar, .network-tabs { display: none; }
+.app-shell[data-page="network"] .workspace { grid-template-columns: 232px minmax(0, 1fr); gap: 24px; }
+.app-shell[data-page="network"] .network-sidebar { display: grid; gap: 20px; }
+.app-shell[data-page="network"] .network-tabs { display: flex; gap: 24px; padding: 0 24px; margin-bottom: 24px; border: 1px solid var(--line); border-radius: 12px; background: white; }
+.network-tabs button { min-height: 56px; padding: 12px 4px; border: 0; border-bottom: 3px solid transparent; background: transparent; color: var(--text-2); font-size: 0.9375rem; font-weight: 600; }
+.network-tabs button[aria-pressed="true"] { color: var(--brand); border-bottom-color: var(--brand); }
+.network-menu { overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: white; }
+.network-menu h2 { padding: 20px; border-bottom: 1px solid var(--line); font-size: 1rem; font-weight: 600; }
+.network-menu button, .network-menu > a { display: flex; align-items: center; gap: 12px; width: 100%; min-height: 56px; padding: 12px 20px; border: 0; background: white; color: var(--text-2); text-align: left; text-decoration: none; font-size: 0.875rem; }
+.network-menu button:hover, .network-menu > a:hover { background: var(--neutral-tint); }
+.network-menu button[aria-pressed="true"] { background: var(--brand-tint); color: var(--brand); box-shadow: inset 3px 0 var(--brand); }
+.network-menu svg { flex: 0 0 20px; width: 20px; height: 20px; }
+.network-menu-count, .network-menu > a > span:last-child { margin-left: auto; color: var(--text-3); font-size: 0.8125rem; }
+.network-intro { padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: white; }
+.network-intro h3 { font-size: 1rem; line-height: 1.4; }
+.network-intro p { margin-top: 12px; font-size: 0.875rem; color: var(--text-2); line-height: 1.6; }
+.network-intro a { display: inline-flex; align-items: center; gap: 16px; min-height: 44px; margin-top: 12px; font-size: 0.875rem; font-weight: 500; text-decoration: none; }
+.app-shell[data-page="network"] .page-intro { margin-bottom: 16px; }
+.app-shell[data-page="network"] .page-intro h2 { font-size: 1.5rem; }
+.app-shell[data-page="network"] .saved-filter, .app-shell[data-page="network"] .ranking-help { display: none; }
+.app-shell[data-page="network"] .results-summary { margin: 12px 0 20px; }
+.network-panel { padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: white; }
+.network-panel-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
+.network-panel-heading h2 { font-size: 1.0625rem; font-weight: 500; }
+.network-panel-heading > span { flex: 0 0 auto; color: var(--text-3); font-size: 0.8125rem; }
+.app-shell[data-page="network"] .feed-items--person { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+.network-person { align-items: center; padding: 0 0 16px; overflow: hidden; border-radius: 12px; box-shadow: none; text-align: center; }
+.network-person:hover { box-shadow: var(--shadow-2); }
+.network-cover { position: relative; width: 100%; height: 64px; background: #c9d9e0; }
+.network-person:nth-child(3n+2) .network-cover { background: #d3dcec; }
+.network-person:nth-child(3n) .network-cover { background: #d6e1dc; }
+.network-cover::after { position: absolute; top: 0; right: 0; width: 52%; height: 100%; border-radius: 0 0 0 64px; background: #ffffff40; content: ""; }
+.network-save, .network-dismiss { position: absolute; top: 8px; z-index: 1; }
+.network-save { left: 8px; }
+.network-save .save-action { display: grid; place-items: center; width: 32px; height: 32px; min-height: 32px; margin: 0; padding: 6px; border: 1px solid #ffffff80; border-radius: 50%; background: #ffffffdd; }
+.network-save .save-action > span { display: none; }
+.network-dismiss { display: grid; place-items: center; right: 8px; width: 32px; height: 32px; padding: 6px; border: 1px solid #ffffff80; border-radius: 50%; background: #ffffffdd; color: var(--text-2); }
+.network-dismiss svg { width: 18px; height: 18px; }
+.network-photo { position: relative; width: 88px; height: 88px; margin-top: -28px; border: 3px solid white; border-radius: 50%; object-fit: cover; background: var(--brand-tint); }
+.network-person-copy { padding: 12px 12px 0; width: 100%; }
+.network-name { min-height: 44px; padding: 0; border: 0; background: none; color: var(--text); font-size: 1rem; font-weight: 600; line-height: 1.3; overflow-wrap: anywhere; }
+.network-name:hover { color: var(--brand); text-decoration: underline; }
+.network-role { color: var(--text-2); font-size: 0.8125rem; line-height: 1.4; margin-top: 4px; }
+.network-lab { min-height: 40px; margin-top: 8px; color: var(--text-2); font-size: 0.875rem; line-height: 1.4; }
+.network-school { min-height: 36px; margin-top: 4px; color: var(--text-3); font-size: 0.75rem; line-height: 1.5; }
+.network-topic { flex: 1; padding: 12px 12px 16px; color: var(--text-3); font-size: 0.75rem; line-height: 1.5; }
+.network-profile-button { width: calc(100% - 24px); min-height: 40px; padding: 8px 12px; border: 1px solid var(--brand); border-radius: 24px; background: white; color: var(--brand); font-size: 0.875rem; font-weight: 600; }
+.network-profile-button:hover { background: var(--brand-tint); box-shadow: inset 0 0 0 1px var(--brand); }
+.network-panel .more-results { margin-top: 20px; }
+.network-panel .more-results > summary { border: 0; padding: 12px; color: var(--brand); background: var(--neutral-tint); }
+@media (max-width: 1200px) {
+  .app-shell[data-page="network"] .feed-items--person { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 980px) {
+  .app-shell[data-page="network"] .workspace { grid-template-columns: 208px minmax(0, 1fr); gap: 20px; }
+  .app-shell[data-page="network"] .feed-items--person { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .network-menu h2, .network-menu button, .network-menu > a { padding-inline: 16px; }
+}
+@media (max-width: 760px) {
+  .app-shell[data-page="network"] .workspace { grid-template-columns: minmax(0, 1fr); }
+  .network-intro { display: none; }
+  .network-menu { display: flex; flex-wrap: wrap; }
+  .network-menu h2 { flex-basis: 100%; width: 100%; padding-block: 16px; }
+  .network-menu button { flex: 1; width: auto; min-width: 0; padding: 12px; gap: 8px; }
+  .network-menu button svg { display: none; }
+  .network-menu > a { display: none; }
+  .network-menu-count { margin-left: 0; }
+  .app-shell[data-page="network"] .network-tabs { margin-bottom: 20px; }
+  .network-panel { padding: 16px; }
+}
+@media (max-width: 440px) {
+  .app-shell[data-page="network"] .feed-items--person { grid-template-columns: minmax(0, 1fr); }
+  .network-panel-heading { align-items: flex-start; }
+}

@@ -100,6 +100,29 @@ export function resultMarkup(item, dataset, feedback) {
     </div>${footerMarkup(item, dataset)}</article>`;
 }
 
+function networkPersonMarkup(item, dataset, feedback) {
+  const lab = dataset.labs.find(value => value.id === item.labId);
+  const photo = dataset.people.findIndex(value => value.id === item.id) + 1;
+  const key = escapeHtml(keyFor(item));
+  const role = item.role === 'PI' ? 'Principal investigator' : item.role;
+  return `<article class="result-row result-row--person network-person" data-result-key="${key}" data-result-type="person">
+    <div class="network-cover"><div class="network-save">${saveMarkup(item, feedback)}</div><button class="network-dismiss" type="button" data-action="dismiss" data-key="${key}" aria-label="Hide ${escapeHtml(item.title)}"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15"/></svg></button></div>
+    <img class="network-photo" src="/demo/assets/network-person-${photo}.jpg" alt="" width="88" height="88" loading="lazy">
+    <div class="network-person-copy"><h3><button class="network-name" type="button" data-action="preview" data-key="${key}">${escapeHtml(item.title)}</button></h3><p class="network-role">${escapeHtml(role)}</p><p class="network-lab">${escapeHtml(item.labName)}</p><p class="network-school">${escapeHtml(lab.school)}</p></div>
+    <p class="network-topic">${lab.topics.slice(0, 2).map(topic => escapeHtml(sentence(topic))).join(' · ')}</p>
+    <button class="network-profile-button" type="button" data-action="preview" data-key="${key}" ${item.action.enabled ? '' : 'disabled'}>View profile</button>
+  </article>`;
+}
+
+function networkMarkup(items, dataset, feedback, savedOnly) {
+  const heading = savedOnly ? 'Your saved contacts' : 'People in your research community';
+  if (!items.length) return `<div class="empty-state"><h2>${savedOnly ? 'No saved contacts yet' : 'No people found'}</h2><p>${savedOnly ? 'Save people to keep them in your network.' : 'Try another name or research area.'}</p></div>`;
+  const initial = items.slice(0, 8); const remaining = items.slice(8);
+  const cards = values => values.map(item => networkPersonMarkup(item, dataset, feedback)).join('');
+  return `<section class="network-panel" aria-label="${heading}"><div class="network-panel-heading"><h2>${heading}</h2><span>${items.length} ${items.length === 1 ? 'person' : 'people'}</span></div><div class="feed-items feed-items--person">${cards(initial)}</div>
+    ${remaining.length ? `<details class="more-results"><summary><span class="show-more-label">Show all ${items.length} ${items.length === 1 ? 'person' : 'people'}</span><span class="show-less-label">Show fewer</span></summary><div class="feed-items feed-items--person">${cards(remaining)}</div></details>` : ''}</section>`;
+}
+
 function emptyMarkup(title) {
   const recovery = title === 'People'
     ? 'Try turning off paid-only or beginner-only, reset hidden items, or adjust research interests. Hours and time blocks only filter openings.'
@@ -121,8 +144,8 @@ function group(title, items, dataset, feedback, type) {
 export function resultsMarkup(result, dataset, feedback, view, savedOnly) {
   const selected = items => savedOnly ? items.filter(item => feedback.saved.includes(keyFor(item))) : items;
   const available = view === 'people' ? result.people : view === 'labs' ? result.labs : result.opportunities;
+  if (view === 'people') return networkMarkup(selected(result.people), dataset, feedback, savedOnly);
   if (savedOnly && !selected(available).length) return '<div class="empty-state"><h2>No saved items in this view</h2><p>Turn off Saved only to browse suggestions, then save an item. A saved item can also disappear when it no longer meets a strict filter.</p></div>';
-  if (view === 'people') return group('People', selected(result.people), dataset, feedback, 'person');
   if (view === 'labs') return group('Labs', selected(result.labs), dataset, feedback, 'lab');
   const openings = view === 'home' ? selected(result.opportunities).slice(0, 6) : selected(result.opportunities);
   return group('Open positions', openings, dataset, feedback, 'opening');
