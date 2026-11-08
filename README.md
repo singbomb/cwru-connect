@@ -8,7 +8,7 @@ A local recruiting-site prototype for Case Western Reserve University students t
 
 - **Home:** landing page and recommended research openings.
 - **Jobs:** searchable postings, availability and compensation filters, saved roles, and opening details.
-- **Find labs:** a broader searchable lab directory.
+- **Find labs:** centered search with advanced school, department, research-area, recruiting-status, and saved-lab filters.
 - **Network:** research contacts and recruiting details.
 - **Messaging:** an inbox empty state linking to the network.
 - **Profile:** photo avatar, editable About, Hard skills, Interests, Education, research preferences, and resume attachments.

@@ -146,7 +146,7 @@ export function resultsMarkup(result, dataset, feedback, view, savedOnly) {
   const available = view === 'people' ? result.people : view === 'labs' ? result.labs : result.opportunities;
   if (view === 'people') return networkMarkup(selected(result.people), dataset, feedback, savedOnly);
   if (savedOnly && !selected(available).length) return '<div class="empty-state"><h2>No saved items in this view</h2><p>Turn off Saved only to browse suggestions, then save an item. A saved item can also disappear when it no longer meets a strict filter.</p></div>';
-  if (view === 'labs') return group('Labs', selected(result.labs), dataset, feedback, 'lab');
+  if (view === 'labs') return selected(result.labs).length ? group('Labs', selected(result.labs), dataset, feedback, 'lab') : '<div class="empty-state"><h3>No labs match your search</h3><p>Try another name or research area, or reset your search.</p></div>';
   const openings = view === 'home' ? selected(result.opportunities).slice(0, 6) : selected(result.opportunities);
   return group('Open positions', openings, dataset, feedback, 'opening');
 }

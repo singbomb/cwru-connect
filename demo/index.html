@@ -8,6 +8,7 @@
   <link rel="preload" href="/demo/assets/figtree-variable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/demo/site.css">
   <link rel="stylesheet" href="/demo/network.css">
+  <link rel="stylesheet" href="/demo/lab-search.css">
   <script type="module" src="/demo/app.mjs"></script>
 </head>
 <body>
@@ -114,6 +115,19 @@
     </aside>
     <section class="discovery" aria-labelledby="discovery-title">
       <div class="network-tabs" role="group" aria-label="Network view"><button type="button" data-network-view="discover" aria-pressed="true">Discover</button><button type="button" data-network-view="saved" aria-pressed="false">Saved contacts</button></div>
+      <form id="lab-search-form" class="lab-search" data-searched="false" aria-labelledby="lab-search-title">
+        <div class="lab-search-intro"><h1 id="lab-search-title">Find a lab</h1><p>Search by name, topic, or department.</p></div>
+        <div class="lab-search-bar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><label class="visually-hidden" for="lab-query">Search labs</label><input id="lab-query" name="query" type="search" placeholder="Lab name or research area" autocomplete="off"><button class="button-primary" type="submit">Search labs</button></div>
+        <details id="lab-advanced" class="lab-advanced"><summary>Advanced search <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 8 5 5 5-5"/></svg></summary>
+          <div class="lab-advanced-panel"><div class="lab-advanced-fields">
+            <div><label for="lab-school">School</label><select id="lab-school" name="school"><option value="">All schools</option></select></div>
+            <div><label for="lab-department">Department</label><select id="lab-department" name="department"><option value="">All departments</option></select></div>
+            <div><label for="lab-topic">Research area</label><select id="lab-topic" name="topic"><option value="">All research areas</option></select></div>
+            <div><label for="lab-status">Recruiting status</label><select id="lab-status" name="status"><option value="">Any status</option><option value="confirmed_opening">Has open positions</option><option value="accepting_inquiries">Accepting inquiries</option><option value="not_recruiting">Not recruiting</option><option value="unknown">Status unknown</option></select></div>
+          </div><label class="check-label lab-saved-label" for="lab-saved"><input id="lab-saved" name="savedOnly" type="checkbox"><span>Saved labs only</span></label></div>
+        </details>
+        <div class="lab-search-actions"><button id="browse-all-labs" class="button-quiet" type="button">Browse all labs</button><button id="reset-lab-search" class="button-quiet" type="button">Reset search</button></div>
+      </form>
       <div class="page-intro">
         <h2 id="discovery-title" tabindex="-1">Recommended positions</h2>
         <a class="page-intro-link" href="#jobs">View all positions</a>

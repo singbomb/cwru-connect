@@ -1,3 +1,4 @@
+import { prepareLabSearch, resetLabSearch, applyLabSearch } from './lab-search.mjs';
 import { prepareNetwork, syncNetwork } from './network.mjs';
 import { prepareProfile } from './profile.mjs';
 import { prepareNavigation, updateShell, filterResults, focusNavigation } from './navigation.mjs';
@@ -59,14 +60,15 @@ function renderResults(message = '') {
   try {
     const discoveryOptions = ['labs', 'people'].includes(view) ? { paidOnly: false, beginnerOnly: false } : {};
     result = recommend(dataset, student, { ...preferences, ...discoveryOptions, feedback, saved: feedback.saved, limit: 1000 });
-    const visible = filterResults(result, dataset, element('directory-search').value);
+    const filtered = filterResults(result, dataset, element('directory-search').value);
+    const visible = view === 'labs' ? applyLabSearch(filtered, dataset, feedback) : filtered;
     replaceFeed(element('results'), resultsMarkup(visible, dataset, feedback, view, element('saved-only').checked));
     updateShell(student);
     syncNetwork(result, feedback);
     element('exclusions').innerHTML = exclusionsMarkup(result.excluded);
     element('excluded').querySelector('summary').textContent = `${result.excluded.length} positions hidden by your filters`;
     const count = items => element('saved-only').checked ? items.filter(item => feedback.saved.includes(`${item.type}:${item.id}`)).length : items.length;
-    const counts = view === 'people' ? `${count(visible.people)} ${count(visible.people) === 1 ? 'person' : 'people'}` : view === 'labs' ? `${count(visible.labs)} labs` : `${count(visible.opportunities)} positions`;
+    const counts = view === 'people' ? `${count(visible.people)} ${count(visible.people) === 1 ? 'person' : 'people'}` : view === 'labs' ? `${count(visible.labs)} ${count(visible.labs) === 1 ? 'lab' : 'labs'}` : `${count(visible.opportunities)} positions`;
     element('summary').textContent = `${message}${counts}${element('saved-only').checked ? ' · Saved only' : ''}`;
     element('reset-feedback').disabled = !feedback.saved.length && !feedback.dismissed.length && !feedback.contacted.length;
     element('filter-error').hidden = true;
@@ -169,6 +171,7 @@ function restoreProfile() {
 
 function switchView(nextView) {
   view = nextView;
+  if (view === 'labs') resetLabSearch();
   closePreview(false); renderResults();
 }
 
@@ -209,7 +212,8 @@ async function start() {
     dataset = await response.json();
     element('student').innerHTML = dataset.students.map(value => `<option value="${escapeHtml(value.id)}">${escapeHtml(value.name)} — ${escapeHtml(value.label)}</option>`).join('');
     element('scenario').innerHTML = '<option value="">Custom search</option>' + dataset.scenarios.map(value => `<option value="${escapeHtml(value.id)}">${escapeHtml(value.id.replaceAll('-', ' '))}</option>`).join('');
-    readFeedback(); prepareProfile(); bindEvents(); prepareNetwork(); prepareResponsiveFilters(); selectStudent(dataset.students[0].id);
+    readFeedback(); prepareProfile(); bindEvents(); prepareNetwork();
+    prepareLabSearch(dataset, () => { closePreview(false); renderResults(); }); prepareResponsiveFilters(); selectStudent(dataset.students[0].id);
     prepareNavigation(switchView);
     element('app').hidden = false; element('load-state').hidden = true;
   } catch {
