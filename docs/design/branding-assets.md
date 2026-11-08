@@ -19,3 +19,14 @@ https://randomuser.me/api/portraits/men/75.jpg
 
 Source documentation: https://randomuser.me/
 The source describes these as UI placeholder photos. The portrait is illustrative and does not identify the fictional profile owner.
+
+## Landing hero photograph
+
+The laboratory photograph in demo/assets/hero-lab.jpg ("Scientist using laptop in laboratory") is by ThisisEngineering on Unsplash, used under the Unsplash License (free to use, attribution appreciated):
+https://unsplash.com/photos/scientist-using-laptop-in-laboratory-8yS04veb1TQ
+
+It is a stock image and does not depict a CWRU lab or person. The landing page darkens it with a navy gradient so the headline and search stay readable.
+
+## Source Serif 4
+
+Page titles use Source Serif 4 (variable, Latin subset) from the @fontsource-variable/source-serif-4 package, self-hosted at demo/assets/source-serif-4.woff2 under the SIL Open Font License (demo/assets/source-serif-4-license.txt).

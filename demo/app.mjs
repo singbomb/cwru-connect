@@ -1,7 +1,7 @@
 import { prepareProfile } from './profile.mjs';
 import { prepareNavigation, updateShell, filterResults, focusNavigation } from './navigation.mjs';
 import { recommend } from './recommender.mjs';
-import { escapeHtml, profileMarkup, resultsMarkup, exclusionsMarkup, previewMarkup } from './render.mjs';
+import { escapeHtml, profileMarkup, resultsMarkup, exclusionsMarkup, previewMarkup, displayTitle } from './render.mjs';
 import { replaceFeed, acknowledgeSave, leaveFeed } from './feed-motion.mjs';
 
 const element = id => document.getElementById(id);
@@ -43,7 +43,7 @@ function checkboxMarkup(values, selected, name, labels = {}) {
 
 function renderControls() {
   element('student').value = student.id;
-  element('profile-controls').querySelector('summary').textContent = `${student.name} · Profile and filters`;
+  element('profile-controls').querySelector('summary').textContent = `Filters · ${student.name}`;
   element('profile-summary').innerHTML = profileMarkup(student);
   element('hours').value = preferences.maxWeeklyHours;
   element('paid').checked = preferences.paidOnly;
@@ -62,9 +62,9 @@ function renderResults(message = '') {
     replaceFeed(element('results'), resultsMarkup(visible, dataset, feedback, view, element('saved-only').checked));
     updateShell(student, result);
     element('exclusions').innerHTML = exclusionsMarkup(result.excluded);
-    element('excluded').querySelector('summary').textContent = `Why ${result.excluded.length} openings are excluded`;
+    element('excluded').querySelector('summary').textContent = `${result.excluded.length} positions hidden by your filters`;
     const count = items => element('saved-only').checked ? items.filter(item => feedback.saved.includes(`${item.type}:${item.id}`)).length : items.length;
-    const counts = view === 'people' ? `${count(visible.people)} people` : view === 'labs' ? `${count(visible.labs)} labs` : `${count(visible.opportunities)} research opportunities`;
+    const counts = view === 'people' ? `${count(visible.people)} people` : view === 'labs' ? `${count(visible.labs)} labs` : `${count(visible.opportunities)} positions`;
     element('summary').textContent = `${message}${counts}${element('saved-only').checked ? ' · Saved only' : ''}`;
     element('reset-feedback').disabled = !feedback.saved.length && !feedback.dismissed.length && !feedback.contacted.length;
     element('filter-error').hidden = true;
@@ -114,17 +114,23 @@ function selectScenario(id) {
 }
 
 function closePreview(restoreFocus = true) {
+  if (element('preview').hidden) return;
   element('preview').hidden = true;
+  element('preview-backdrop').hidden = true;
+  document.body.classList.remove('drawer-open');
   if (restoreFocus && previewTrigger?.isConnected) previewTrigger.focus();
 }
 
 function showPreview(item, trigger) {
   previewTrigger = trigger;
-  element('preview-title').textContent = item.action.kind === 'preview_application' ? 'Opening details' : item.action.kind === 'preview_inquiry' ? 'Contact details' : 'Research details';
+  element('preview-kind').textContent = item.type === 'opening' ? 'Position' : item.type === 'lab' ? 'Lab' : 'Contact';
+  element('preview-title').textContent = displayTitle(item);
   element('preview-content').innerHTML = previewMarkup(item, dataset, student);
   element('preview').hidden = false;
+  element('preview-backdrop').hidden = false;
+  document.body.classList.add('drawer-open');
+  element('preview').scrollTop = 0;
   element('preview').focus();
-  element('preview').scrollIntoView({ block: 'start', behavior: 'instant' });
 }
 
 async function resultAction(event) {
@@ -175,6 +181,16 @@ function bindEvents() {
   element('reset-feedback').addEventListener('click', () => { feedback = emptyFeedback(); storeFeedback(); closePreview(false); renderResults('Saved and hidden items reset. '); });
   element('results').addEventListener('click', resultAction);
   element('close-preview').addEventListener('click', () => closePreview());
+  element('preview-backdrop').addEventListener('click', () => closePreview());
+  element('preview').addEventListener('keydown', event => {
+    if (event.key === 'Escape') { event.preventDefault(); closePreview(); return; }
+    if (event.key !== 'Tab') return;
+    const focusable = [...element('preview').querySelectorAll('button, a[href], input, select, textarea, [tabindex]:not([tabindex="-1"])')].filter(node => !node.disabled);
+    if (!focusable.length) return;
+    const first = focusable[0]; const last = focusable[focusable.length - 1];
+    if (event.shiftKey && (document.activeElement === first || document.activeElement === element('preview'))) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  });
 }
 
 function prepareResponsiveFilters() {

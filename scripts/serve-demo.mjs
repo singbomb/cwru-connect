@@ -7,7 +7,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const port = Number(process.env.DEMO_PORT || 4173);
 const types = { '.html': 'text/html', '.css': 'text/css', '.mjs': 'text/javascript',
   '.js': 'text/javascript', '.json': 'application/json', '.csv': 'text/csv',
-  '.jpg': 'image/jpeg', '.svg': 'image/svg+xml', '.ttf': 'font/ttf', '.txt': 'text/plain' };
+  '.jpg': 'image/jpeg', '.svg': 'image/svg+xml', '.ttf': 'font/ttf', '.woff2': 'font/woff2', '.txt': 'text/plain' };
 
 function resolveRequest(requestUrl) {
   const pathname = decodeURIComponent(new URL(requestUrl, 'http://localhost').pathname);
@@ -30,7 +30,7 @@ async function respond(request, response) {
     const path = resolveRequest(request.url);
     if (!path) { response.writeHead(404).end('Not found.'); return; }
     const content = await readFile(path);
-    response.setHeader('Content-Type', types[extname(path)] + (extname(path) === '.ttf' ? '' : '; charset=utf-8'));
+    response.setHeader('Content-Type', types[extname(path)] + (['.ttf', '.woff2', '.jpg'].includes(extname(path)) ? '' : '; charset=utf-8'));
     response.writeHead(200).end(request.method === 'HEAD' ? undefined : content);
   } catch {
     response.writeHead(404).end('Not found.');

@@ -20,7 +20,7 @@ export function replaceFeed(target, markup) {
   if (!wasPopulated) return;
   const reduce = reducedMotion();
   const colors = getComputedStyle(document.documentElement);
-  const highlight = colors.getPropertyValue('--blue-tint').trim();
+  const highlight = colors.getPropertyValue('--brand-tint').trim();
   const surface = colors.getPropertyValue('--surface').trim();
   const rows = [...target.querySelectorAll('.result-row')].slice(0, 12);
   const measurements = rows.map(row => [row, row.getBoundingClientRect()]);

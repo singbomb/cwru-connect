@@ -3,10 +3,10 @@ import { renderProfile } from './profile.mjs';
 
 const element = id => document.getElementById(id);
 const pages = {
-  home: ['Recommended for you', 'Search opportunities'],
-  jobs: ['Find your next research opportunity', 'Search roles, labs, or research areas'],
-  labs: ['Find labs', 'Search labs, departments, or research areas'],
-  network: ['Your research network', 'Search people, labs, or research areas'],
+  home: ['Recommended positions', 'Search positions'],
+  jobs: ['Research positions', 'Search by role, lab, or research area'],
+  labs: ['Labs', 'Search by lab, department, or research area'],
+  network: ['Network', 'Search by name, lab, or research area'],
   messages: ['Messaging', ''],
   profile: ['Your profile', ''],
 };
@@ -41,12 +41,39 @@ export function prepareNavigation(onChange) {
     if (hash !== 'recommendations') window.scrollTo({ top: 0, behavior: 'instant' });
   };
   window.addEventListener('hashchange', apply);
+  prepareHeroSearch();
   apply();
+}
+
+function searchJobs(query) {
+  const fill = () => {
+    const input = element('directory-search');
+    input.value = query;
+    input.dispatchEvent(new Event('input', { bubbles: true }));
+  };
+  if (window.location.hash === '#jobs') fill();
+  else {
+    window.addEventListener('hashchange', fill, { once: true });
+    window.location.hash = 'jobs';
+  }
+}
+
+function prepareHeroSearch() {
+  element('hero-search').addEventListener('submit', event => {
+    event.preventDefault();
+    searchJobs(element('hero-query').value.trim());
+  });
+  element('hero-interests').addEventListener('click', event => {
+    const link = event.target.closest('a[data-topic]');
+    if (!link) return;
+    event.preventDefault();
+    searchJobs(link.dataset.topic);
+  });
 }
 
 export function updateShell(student, result) {
   renderProfile(student);
-  element('hero-interests').innerHTML = student.interests.map(topic => `<span>${escapeHtml(topic)}</span>`).join('');
+  element('hero-interests').innerHTML = student.interests.map(topic => `<a href="#jobs" data-topic="${escapeHtml(topic)}">${escapeHtml(topic)}</a>`).join('');
   const opening = result.opportunities[0];
   element('hero-role').textContent = opening?.title.replace(' — ', ' · ') || 'Explore the work happening at Case';
   element('hero-lab').textContent = opening?.labName || 'Find a research direction that interests you';

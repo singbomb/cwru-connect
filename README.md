@@ -2,7 +2,7 @@
 
 A local recruiting-site prototype for Case Western Reserve University students to discover research opportunities, explore labs, and find research contacts.
 
-![CWRU Connect Home](artifacts/showcase/unslop-polish-desktop.png)
+![CWRU Connect Home](artifacts/showcase/makeover-home.png)
 
 ## Features
 
@@ -40,7 +40,7 @@ All students, labs, contacts, and openings are fictional. The simulation uses a 
 
 ## Project structure
 
-- `demo/`: dependency-free HTML, CSS, JavaScript, and local assets.
+- `demo/`: dependency-free HTML, JavaScript, one stylesheet (`site.css`), and local assets.
 - `data/simulation/`: fictional fixtures, generator outputs, and validation reports.
 - `scripts/`: local server, fixture generation, and verification tools.
 - `docs/`: planning, requirement traceability, and design/verification records.
@@ -55,12 +55,12 @@ All students, labs, contacts, and openings are fictional. The simulation uses a 
 - [Requirements map](docs/requirements-map.csv)
 - [Simulation dictionary](data/simulation/README.md)
 
-`DESIGN.md` and older reviews document earlier iterations; the latest design records above describe the current interface.
+`DESIGN.md` and older reviews document earlier iterations. [Professional makeover](docs/design/professional-makeover.md) describes the current interface.
 
 ## Assets and credits
 
-CWRU Blue is `#003071`. The Spartan logo is sourced from CWRU Athletics; the generic avatar is sourced from Random User Generator and does not identify the fictional profile owner. [Asset provenance](docs/design/branding-assets.md) records the original sources. Institutional marks remain the property of their owners; this repository does not establish institutional authorization or endorsement.
+CWRU Blue is `#003071`. The landing-page lab photo is by ThisisEngineering on Unsplash (Unsplash License). The Spartan logo is sourced from CWRU Athletics; the generic avatar is sourced from Random User Generator and does not identify the fictional profile owner. [Asset provenance](docs/design/branding-assets.md) records the original sources. Institutional marks remain the property of their owners; this repository does not establish institutional authorization or endorsement.
 
-Public Sans is self-hosted with its [SIL Open Font License](demo/assets/public-sans-license.txt).
+Public Sans and Source Serif 4 are self-hosted under the SIL Open Font License ([Public Sans](demo/assets/public-sans-license.txt), [Source Serif 4](demo/assets/source-serif-4-license.txt)).
 
 Design method: [Unslop](https://github.com/heydamir/unslop) by Damir Sokolovsky (@heydamir), CC BY 4.0. No broader license is asserted for third-party assets or the rest of this repository.
