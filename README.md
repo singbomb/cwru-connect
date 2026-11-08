@@ -61,6 +61,6 @@ All students, labs, contacts, and openings are fictional. The simulation uses a 
 
 CWRU Blue is `#003071`. The landing-page lab photo is by ThisisEngineering on Unsplash (Unsplash License). The Spartan logo is sourced from CWRU Athletics; the generic avatar is sourced from Random User Generator and does not identify the fictional profile owner. [Asset provenance](docs/design/branding-assets.md) records the original sources. Institutional marks remain the property of their owners; this repository does not establish institutional authorization or endorsement.
 
-Public Sans and Source Serif 4 are self-hosted under the SIL Open Font License ([Public Sans](demo/assets/public-sans-license.txt), [Source Serif 4](demo/assets/source-serif-4-license.txt)).
+The current interface uses self-hosted [Figtree](https://github.com/erikdkennedy/figtree) under the [SIL Open Font License](demo/assets/figtree-license.txt). Earlier Public Sans and Source Serif 4 assets and their licenses remain in the repository for historical iterations.
 
 Design method: [Unslop](https://github.com/heydamir/unslop) by Damir Sokolovsky (@heydamir), CC BY 4.0. No broader license is asserted for third-party assets or the rest of this repository.

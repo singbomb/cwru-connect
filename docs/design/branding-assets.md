@@ -29,4 +29,18 @@ It is a stock image and does not depict a CWRU lab or person. The landing page d
 
 ## Source Serif 4
 
-Page titles use Source Serif 4 (variable, Latin subset) from the @fontsource-variable/source-serif-4 package, self-hosted at demo/assets/source-serif-4.woff2 under the SIL Open Font License (demo/assets/source-serif-4-license.txt).
+Earlier page titles used Source Serif 4 (variable, Latin subset) from the @fontsource-variable/source-serif-4 package, self-hosted at demo/assets/source-serif-4.woff2 under the SIL Open Font License (demo/assets/source-serif-4-license.txt).
+
+
+## Current typography: Figtree
+
+The interface and page headings use Figtree by Erik Kennedy, a friendly geometric sans-serif. It was selected over Source Sans 3 for its softer visual character in this campus recruiting interface. Heading weight 600 replaces the fine serif treatment; body and controls use regular/medium weights.
+
+Designer source: https://github.com/erikdkennedy/figtree
+Alternative researched: https://github.com/adobe-fonts/source-sans
+
+The self-hosted variable WOFF2 and OFL license were downloaded unchanged from Figtree commit 032dfa7fe219ef3a02890d6d3add84eacc9aebfe:
+- fonts/webfonts/Figtree[wght].woff2 -> demo/assets/figtree-variable.woff2
+- OFL.txt -> demo/assets/figtree-license.txt
+
+The variable font covers weights 300–900. No third-party font request occurs when browsing the site.

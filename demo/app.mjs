@@ -60,7 +60,7 @@ function renderResults(message = '') {
     result = recommend(dataset, student, { ...preferences, ...discoveryOptions, feedback, saved: feedback.saved, limit: 1000 });
     const visible = filterResults(result, dataset, element('directory-search').value);
     replaceFeed(element('results'), resultsMarkup(visible, dataset, feedback, view, element('saved-only').checked));
-    updateShell(student, result);
+    updateShell(student);
     element('exclusions').innerHTML = exclusionsMarkup(result.excluded);
     element('excluded').querySelector('summary').textContent = `${result.excluded.length} positions hidden by your filters`;
     const count = items => element('saved-only').checked ? items.filter(item => feedback.saved.includes(`${item.type}:${item.id}`)).length : items.length;

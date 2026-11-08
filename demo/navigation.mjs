@@ -71,12 +71,9 @@ function prepareHeroSearch() {
   });
 }
 
-export function updateShell(student, result) {
+export function updateShell(student) {
   renderProfile(student);
   element('hero-interests').innerHTML = student.interests.map(topic => `<a href="#jobs" data-topic="${escapeHtml(topic)}">${escapeHtml(topic)}</a>`).join('');
-  const opening = result.opportunities[0];
-  element('hero-role').textContent = opening?.title.replace(' — ', ' · ') || 'Explore the work happening at Case';
-  element('hero-lab').textContent = opening?.labName || 'Find a research direction that interests you';
 }
 
 export function filterResults(result, dataset, query) {
