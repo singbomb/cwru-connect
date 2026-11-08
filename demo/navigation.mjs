@@ -1,4 +1,3 @@
-import { escapeHtml } from './render.mjs';
 import { renderProfile } from './profile.mjs';
 
 const element = id => document.getElementById(id);
@@ -63,17 +62,10 @@ function prepareHeroSearch() {
     event.preventDefault();
     searchJobs(element('hero-query').value.trim());
   });
-  element('hero-interests').addEventListener('click', event => {
-    const link = event.target.closest('a[data-topic]');
-    if (!link) return;
-    event.preventDefault();
-    searchJobs(link.dataset.topic);
-  });
 }
 
 export function updateShell(student) {
   renderProfile(student);
-  element('hero-interests').innerHTML = student.interests.map(topic => `<a href="#jobs" data-topic="${escapeHtml(topic)}">${escapeHtml(topic)}</a>`).join('');
 }
 
 export function filterResults(result, dataset, query) {
