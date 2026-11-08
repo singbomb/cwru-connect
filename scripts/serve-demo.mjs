@@ -11,9 +11,10 @@ const types = { '.html': 'text/html', '.css': 'text/css', '.mjs': 'text/javascri
 
 function resolveRequest(requestUrl) {
   const pathname = decodeURIComponent(new URL(requestUrl, 'http://localhost').pathname);
-  const route = pathname === '/' ? '/demo/index.html' : pathname;
+  const entry = process.env.DEMO_SITE === 'recruiter' ? '/recruiter/index.html' : '/demo/index.html';
+  const route = pathname === '/' ? entry : pathname;
   const path = resolve(root, `.${route}`);
-  const allowed = ['demo', 'data/simulation'].some(folder => path.startsWith(resolve(root, folder) + sep));
+  const allowed = ['demo', 'recruiter', 'data/simulation'].some(folder => path.startsWith(resolve(root, folder) + sep));
   if (!allowed || !types[extname(path)]) return null;
   return path;
 }

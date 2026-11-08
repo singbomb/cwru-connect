@@ -6,6 +6,7 @@
   "description": "PRD implementation plan and local synthetic recommendation demonstration",
   "scripts": {
     "demo": "node scripts/serve-demo.mjs",
+    "demo:recruiter": "DEMO_SITE=recruiter DEMO_PORT=4174 node scripts/serve-demo.mjs",
     "data:generate": "node scripts/generate-simulation.mjs",
     "validate": "node scripts/validate-simulation.mjs",
     "verify:docs": "node scripts/verify-docs.mjs"

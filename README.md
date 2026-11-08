@@ -25,11 +25,24 @@ npm run demo
 
 Open [localhost:4173](http://127.0.0.1:4173/). The server binds to this computer only. Set `DEMO_PORT` to use another port.
 
+## Recruiter website
+
+Run the separate recruiter website alongside the student website:
+
+```sh
+npm run demo:recruiter
+```
+
+Open [localhost:4174](http://127.0.0.1:4174/). It has its own entry point, navigation, fictional records, and browser storage. The sites share visual assets only; recruiter edits do not change student listings. No account or backend integration is implemented.
+
+Recruiters can create and edit postings, change posting status, filter applicants, update review stages, save private notes, view fictional resume summaries, save message drafts, and edit the lab profile. Nothing is sent. Recruiting data remains on this browser and origin.
+
 ## Verify
 
 ```sh
 npm run validate
 npm run verify:docs
+node scripts/validate-recruiter.mjs
 ```
 
 The simulation validator checks 131 invariants against fictional fixtures. The documentation check verifies coverage of 51 PRD requirements and the integrity of the original source snapshot. These checks do not replace browser or production acceptance testing.
@@ -41,6 +54,7 @@ All students, labs, contacts, and openings are fictional. The simulation uses a 
 ## Project structure
 
 - `demo/`: dependency-free HTML, JavaScript, one stylesheet (`site.css`), and local assets.
+- `recruiter/`: independent recruiter website with local demo workflows.
 - `data/simulation/`: fictional fixtures, generator outputs, and validation reports.
 - `scripts/`: local server, fixture generation, and verification tools.
 - `docs/`: planning, requirement traceability, and design/verification records.

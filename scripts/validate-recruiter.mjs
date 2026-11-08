@@ -1,0 +1,28 @@
+import assert from 'node:assert/strict';
+import { initialState, loadState, persist } from '../recruiter/data.mjs';
+import { overview, applicantWorkspace, postings, messages, labProfile } from '../recruiter/views.mjs';
+
+const storage = new Map();
+globalThis.localStorage = { getItem: key => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value) };
+const state = loadState();
+state.applicants[0].notes = 'Private notes survive reload';
+state.applicants[0].stage = 'Shortlisted';
+assert.equal(persist(state), true);
+assert.equal(loadState().applicants[0].notes, 'Private notes survive reload');
+assert.equal(initialState.applicants[0].stage, 'New', 'Fixture must not mutate with a session');
+assert.match(overview(state), /1 Awaiting review|<strong>1<\/strong><span>Awaiting review/);
+const filtered = applicantWorkspace(state, { query: 'Python', post: 'genetics', stage: 'Shortlisted' });
+assert.match(filtered, /2 applicants/);
+assert.doesNotMatch(filtered, /Jordan Williams/);
+assert.match(applicantWorkspace(state, { query: 'nonexistent', post: '', stage: '' }), /No matches/);
+assert.doesNotMatch(postings(state, 'Draft'), /Molecular biology research assistant/);
+state.lab.name = '<img src=x onerror=alert(1)>';
+state.applicants[0].notes = '<script>alert(1)</script>';
+assert.ok(!labProfile(state).includes('<img src=x'));
+assert.ok(!applicantWorkspace(state, { query: '', post: '', stage: '' }, 'avery').includes('<script>'));
+assert.match(messages(state, 'avery'), /Save draft/);
+assert.doesNotMatch(messages(state, 'avery'), />Send</);
+assert.match(messages({ ...state, messages: [] }), /No conversations yet/);
+localStorage.setItem('cwru-recruiting-standalone-v1', '{broken');
+assert.equal(loadState().lab.name, initialState.lab.name);
+console.log('PASS: recruiter persistence, filters, counts, empty states, escaping, and draft-only messaging.');
